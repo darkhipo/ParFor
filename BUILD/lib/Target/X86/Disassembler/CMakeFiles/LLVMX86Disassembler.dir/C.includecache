@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/System/AIXDataTypesFix.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoder.c
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+X86DisassemblerDecoder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoder.h
+X86GenDisassemblerTables.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86GenDisassemblerTables.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoder.h
+X86DisassemblerDecoderCommon.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/System/DataTypes.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+lib/Target/X86/Disassembler/../X86GenDisassemblerTables.inc
+

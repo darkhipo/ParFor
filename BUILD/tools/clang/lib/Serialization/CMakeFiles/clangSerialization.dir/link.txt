@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\..\lib\libclangSerialization.a  CMakeFiles/clangSerialization.dir/GeneratePCH.cpp.obj CMakeFiles/clangSerialization.dir/ASTCommon.cpp.obj CMakeFiles/clangSerialization.dir/ASTReader.cpp.obj CMakeFiles/clangSerialization.dir/ASTReaderDecl.cpp.obj CMakeFiles/clangSerialization.dir/ASTReaderStmt.cpp.obj CMakeFiles/clangSerialization.dir/ASTWriter.cpp.obj CMakeFiles/clangSerialization.dir/ASTWriterDecl.cpp.obj CMakeFiles/clangSerialization.dir/ASTWriterStmt.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\..\lib\libclangSerialization.a

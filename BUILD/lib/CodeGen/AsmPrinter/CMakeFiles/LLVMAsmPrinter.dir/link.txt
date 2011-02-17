@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMAsmPrinter.a  CMakeFiles/LLVMAsmPrinter.dir/AsmPrinter.cpp.obj CMakeFiles/LLVMAsmPrinter.dir/AsmPrinterDwarf.cpp.obj CMakeFiles/LLVMAsmPrinter.dir/AsmPrinterInlineAsm.cpp.obj CMakeFiles/LLVMAsmPrinter.dir/DIE.cpp.obj CMakeFiles/LLVMAsmPrinter.dir/DwarfDebug.cpp.obj CMakeFiles/LLVMAsmPrinter.dir/DwarfException.cpp.obj CMakeFiles/LLVMAsmPrinter.dir/OcamlGCPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMAsmPrinter.a

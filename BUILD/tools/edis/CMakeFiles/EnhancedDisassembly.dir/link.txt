@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\lib\libEnhancedDisassembly.a  CMakeFiles/EnhancedDisassembly.dir/EDMain.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\lib\libEnhancedDisassembly.a

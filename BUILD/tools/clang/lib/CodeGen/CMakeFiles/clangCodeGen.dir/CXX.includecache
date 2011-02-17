@@ -1,0 +1,2798 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/APSInt.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DenseSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+
+../include/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/ADT/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/ADT/llvm/ADT/PointerIntPair.h
+set
+-
+vector
+-
+
+../include/llvm/ADT/FoldingSet.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/GraphTraits.h
+
+../include/llvm/ADT/IntrusiveRefCntPtr.h
+cassert
+-
+llvm/Support/Casting.h
+../include/llvm/ADT/llvm/Support/Casting.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/PointerIntPair.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+cassert
+-
+
+../include/llvm/ADT/PointerUnion.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/ADT/llvm/ADT/PointerIntPair.h
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SetVector.h
+llvm/ADT/SmallSet.h
+../include/llvm/ADT/llvm/ADT/SmallSet.h
+algorithm
+-
+cassert
+-
+vector
+-
+
+../include/llvm/ADT/SmallPtrSet.h
+cassert
+-
+cstring
+-
+iterator
+-
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+
+../include/llvm/ADT/SmallSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+set
+-
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/StringSet.h
+llvm/ADT/StringMap.h
+../include/llvm/ADT/llvm/ADT/StringMap.h
+
+../include/llvm/ADT/StringSwitch.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/ADT/ilist.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../include/llvm/ADT/ilist_node.h
+
+../include/llvm/AbstractTypeUser.h
+cassert
+-
+
+../include/llvm/Analysis/DebugInfo.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/StringRef.h
+../include/llvm/Analysis/llvm/ADT/StringRef.h
+llvm/Support/Dwarf.h
+../include/llvm/Analysis/llvm/Support/Dwarf.h
+
+../include/llvm/Analysis/Dominators.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/Function.h
+../include/llvm/Analysis/llvm/Function.h
+llvm/Instructions.h
+../include/llvm/Analysis/llvm/Instructions.h
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/DepthFirstIterator.h
+../include/llvm/Analysis/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Analysis/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/Assembly/Writer.h
+../include/llvm/Analysis/llvm/Assembly/Writer.h
+llvm/Support/CFG.h
+../include/llvm/Analysis/llvm/Support/CFG.h
+llvm/Support/Compiler.h
+../include/llvm/Analysis/llvm/Support/Compiler.h
+llvm/Support/raw_ostream.h
+../include/llvm/Analysis/llvm/Support/raw_ostream.h
+algorithm
+-
+map
+-
+set
+-
+
+../include/llvm/Analysis/Passes.h
+
+../include/llvm/Analysis/Verifier.h
+string
+-
+
+../include/llvm/Argument.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/Assembly/Parser.h
+string
+-
+
+../include/llvm/Assembly/PrintModulePass.h
+string
+-
+
+../include/llvm/Assembly/Writer.h
+string
+-
+
+../include/llvm/Attributes.h
+llvm/Support/MathExtras.h
+../include/llvm/llvm/Support/MathExtras.h
+cassert
+-
+string
+-
+
+../include/llvm/BasicBlock.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/SymbolTableListTraits.h
+../include/llvm/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+
+../include/llvm/Bitcode/ReaderWriter.h
+string
+-
+
+../include/llvm/CallingConv.h
+
+../include/llvm/CodeGen/MachinePassRegistry.h
+llvm/CodeGen/Passes.h
+../include/llvm/CodeGen/llvm/CodeGen/Passes.h
+llvm/Support/CommandLine.h
+../include/llvm/CodeGen/llvm/Support/CommandLine.h
+
+../include/llvm/CodeGen/Passes.h
+llvm/Target/TargetMachine.h
+../include/llvm/CodeGen/llvm/Target/TargetMachine.h
+string
+-
+
+../include/llvm/CodeGen/RegAllocRegistry.h
+llvm/CodeGen/MachinePassRegistry.h
+../include/llvm/CodeGen/llvm/CodeGen/MachinePassRegistry.h
+
+../include/llvm/CodeGen/SchedulerRegistry.h
+llvm/CodeGen/MachinePassRegistry.h
+../include/llvm/CodeGen/llvm/CodeGen/MachinePassRegistry.h
+llvm/Target/TargetMachine.h
+../include/llvm/CodeGen/llvm/Target/TargetMachine.h
+
+../include/llvm/Constant.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Constants.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/APInt.h
+../include/llvm/llvm/ADT/APInt.h
+llvm/ADT/APFloat.h
+../include/llvm/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+vector
+-
+
+../include/llvm/DerivedTypes.h
+llvm/Type.h
+../include/llvm/llvm/Type.h
+
+../include/llvm/Function.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/BasicBlock.h
+../include/llvm/llvm/BasicBlock.h
+llvm/Argument.h
+../include/llvm/llvm/Argument.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/Support/Compiler.h
+../include/llvm/llvm/Support/Compiler.h
+
+../include/llvm/GlobalAlias.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/GlobalValue.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+
+../include/llvm/GlobalVariable.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/InlineAsm.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+vector
+-
+
+../include/llvm/InstrTypes.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/Operator.h
+../include/llvm/llvm/Operator.h
+llvm/DerivedTypes.h
+../include/llvm/llvm/DerivedTypes.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Instruction.def
+
+../include/llvm/Instruction.h
+llvm/User.h
+../include/llvm/llvm/User.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/Support/DebugLoc.h
+../include/llvm/llvm/Support/DebugLoc.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Instructions.h
+llvm/InstrTypes.h
+../include/llvm/llvm/InstrTypes.h
+llvm/DerivedTypes.h
+../include/llvm/llvm/DerivedTypes.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+iterator
+-
+
+../include/llvm/IntrinsicInst.h
+llvm/Constants.h
+../include/llvm/llvm/Constants.h
+llvm/Function.h
+../include/llvm/llvm/Function.h
+llvm/Instructions.h
+../include/llvm/llvm/Instructions.h
+llvm/Intrinsics.h
+../include/llvm/llvm/Intrinsics.h
+
+../include/llvm/Intrinsics.h
+string
+-
+llvm/Intrinsics.gen
+../include/llvm/llvm/Intrinsics.gen
+
+../include/llvm/LLVMContext.h
+
+../include/llvm/Metadata.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/ADT/FoldingSet.h
+../include/llvm/llvm/ADT/FoldingSet.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+
+../include/llvm/Module.h
+llvm/Function.h
+../include/llvm/llvm/Function.h
+llvm/GlobalVariable.h
+../include/llvm/llvm/GlobalVariable.h
+llvm/GlobalAlias.h
+../include/llvm/llvm/GlobalAlias.h
+llvm/Metadata.h
+../include/llvm/llvm/Metadata.h
+llvm/ADT/OwningPtr.h
+../include/llvm/llvm/ADT/OwningPtr.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+vector
+-
+
+../include/llvm/OperandTraits.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Operator.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/Constants.h
+../include/llvm/llvm/Constants.h
+
+../include/llvm/Pass.h
+string
+-
+llvm/PassSupport.h
+../include/llvm/llvm/PassSupport.h
+llvm/PassAnalysisSupport.h
+../include/llvm/llvm/PassAnalysisSupport.h
+
+../include/llvm/PassAnalysisSupport.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/PassManager.h
+llvm/Pass.h
+../include/llvm/llvm/Pass.h
+
+../include/llvm/PassRegistry.h
+llvm/ADT/StringMap.h
+../include/llvm/llvm/ADT/StringMap.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/System/Mutex.h
+../include/llvm/llvm/System/Mutex.h
+map
+-
+set
+-
+vector
+-
+
+../include/llvm/PassSupport.h
+Pass.h
+../include/llvm/Pass.h
+llvm/PassRegistry.h
+../include/llvm/llvm/PassRegistry.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/CFG.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Support/llvm/ADT/GraphTraits.h
+llvm/Function.h
+../include/llvm/Support/llvm/Function.h
+llvm/InstrTypes.h
+../include/llvm/Support/llvm/InstrTypes.h
+
+../include/llvm/Support/CallSite.h
+llvm/Attributes.h
+../include/llvm/Support/llvm/Attributes.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Support/llvm/ADT/PointerIntPair.h
+llvm/BasicBlock.h
+../include/llvm/Support/llvm/BasicBlock.h
+llvm/CallingConv.h
+../include/llvm/Support/llvm/CallingConv.h
+llvm/Instructions.h
+../include/llvm/Support/llvm/Instructions.h
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/CommandLine.h
+llvm/Support/type_traits.h
+../include/llvm/Support/llvm/Support/type_traits.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+llvm/ADT/SmallVector.h
+../include/llvm/Support/llvm/ADT/SmallVector.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+cassert
+-
+climits
+-
+cstdarg
+-
+utility
+-
+vector
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/ConstantFolder.h
+llvm/Constants.h
+../include/llvm/Support/llvm/Constants.h
+llvm/InstrTypes.h
+../include/llvm/Support/llvm/InstrTypes.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/DebugLoc.h
+
+../include/llvm/Support/Dwarf.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/Format.h
+cassert
+-
+cstdio
+-
+
+../include/llvm/Support/FormattedStream.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/llvm/Support/raw_ostream.h
+
+../include/llvm/Support/IRBuilder.h
+llvm/Instructions.h
+../include/llvm/Support/llvm/Instructions.h
+llvm/BasicBlock.h
+../include/llvm/Support/llvm/BasicBlock.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+llvm/Support/ConstantFolder.h
+../include/llvm/Support/llvm/Support/ConstantFolder.h
+
+../include/llvm/Support/IRReader.h
+llvm/Assembly/Parser.h
+../include/llvm/Support/llvm/Assembly/Parser.h
+llvm/Bitcode/ReaderWriter.h
+../include/llvm/Support/llvm/Bitcode/ReaderWriter.h
+llvm/Support/MemoryBuffer.h
+../include/llvm/Support/llvm/Support/MemoryBuffer.h
+llvm/Support/SourceMgr.h
+../include/llvm/Support/llvm/Support/SourceMgr.h
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/MemoryBuffer.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+string
+-
+sys/stat.h
+-
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PrettyStackTrace.h
+
+../include/llvm/Support/SMLoc.h
+
+../include/llvm/Support/SourceMgr.h
+llvm/Support/SMLoc.h
+../include/llvm/Support/llvm/Support/SMLoc.h
+string
+-
+vector
+-
+cassert
+-
+
+../include/llvm/Support/StandardPasses.h
+llvm/PassManager.h
+../include/llvm/Support/llvm/PassManager.h
+llvm/Analysis/Dominators.h
+../include/llvm/Support/llvm/Analysis/Dominators.h
+llvm/Analysis/Passes.h
+../include/llvm/Support/llvm/Analysis/Passes.h
+llvm/Analysis/Verifier.h
+../include/llvm/Support/llvm/Analysis/Verifier.h
+llvm/Transforms/Scalar.h
+../include/llvm/Support/llvm/Transforms/Scalar.h
+llvm/Transforms/IPO.h
+../include/llvm/Support/llvm/Transforms/IPO.h
+
+../include/llvm/Support/Timer.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+cassert
+-
+string
+-
+vector
+-
+utility
+-
+
+../include/llvm/Support/ValueHandle.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/Support/llvm/ADT/DenseMapInfo.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Support/llvm/ADT/PointerIntPair.h
+llvm/Value.h
+../include/llvm/Support/llvm/Value.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Mutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Path.h
+llvm/ADT/StringRef.h
+../include/llvm/System/llvm/ADT/StringRef.h
+llvm/System/TimeValue.h
+../include/llvm/System/llvm/System/TimeValue.h
+set
+-
+string
+-
+vector
+-
+
+../include/llvm/System/Threading.h
+
+../include/llvm/System/TimeValue.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+../include/llvm/Target/SubtargetFeature.h
+string
+-
+vector
+-
+cstring
+-
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetData.h
+llvm/Pass.h
+../include/llvm/Target/llvm/Pass.h
+llvm/ADT/SmallVector.h
+../include/llvm/Target/llvm/ADT/SmallVector.h
+
+../include/llvm/Target/TargetInstrItineraries.h
+algorithm
+-
+
+../include/llvm/Target/TargetMachine.h
+llvm/Target/TargetInstrItineraries.h
+../include/llvm/Target/llvm/Target/TargetInstrItineraries.h
+cassert
+-
+string
+-
+
+../include/llvm/Target/TargetOptions.h
+
+../include/llvm/Target/TargetRegistry.h
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+string
+-
+cassert
+-
+
+../include/llvm/Transforms/IPO.h
+vector
+-
+
+../include/llvm/Transforms/Scalar.h
+
+../include/llvm/Type.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/ADT/GraphTraits.h
+../include/llvm/llvm/ADT/GraphTraits.h
+string
+-
+vector
+-
+
+../include/llvm/Use.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/llvm/ADT/PointerIntPair.h
+cstddef
+-
+iterator
+-
+
+../include/llvm/User.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+
+../include/llvm/Value.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Use.h
+../include/llvm/llvm/Use.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+string
+-
+
+../tools/clang/include/clang/AST/APValue.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/APFloat.h
+../tools/clang/include/clang/AST/llvm/ADT/APFloat.h
+
+../tools/clang/include/clang/AST/ASTConsumer.h
+
+../tools/clang/include/clang/AST/ASTContext.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/AST/clang/Basic/LangOptions.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/AST/clang/Basic/OperatorKinds.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/NestedNameSpecifier.h
+../tools/clang/include/clang/AST/clang/AST/NestedNameSpecifier.h
+clang/AST/PrettyPrinter.h
+../tools/clang/include/clang/AST/clang/AST/PrettyPrinter.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/AST/clang/AST/CanonicalType.h
+clang/AST/UsuallyTinyPtrVector.h
+../tools/clang/include/clang/AST/clang/AST/UsuallyTinyPtrVector.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/AST/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallPtrSet.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/AST/llvm/Support/Allocator.h
+vector
+-
+
+../tools/clang/include/clang/AST/ASTVector.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/AST/llvm/Support/type_traits.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/AST/llvm/Support/Allocator.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+algorithm
+-
+memory
+-
+cstring
+-
+
+../tools/clang/include/clang/AST/Attr.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/AST/llvm/ADT/StringRef.h
+clang/Basic/AttrKinds.h
+../tools/clang/include/clang/AST/clang/Basic/AttrKinds.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/AST/clang/Basic/SourceLocation.h
+cassert
+-
+cstring
+-
+algorithm
+-
+clang/AST/Attrs.inc
+../tools/clang/include/clang/AST/clang/AST/Attrs.inc
+
+../tools/clang/include/clang/AST/CXXInheritance.h
+clang/AST/DeclarationName.h
+../tools/clang/include/clang/AST/clang/AST/DeclarationName.h
+clang/AST/DeclBase.h
+../tools/clang/include/clang/AST/clang/AST/DeclBase.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/TypeOrdering.h
+../tools/clang/include/clang/AST/clang/AST/TypeOrdering.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+list
+-
+map
+-
+cassert
+-
+
+../tools/clang/include/clang/AST/CanonicalType.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/AST/llvm/Support/type_traits.h
+iterator
+-
+
+../tools/clang/include/clang/AST/CharUnits.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+
+../tools/clang/include/clang/AST/Decl.h
+clang/AST/APValue.h
+../tools/clang/include/clang/AST/clang/AST/APValue.h
+clang/AST/DeclBase.h
+../tools/clang/include/clang/AST/clang/AST/DeclBase.h
+clang/AST/Redeclarable.h
+../tools/clang/include/clang/AST/clang/AST/Redeclarable.h
+clang/AST/DeclarationName.h
+../tools/clang/include/clang/AST/clang/AST/DeclarationName.h
+clang/AST/ExternalASTSource.h
+../tools/clang/include/clang/AST/clang/AST/ExternalASTSource.h
+clang/Basic/Linkage.h
+../tools/clang/include/clang/AST/clang/Basic/Linkage.h
+
+../tools/clang/include/clang/AST/DeclAccessPair.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/AST/clang/Basic/Specifiers.h
+
+../tools/clang/include/clang/AST/DeclBase.h
+clang/AST/Attr.h
+../tools/clang/include/clang/AST/clang/AST/Attr.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/AST/clang/Basic/Specifiers.h
+llvm/Support/PrettyStackTrace.h
+../tools/clang/include/clang/AST/llvm/Support/PrettyStackTrace.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+
+../tools/clang/include/clang/AST/DeclCXX.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/TypeLoc.h
+../tools/clang/include/clang/AST/clang/AST/TypeLoc.h
+clang/AST/UnresolvedSet.h
+../tools/clang/include/clang/AST/clang/AST/UnresolvedSet.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallPtrSet.h
+
+../tools/clang/include/clang/AST/DeclFriend.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+
+../tools/clang/include/clang/AST/DeclGroup.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+cassert
+-
+
+../tools/clang/include/clang/AST/DeclObjC.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+llvm/ADT/STLExtras.h
+../tools/clang/include/clang/AST/llvm/ADT/STLExtras.h
+
+../tools/clang/include/clang/AST/DeclTemplate.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+limits
+-
+
+../tools/clang/include/clang/AST/DeclarationName.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/AST/clang/AST/CanonicalType.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+
+../tools/clang/include/clang/AST/Expr.h
+clang/AST/APValue.h
+../tools/clang/include/clang/AST/clang/AST/APValue.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/DeclAccessPair.h
+../tools/clang/include/clang/AST/clang/AST/DeclAccessPair.h
+clang/AST/OperationKinds.h
+../tools/clang/include/clang/AST/clang/AST/OperationKinds.h
+clang/AST/ASTVector.h
+../tools/clang/include/clang/AST/clang/AST/ASTVector.h
+clang/AST/UsuallyTinyPtrVector.h
+../tools/clang/include/clang/AST/clang/AST/UsuallyTinyPtrVector.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/APFloat.h
+../tools/clang/include/clang/AST/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/AST/llvm/ADT/StringRef.h
+vector
+-
+
+../tools/clang/include/clang/AST/ExprCXX.h
+clang/Basic/TypeTraits.h
+../tools/clang/include/clang/AST/clang/Basic/TypeTraits.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/AST/UnresolvedSet.h
+../tools/clang/include/clang/AST/clang/AST/UnresolvedSet.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+
+../tools/clang/include/clang/AST/ExprObjC.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+
+../tools/clang/include/clang/AST/ExternalASTSource.h
+cassert
+-
+vector
+-
+
+../tools/clang/include/clang/AST/FullExpr.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+
+../tools/clang/include/clang/AST/NestedNameSpecifier.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/Diagnostic.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+
+../tools/clang/include/clang/AST/OperationKinds.h
+
+../tools/clang/include/clang/AST/PrettyPrinter.h
+
+../tools/clang/include/clang/AST/RecordLayout.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+
+../tools/clang/include/clang/AST/Redeclarable.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+iterator
+-
+
+../tools/clang/include/clang/AST/Stmt.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/Support/raw_ostream.h
+../tools/clang/include/clang/AST/llvm/Support/raw_ostream.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/AST/clang/Basic/SourceLocation.h
+clang/AST/PrettyPrinter.h
+../tools/clang/include/clang/AST/clang/AST/PrettyPrinter.h
+clang/AST/StmtIterator.h
+../tools/clang/include/clang/AST/clang/AST/StmtIterator.h
+clang/AST/DeclGroup.h
+../tools/clang/include/clang/AST/clang/AST/DeclGroup.h
+clang/AST/FullExpr.h
+../tools/clang/include/clang/AST/clang/AST/FullExpr.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+clang/AST/ASTContext.h
+../tools/clang/include/clang/AST/clang/AST/ASTContext.h
+string
+-
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+
+../tools/clang/include/clang/AST/StmtCXX.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+
+../tools/clang/include/clang/AST/StmtIterator.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../tools/clang/include/clang/AST/StmtObjC.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+
+../tools/clang/include/clang/AST/StmtVisitor.h
+clang/AST/ExprCXX.h
+../tools/clang/include/clang/AST/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+../tools/clang/include/clang/AST/clang/AST/ExprObjC.h
+clang/AST/StmtCXX.h
+../tools/clang/include/clang/AST/clang/AST/StmtCXX.h
+clang/AST/StmtObjC.h
+../tools/clang/include/clang/AST/clang/AST/StmtObjC.h
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+
+../tools/clang/include/clang/AST/TemplateBase.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/Support/ErrorHandling.h
+../tools/clang/include/clang/AST/llvm/Support/ErrorHandling.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+
+../tools/clang/include/clang/AST/TemplateName.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/AST/clang/Basic/OperatorKinds.h
+
+../tools/clang/include/clang/AST/Type.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/Diagnostic.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+clang/Basic/Linkage.h
+../tools/clang/include/clang/AST/clang/Basic/Linkage.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+clang/AST/NestedNameSpecifier.h
+../tools/clang/include/clang/AST/clang/AST/NestedNameSpecifier.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/AST/llvm/Support/type_traits.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeLoc.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/AST/clang/Basic/Specifiers.h
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeLocNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeOrdering.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/AST/clang/AST/CanonicalType.h
+functional
+-
+
+../tools/clang/include/clang/AST/UnresolvedSet.h
+iterator
+-
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+clang/AST/DeclAccessPair.h
+../tools/clang/include/clang/AST/clang/AST/DeclAccessPair.h
+
+../tools/clang/include/clang/AST/UsuallyTinyPtrVector.h
+vector
+-
+
+../tools/clang/include/clang/Basic/AttrKinds.h
+clang/Basic/AttrList.inc
+../tools/clang/include/clang/Basic/clang/Basic/AttrList.inc
+
+../tools/clang/include/clang/Basic/Builtins.def
+
+../tools/clang/include/clang/Basic/Builtins.h
+cstring
+-
+clang/Basic/Builtins.def
+../tools/clang/include/clang/Basic/clang/Basic/Builtins.def
+
+../tools/clang/include/clang/Basic/BuiltinsARM.def
+clang/Basic/arm_neon.inc
+../tools/clang/include/clang/Basic/clang/Basic/arm_neon.inc
+
+../tools/clang/include/clang/Basic/BuiltinsPPC.def
+
+../tools/clang/include/clang/Basic/BuiltinsX86.def
+
+../tools/clang/include/clang/Basic/ConvertUTF.h
+
+../tools/clang/include/clang/Basic/Diagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/ADT/IntrusiveRefCntPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/IntrusiveRefCntPtr.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/Basic/llvm/Support/type_traits.h
+string
+-
+vector
+-
+cassert
+-
+clang/Basic/DiagnosticCommonKinds.inc
+../tools/clang/include/clang/Basic/clang/Basic/DiagnosticCommonKinds.inc
+
+../tools/clang/include/clang/Basic/FileManager.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Basic/llvm/ADT/SmallVector.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Basic/llvm/Support/Allocator.h
+llvm/Config/config.h
+../tools/clang/include/clang/Basic/llvm/Config/config.h
+sys/types.h
+-
+sys/stat.h
+-
+
+../tools/clang/include/clang/Basic/IdentifierTable.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.h
+clang/Basic/TokenKinds.h
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/ADT/SmallString.h
+../tools/clang/include/clang/Basic/llvm/ADT/SmallString.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/Support/PointerLikeTypeTraits.h
+../tools/clang/include/clang/Basic/llvm/Support/PointerLikeTypeTraits.h
+string
+-
+cassert
+-
+clang/Basic/OperatorKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/LangOptions.h
+string
+-
+
+../tools/clang/include/clang/Basic/Linkage.h
+
+../tools/clang/include/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/OperatorKinds.h
+clang/Basic/OperatorKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/PartialDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Basic/clang/Basic/Diagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/ADT/STLExtras.h
+../tools/clang/include/clang/Basic/llvm/ADT/STLExtras.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+cassert
+-
+
+../tools/clang/include/clang/Basic/PrettyStackTrace.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/Support/PrettyStackTrace.h
+../tools/clang/include/clang/Basic/llvm/Support/PrettyStackTrace.h
+
+../tools/clang/include/clang/Basic/SourceLocation.h
+utility
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/SourceManager.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Basic/llvm/Support/Allocator.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Basic/llvm/ADT/PointerIntPair.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/Basic/llvm/ADT/PointerUnion.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/DenseMap.h
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/Specifiers.h
+
+../tools/clang/include/clang/Basic/TargetBuiltins.h
+clang/Basic/Builtins.h
+../tools/clang/include/clang/Basic/clang/Basic/Builtins.h
+clang/Basic/BuiltinsARM.def
+../tools/clang/include/clang/Basic/clang/Basic/BuiltinsARM.def
+clang/Basic/BuiltinsPPC.def
+../tools/clang/include/clang/Basic/clang/Basic/BuiltinsPPC.def
+clang/Basic/BuiltinsX86.def
+../tools/clang/include/clang/Basic/clang/Basic/BuiltinsX86.def
+
+../tools/clang/include/clang/Basic/TargetInfo.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringSwitch.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringSwitch.h
+llvm/ADT/Triple.h
+../tools/clang/include/clang/Basic/llvm/ADT/Triple.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+cassert
+-
+vector
+-
+string
+-
+
+../tools/clang/include/clang/Basic/TargetOptions.h
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Basic/TokenKinds.def
+
+../tools/clang/include/clang/Basic/TokenKinds.h
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+
+../tools/clang/include/clang/Basic/TypeTraits.h
+
+../tools/clang/include/clang/Basic/Version.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+clang/Basic/Version.inc
+../tools/clang/include/clang/Basic/clang/Basic/Version.inc
+
+../tools/clang/include/clang/CodeGen/BackendUtil.h
+
+../tools/clang/include/clang/CodeGen/CodeGenAction.h
+clang/Frontend/FrontendAction.h
+../tools/clang/include/clang/CodeGen/clang/Frontend/FrontendAction.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/CodeGen/llvm/ADT/OwningPtr.h
+
+../tools/clang/include/clang/CodeGen/ModuleBuilder.h
+clang/AST/ASTConsumer.h
+../tools/clang/include/clang/CodeGen/clang/AST/ASTConsumer.h
+string
+-
+
+../tools/clang/include/clang/Frontend/Analyses.def
+
+../tools/clang/include/clang/Frontend/AnalyzerOptions.h
+string
+-
+vector
+-
+clang/Frontend/Analyses.def
+../tools/clang/include/clang/Frontend/clang/Frontend/Analyses.def
+clang/Frontend/Analyses.def
+../tools/clang/include/clang/Frontend/clang/Frontend/Analyses.def
+clang/Frontend/Analyses.def
+../tools/clang/include/clang/Frontend/clang/Frontend/Analyses.def
+clang/Frontend/Analyses.def
+../tools/clang/include/clang/Frontend/clang/Frontend/Analyses.def
+
+../tools/clang/include/clang/Frontend/CodeGenOptions.h
+string
+-
+
+../tools/clang/include/clang/Frontend/CommandLineSourceLoc.h
+llvm/Support/CommandLine.h
+../tools/clang/include/clang/Frontend/llvm/Support/CommandLine.h
+llvm/Support/raw_ostream.h
+../tools/clang/include/clang/Frontend/llvm/Support/raw_ostream.h
+
+../tools/clang/include/clang/Frontend/CompilerInstance.h
+clang/Frontend/CompilerInvocation.h
+../tools/clang/include/clang/Frontend/clang/Frontend/CompilerInvocation.h
+llvm/ADT/IntrusiveRefCntPtr.h
+../tools/clang/include/clang/Frontend/llvm/ADT/IntrusiveRefCntPtr.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringRef.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Frontend/llvm/ADT/OwningPtr.h
+cassert
+-
+list
+-
+string
+-
+
+../tools/clang/include/clang/Frontend/CompilerInvocation.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/Frontend/clang/Basic/LangOptions.h
+clang/Basic/TargetOptions.h
+../tools/clang/include/clang/Frontend/clang/Basic/TargetOptions.h
+clang/Frontend/AnalyzerOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/AnalyzerOptions.h
+clang/Frontend/CodeGenOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/CodeGenOptions.h
+clang/Frontend/DependencyOutputOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/DependencyOutputOptions.h
+clang/Frontend/DiagnosticOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/DiagnosticOptions.h
+clang/Frontend/FrontendOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/FrontendOptions.h
+clang/Frontend/HeaderSearchOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/HeaderSearchOptions.h
+clang/Frontend/PreprocessorOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/PreprocessorOptions.h
+clang/Frontend/PreprocessorOutputOptions.h
+../tools/clang/include/clang/Frontend/clang/Frontend/PreprocessorOutputOptions.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringRef.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringMap.h
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Frontend/DependencyOutputOptions.h
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Frontend/DiagnosticOptions.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Frontend/clang/Basic/Diagnostic.h
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Frontend/FrontendAction.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringRef.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Frontend/llvm/ADT/OwningPtr.h
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Frontend/FrontendDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Frontend/clang/Basic/Diagnostic.h
+clang/Basic/DiagnosticFrontendKinds.inc
+../tools/clang/include/clang/Frontend/clang/Basic/DiagnosticFrontendKinds.inc
+
+../tools/clang/include/clang/Frontend/FrontendOptions.h
+clang/Frontend/CommandLineSourceLoc.h
+../tools/clang/include/clang/Frontend/clang/Frontend/CommandLineSourceLoc.h
+clang/Frontend/FrontendAction.h
+../tools/clang/include/clang/Frontend/clang/Frontend/FrontendAction.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringRef.h
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Frontend/HeaderSearchOptions.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringRef.h
+vector
+-
+
+../tools/clang/include/clang/Frontend/PreprocessorOptions.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Frontend/llvm/ADT/StringRef.h
+cassert
+-
+string
+-
+utility
+-
+vector
+-
+
+../tools/clang/include/clang/Frontend/PreprocessorOutputOptions.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/ABIInfo.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Type.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/BackendUtil.cpp
+clang/CodeGen/BackendUtil.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/CodeGen/BackendUtil.h
+clang/Basic/Diagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Diagnostic.h
+clang/Basic/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetOptions.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+clang/Frontend/FrontendDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/FrontendDiagnostic.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/PassManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/PassManager.h
+llvm/Assembly/PrintModulePass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Assembly/PrintModulePass.h
+llvm/Bitcode/ReaderWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Bitcode/ReaderWriter.h
+llvm/CodeGen/RegAllocRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/CodeGen/RegAllocRegistry.h
+llvm/CodeGen/SchedulerRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/CodeGen/SchedulerRegistry.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/CommandLine.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/FormattedStream.h
+llvm/Support/PrettyStackTrace.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/PrettyStackTrace.h
+llvm/Support/StandardPasses.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/StandardPasses.h
+llvm/Support/Timer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Timer.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/raw_ostream.h
+llvm/Target/SubtargetFeature.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/SubtargetFeature.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetMachine.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetOptions.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetRegistry.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBlocks.cpp
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/ADT/SmallSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallSet.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBlocks.h
+CodeGenTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenTypes.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallVector.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/AST/CharUnits.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CharUnits.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ExprObjC.h
+vector
+-
+map
+-
+CGBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBuilder.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGValue.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBuilder.h
+llvm/Support/IRBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/IRBuilder.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBuiltin.cpp
+TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/TargetInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/AST/APValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/APValue.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/Basic/TargetBuiltins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetBuiltins.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXX.cpp
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+Mangle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtCXX.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXX.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.cpp
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+ABIInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/ABIInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/Attributes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Attributes.h
+llvm/Support/CallSite.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/CallSite.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+llvm/ADT/FoldingSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/FoldingSet.h
+llvm/Value.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Value.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+clang/AST/CanonicalType.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CanonicalType.h
+CGValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGValue.h
+ABIInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/ABIInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGClass.cpp
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CXXInheritance.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtCXX.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.cpp
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclFriend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclFriend.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclTemplate.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Expr.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/SourceManager.h
+clang/Basic/FileManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/FileManager.h
+clang/Basic/Version.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Version.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Constants.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/DerivedTypes.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Instructions.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringExtras.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallVector.h
+llvm/Support/Dwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Dwarf.h
+llvm/System/Path.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/System/Path.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetMachine.h
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Expr.h
+clang/Basic/SourceLocation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/SourceLocation.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+llvm/Analysis/DebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Analysis/DebugInfo.h
+llvm/Support/ValueHandle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/ValueHandle.h
+llvm/Support/Allocator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Allocator.h
+CGBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBuilder.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDecl.cpp
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/CharUnits.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CharUnits.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/SourceManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/GlobalVariable.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Type.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDeclCXX.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGException.cpp
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtCXX.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Support/CallSite.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/CallSite.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGException.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGException.h
+TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/TargetInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGException.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGExpr.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGRecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGExprAgg.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtVisitor.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Function.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/GlobalVariable.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGExprCXX.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGExprComplex.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtVisitor.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Function.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallString.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGExprConstant.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CGRecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+clang/AST/APValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/APValue.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtVisitor.h
+clang/Basic/Builtins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Builtins.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Function.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/GlobalVariable.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGExprScalar.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtVisitor.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Function.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/GlobalVariable.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/Support/CFG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/CFG.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+cstdarg
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjC.cpp
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtObjC.h
+clang/Basic/Diagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Diagnostic.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/STLExtras.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCGNU.cpp
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGException.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGException.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtObjC.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/LLVMContext.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallVector.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringMap.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Compiler.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCMac.cpp
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+CGRecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGException.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGException.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtObjC.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/LangOptions.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/InlineAsm.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/InlineAsm.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/IntrinsicInst.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/LLVMContext.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseSet.h
+llvm/ADT/SetVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SetVector.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallString.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallPtrSet.h
+llvm/Support/CallSite.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/CallSite.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/raw_ostream.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+cstdio
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+clang/Basic/IdentifierTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/IdentifierTable.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+string
+-
+CGBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBuilder.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGValue.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRTTI.cpp
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayoutBuilder.cpp
+CGRecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Attr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Attr.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Expr.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+CodeGenTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenTypes.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/DerivedTypes.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Type.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/raw_ostream.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGStmt.cpp
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtVisitor.h
+clang/Basic/PrettyStackTrace.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/PrettyStackTrace.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringExtras.h
+llvm/InlineAsm.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/InlineAsm.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+stdio.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGTemporaries.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGVTT.cpp
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGVTables.cpp
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CXXInheritance.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseSet.h
+llvm/ADT/SetVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SetVector.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Compiler.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Format.h
+algorithm
+-
+cstdio
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGVTables.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/GlobalVariable.h
+GlobalDecl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/GlobalDecl.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGValue.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenAction.cpp
+clang/CodeGen/CodeGenAction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/CodeGen/CodeGenAction.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/SourceManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/AST/ASTConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTConsumer.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclGroup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclGroup.h
+clang/CodeGen/BackendUtil.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/CodeGen/BackendUtil.h
+clang/CodeGen/ModuleBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/CodeGen/ModuleBuilder.h
+clang/Frontend/CompilerInstance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CompilerInstance.h
+clang/Frontend/FrontendDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/FrontendDiagnostic.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/LLVMContext.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/Pass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Pass.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/OwningPtr.h
+llvm/Support/IRReader.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/IRReader.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/MemoryBuffer.h
+llvm/Support/SourceMgr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/SourceMgr.h
+llvm/Support/Timer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/Timer.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.cpp
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CGException.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGException.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/AST/APValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/APValue.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtCXX.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ExprObjC.h
+clang/AST/CharUnits.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CharUnits.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallVector.h
+llvm/Support/ValueHandle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/ValueHandle.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGBlocks.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBlocks.h
+CGBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBuilder.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXX.h
+CGValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGValue.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.cpp
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+CGDebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGDebugInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGObjCRuntime.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGObjCRuntime.h
+Mangle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/TargetInfo.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/CharUnits.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/CharUnits.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclTemplate.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+clang/Basic/Builtins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Builtins.h
+clang/Basic/Diagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Diagnostic.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/SourceManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+clang/Basic/ConvertUTF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/ConvertUTF.h
+llvm/CallingConv.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/CallingConv.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Intrinsics.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/LLVMContext.h
+llvm/ADT/Triple.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/Triple.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+llvm/Support/CallSite.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/CallSite.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/ErrorHandling.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/LangOptions.h
+clang/AST/Attr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Attr.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+CGBlocks.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGBlocks.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXX.h
+CGVTables.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGVTables.h
+CodeGenTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenTypes.h
+GlobalDecl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/GlobalDecl.h
+Mangle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringMap.h
+llvm/ADT/StringSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringSet.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallPtrSet.h
+llvm/Support/ValueHandle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/ValueHandle.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenTypes.cpp
+CodeGenTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenTypes.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGRecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Expr.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/DerivedTypes.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenTypes.h
+CGCall.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCall.h
+GlobalDecl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/GlobalDecl.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/GlobalDecl.h
+CGCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXX.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/ItaniumCXXABI.cpp
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CGRecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGRecordLayout.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+Mangle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+clang/AST/Type.h
+-
+llvm/Target/TargetData.h
+-
+llvm/Value.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.cpp
+Mangle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclTemplate.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ExprCXX.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/SourceManager.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringExtras.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/raw_ostream.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/ErrorHandling.h
+CGVTables.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGVTables.h
+cxxabi.h
+-
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+clang/AST/StmtNodes.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/StmtNodes.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+CGCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXX.h
+GlobalDecl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/GlobalDecl.h
+clang/AST/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Type.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringRef.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/SmallString.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/MicrosoftCXXABI.cpp
+CGCXXABI.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGCXXABI.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+Mangle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/Mangle.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclCXX.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclTemplate.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ExprCXX.h
+CGVTables.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CGVTables.h
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/TypeNodes.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/ModuleBuilder.cpp
+clang/CodeGen/ModuleBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/CodeGen/ModuleBuilder.h
+CodeGenModule.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenModule.h
+clang/Frontend/CodeGenOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Frontend/CodeGenOptions.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/DeclObjC.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/Expr.h
+clang/Basic/Diagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/Diagnostic.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/Basic/TargetInfo.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/LLVMContext.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Module.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/OwningPtr.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/TargetInfo.cpp
+TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/TargetInfo.h
+ABIInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/ABIInfo.h
+CodeGenFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/CodeGenFunction.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/clang/AST/RecordLayout.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Type.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Target/TargetData.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/StringExtras.h
+llvm/ADT/Triple.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/ADT/Triple.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/CodeGen/TargetInfo.h
+
+include/llvm/Config/config.h
+
+include/llvm/Intrinsics.gen
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+tools/clang/include/clang/AST/Attrs.inc
+
+tools/clang/include/clang/AST/DeclNodes.inc
+
+tools/clang/include/clang/AST/StmtNodes.inc
+
+tools/clang/include/clang/Basic/AttrList.inc
+
+tools/clang/include/clang/Basic/DiagnosticCommonKinds.inc
+
+tools/clang/include/clang/Basic/DiagnosticFrontendKinds.inc
+
+tools/clang/include/clang/Basic/Version.inc
+
+tools/clang/include/clang/Basic/arm_neon.inc
+

@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMXCoreAsmPrinter.a  CMakeFiles/LLVMXCoreAsmPrinter.dir/XCoreAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMXCoreAsmPrinter.a

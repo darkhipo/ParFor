@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMARMAsmParser.a  CMakeFiles/LLVMARMAsmParser.dir/ARMAsmLexer.cpp.obj CMakeFiles/LLVMARMAsmParser.dir/ARMAsmParser.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMARMAsmParser.a

@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMMSP430AsmPrinter.a  CMakeFiles/LLVMMSP430AsmPrinter.dir/MSP430AsmPrinter.cpp.obj CMakeFiles/LLVMMSP430AsmPrinter.dir/MSP430InstPrinter.cpp.obj CMakeFiles/LLVMMSP430AsmPrinter.dir/MSP430MCInstLower.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMMSP430AsmPrinter.a

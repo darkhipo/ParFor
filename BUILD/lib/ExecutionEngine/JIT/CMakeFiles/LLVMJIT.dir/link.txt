@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMJIT.a  CMakeFiles/LLVMJIT.dir/Intercept.cpp.obj CMakeFiles/LLVMJIT.dir/JIT.cpp.obj CMakeFiles/LLVMJIT.dir/JITDebugRegisterer.cpp.obj CMakeFiles/LLVMJIT.dir/JITDwarfEmitter.cpp.obj CMakeFiles/LLVMJIT.dir/JITEmitter.cpp.obj CMakeFiles/LLVMJIT.dir/JITMemoryManager.cpp.obj CMakeFiles/LLVMJIT.dir/OProfileJITEventListener.cpp.obj CMakeFiles/LLVMJIT.dir/TargetSelect.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMJIT.a

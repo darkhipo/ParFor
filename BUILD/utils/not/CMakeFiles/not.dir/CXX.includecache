@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Path.h
+llvm/ADT/StringRef.h
+../include/llvm/System/llvm/ADT/StringRef.h
+llvm/System/TimeValue.h
+../include/llvm/System/llvm/System/TimeValue.h
+set
+-
+string
+-
+vector
+-
+
+../include/llvm/System/Program.h
+llvm/System/Path.h
+../include/llvm/System/llvm/System/Path.h
+
+../include/llvm/System/TimeValue.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/not/not.cpp
+llvm/System/Path.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/not/llvm/System/Path.h
+llvm/System/Program.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/not/llvm/System/Program.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

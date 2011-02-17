@@ -1,0 +1,1192 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DenseSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+
+../include/llvm/ADT/IntrusiveRefCntPtr.h
+cassert
+-
+llvm/Support/Casting.h
+../include/llvm/ADT/llvm/Support/Casting.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/StringSet.h
+llvm/ADT/StringMap.h
+../include/llvm/ADT/llvm/ADT/StringMap.h
+
+../include/llvm/ADT/StringSwitch.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/ADT/VectorExtras.h
+cstdarg
+-
+vector
+-
+
+../include/llvm/CodeGen/ValueTypes.h
+cassert
+-
+string
+-
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+
+../include/llvm/MC/EDInstInfo.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/CommandLine.h
+llvm/Support/type_traits.h
+../include/llvm/Support/llvm/Support/type_traits.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+llvm/ADT/SmallVector.h
+../include/llvm/Support/llvm/ADT/SmallVector.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+cassert
+-
+climits
+-
+cstdarg
+-
+utility
+-
+vector
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/Format.h
+cassert
+-
+cstdio
+-
+
+../include/llvm/Support/FormattedStream.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/llvm/Support/raw_ostream.h
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/MemoryBuffer.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+string
+-
+sys/stat.h
+-
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PrettyStackTrace.h
+
+../include/llvm/Support/SMLoc.h
+
+../include/llvm/Support/SourceMgr.h
+llvm/Support/SMLoc.h
+../include/llvm/Support/llvm/Support/SMLoc.h
+string
+-
+vector
+-
+cassert
+-
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Path.h
+llvm/ADT/StringRef.h
+../include/llvm/System/llvm/ADT/StringRef.h
+llvm/System/TimeValue.h
+../include/llvm/System/llvm/System/TimeValue.h
+set
+-
+string
+-
+vector
+-
+
+../include/llvm/System/Signals.h
+llvm/System/Path.h
+../include/llvm/System/llvm/System/Path.h
+
+../include/llvm/System/TimeValue.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+../include/llvm/Target/TargetInstrItineraries.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/../../lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/../../lib/Target/X86/Disassembler/llvm/System/DataTypes.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ARMDecoderEmitter.cpp
+ARMDecoderEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ARMDecoderEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+vector
+-
+map
+-
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ARMDecoderEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/DataTypes.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmMatcherEmitter.cpp
+AsmMatcherEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmMatcherEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/STLExtras.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/CommandLine.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+list
+-
+map
+-
+set
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmMatcherEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+map
+-
+vector
+-
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterEmitter.cpp
+AsmWriterEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterEmitter.h
+AsmWriterInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterInst.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+StringToOffsetTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/StringToOffsetTable.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/MathExtras.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+map
+-
+vector
+-
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterInst.cpp
+AsmWriterInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterInst.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterInst.h
+string
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CallingConvEmitter.cpp
+CallingConvEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CallingConvEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CallingConvEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+map
+-
+vector
+-
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangASTNodesEmitter.cpp
+ClangASTNodesEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangASTNodesEmitter.h
+set
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangASTNodesEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+string
+-
+cctype
+-
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangAttrEmitter.cpp
+ClangAttrEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangAttrEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringSwitch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringSwitch.h
+algorithm
+-
+cctype
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangAttrEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangDiagnosticsEmitter.cpp
+ClangDiagnosticsEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangDiagnosticsEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Compiler.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/DenseSet.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+llvm/ADT/VectorExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/VectorExtras.h
+set
+-
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangDiagnosticsEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeEmitterGen.cpp
+CodeEmitterGen.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeEmitterGen.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeEmitterGen.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+map
+-
+vector
+-
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.cpp
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/STLExtras.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+set
+-
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+CodeGenIntrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenIntrinsics.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallVector.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+set
+-
+algorithm
+-
+vector
+-
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenInstruction.cpp
+CodeGenInstruction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenInstruction.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/STLExtras.h
+set
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenInstruction.h
+llvm/CodeGen/ValueTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/CodeGen/ValueTypes.h
+string
+-
+vector
+-
+utility
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenIntrinsics.h
+string
+-
+vector
+-
+llvm/CodeGen/ValueTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/CodeGen/ValueTypes.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenRegisters.h
+llvm/CodeGen/ValueTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/CodeGen/ValueTypes.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/DenseMap.h
+string
+-
+vector
+-
+set
+-
+cstdlib
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.cpp
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+CodeGenIntrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenIntrinsics.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/STLExtras.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/CommandLine.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+CodeGenRegisters.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenRegisters.h
+CodeGenInstruction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenInstruction.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelEmitter.cpp
+DAGISelEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelEmitter.h
+DAGISelMatcher.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+set
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.cpp
+DAGISelMatcher.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.h
+llvm/CodeGen/ValueTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/CodeGen/ValueTypes.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/OwningPtr.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringRef.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallVector.h
+llvm/Support/Casting.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Casting.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcherEmitter.cpp
+DAGISelMatcher.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/DenseMap.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallString.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/CommandLine.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/FormattedStream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcherGen.cpp
+DAGISelMatcher.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallVector.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+utility
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcherOpt.cpp
+DAGISelMatcher.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelMatcher.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/DenseSet.h
+llvm/ADT/StringSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringSet.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DisassemblerEmitter.cpp
+DisassemblerEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DisassemblerEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+X86DisassemblerTables.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerTables.h
+X86RecognizableInstr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86RecognizableInstr.h
+ARMDecoderEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ARMDecoderEmitter.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DisassemblerEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/EDEmitter.cpp
+EDEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/EDEmitter.h
+AsmWriterInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterInst.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/MC/EDInstInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/MC/EDInstInfo.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/ErrorHandling.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Format.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+map
+-
+string
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/EDEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/FastISelEmitter.cpp
+FastISelEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/FastISelEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+llvm/ADT/VectorExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/VectorExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/FastISelEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrEnumEmitter.cpp
+InstrEnumEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrEnumEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+cstdio
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrEnumEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrInfoEmitter.cpp
+InstrInfoEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrInfoEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrInfoEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+CodeGenDAGPatterns.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenDAGPatterns.h
+vector
+-
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/IntrinsicEmitter.cpp
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+IntrinsicEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/IntrinsicEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/IntrinsicEmitter.h
+CodeGenIntrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenIntrinsics.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/LLVMCConfigurationEmitter.cpp
+LLVMCConfigurationEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/LLVMCConfigurationEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/IntrusiveRefCntPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/IntrusiveRefCntPtr.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+llvm/ADT/StringSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringSet.h
+algorithm
+-
+cassert
+-
+functional
+-
+stdexcept
+-
+string
+-
+typeinfo
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/LLVMCConfigurationEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/NeonEmitter.cpp
+NeonEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/NeonEmitter.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallVector.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/NeonEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/OptParserEmitter.cpp
+OptParserEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/OptParserEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/STLExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/OptParserEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.cpp
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/DataTypes.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Format.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/Support/SourceMgr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/SourceMgr.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/DataTypes.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/RegisterInfoEmitter.cpp
+RegisterInfoEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/RegisterInfoEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+CodeGenRegisters.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenRegisters.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/STLExtras.h
+algorithm
+-
+set
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/RegisterInfoEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/StringToOffsetTable.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallString.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringMap.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/SubtargetEmitter.cpp
+SubtargetEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/SubtargetEmitter.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Debug.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/SubtargetEmitter.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+llvm/Target/TargetInstrItineraries.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Target/TargetInstrItineraries.h
+vector
+-
+map
+-
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGLexer.cpp
+TGLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGLexer.h
+llvm/Support/SourceMgr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/SourceMgr.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/MemoryBuffer.h
+llvm/Config/config.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Config/config.h
+cctype
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+cerrno
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGLexer.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/DataTypes.h
+vector
+-
+string
+-
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGParser.cpp
+TGParser.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGParser.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/StringExtras.h
+algorithm
+-
+sstream
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGParser.h
+TGLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGLexer.h
+llvm/Support/SourceMgr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/SourceMgr.h
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGValueTypes.cpp
+llvm/CodeGen/ValueTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/CodeGen/ValueTypes.h
+map
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGen.cpp
+AsmMatcherEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmMatcherEmitter.h
+AsmWriterEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/AsmWriterEmitter.h
+CallingConvEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CallingConvEmitter.h
+ClangASTNodesEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangASTNodesEmitter.h
+ClangAttrEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangAttrEmitter.h
+ClangDiagnosticsEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ClangDiagnosticsEmitter.h
+CodeEmitterGen.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeEmitterGen.h
+DAGISelEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DAGISelEmitter.h
+DisassemblerEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/DisassemblerEmitter.h
+EDEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/EDEmitter.h
+FastISelEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/FastISelEmitter.h
+InstrEnumEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrEnumEmitter.h
+InstrInfoEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/InstrInfoEmitter.h
+IntrinsicEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/IntrinsicEmitter.h
+LLVMCConfigurationEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/LLVMCConfigurationEmitter.h
+NeonEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/NeonEmitter.h
+OptParserEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/OptParserEmitter.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+RegisterInfoEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/RegisterInfoEmitter.h
+ARMDecoderEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/ARMDecoderEmitter.h
+SubtargetEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/SubtargetEmitter.h
+TGParser.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TGParser.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/CommandLine.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/MemoryBuffer.h
+llvm/Support/PrettyStackTrace.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/PrettyStackTrace.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+llvm/System/Signals.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/Signals.h
+algorithm
+-
+cstdio
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.cpp
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerShared.h
+string
+-
+string.h
+-
+../../lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/../../lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerTables.cpp
+X86DisassemblerShared.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerShared.h
+X86DisassemblerTables.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerTables.h
+TableGenBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/TableGenBackend.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/ErrorHandling.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/Format.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerTables.h
+X86DisassemblerShared.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerShared.h
+X86ModRMFilters.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86ModRMFilters.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/raw_ostream.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86ModRMFilters.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/DataTypes.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86RecognizableInstr.cpp
+X86DisassemblerShared.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerShared.h
+X86RecognizableInstr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86RecognizableInstr.h
+X86ModRMFilters.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86ModRMFilters.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/Support/ErrorHandling.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86RecognizableInstr.h
+X86DisassemblerTables.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/X86DisassemblerTables.h
+CodeGenTarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/CodeGenTarget.h
+Record.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/Record.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/TableGen/llvm/ADT/SmallVector.h
+
+include/llvm/Config/config.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

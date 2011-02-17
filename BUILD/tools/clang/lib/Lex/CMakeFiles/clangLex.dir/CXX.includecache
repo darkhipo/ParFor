@@ -1,0 +1,836 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/APSInt.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/IntrusiveRefCntPtr.h
+cassert
+-
+llvm/Support/Casting.h
+../include/llvm/ADT/llvm/Support/Casting.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/PointerIntPair.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+cassert
+-
+
+../include/llvm/ADT/PointerUnion.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/ADT/llvm/ADT/PointerIntPair.h
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/StringSwitch.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/CrashRecoveryContext.h
+string
+-
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/MemoryBuffer.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+string
+-
+sys/stat.h
+-
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Host.h
+llvm/ADT/StringMap.h
+../include/llvm/System/llvm/ADT/StringMap.h
+string
+-
+
+../tools/clang/include/clang/Basic/Builtins.def
+
+../tools/clang/include/clang/Basic/Builtins.h
+cstring
+-
+clang/Basic/Builtins.def
+../tools/clang/include/clang/Basic/clang/Basic/Builtins.def
+
+../tools/clang/include/clang/Basic/Diagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/ADT/IntrusiveRefCntPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/IntrusiveRefCntPtr.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/Basic/llvm/Support/type_traits.h
+string
+-
+vector
+-
+cassert
+-
+clang/Basic/DiagnosticCommonKinds.inc
+../tools/clang/include/clang/Basic/clang/Basic/DiagnosticCommonKinds.inc
+
+../tools/clang/include/clang/Basic/FileManager.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Basic/llvm/ADT/SmallVector.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Basic/llvm/Support/Allocator.h
+llvm/Config/config.h
+../tools/clang/include/clang/Basic/llvm/Config/config.h
+sys/types.h
+-
+sys/stat.h
+-
+
+../tools/clang/include/clang/Basic/IdentifierTable.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.h
+clang/Basic/TokenKinds.h
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/ADT/SmallString.h
+../tools/clang/include/clang/Basic/llvm/ADT/SmallString.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/Support/PointerLikeTypeTraits.h
+../tools/clang/include/clang/Basic/llvm/Support/PointerLikeTypeTraits.h
+string
+-
+cassert
+-
+clang/Basic/OperatorKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/LangOptions.h
+string
+-
+
+../tools/clang/include/clang/Basic/OnDiskHashTable.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Basic/llvm/Support/Allocator.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+llvm/Support/MathExtras.h
+../tools/clang/include/clang/Basic/llvm/Support/MathExtras.h
+llvm/Support/raw_ostream.h
+../tools/clang/include/clang/Basic/llvm/Support/raw_ostream.h
+llvm/System/Host.h
+../tools/clang/include/clang/Basic/llvm/System/Host.h
+cassert
+-
+cstdlib
+-
+
+../tools/clang/include/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/OperatorKinds.h
+clang/Basic/OperatorKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/SourceLocation.h
+utility
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/SourceManager.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Basic/llvm/Support/Allocator.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Basic/llvm/ADT/PointerIntPair.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/Basic/llvm/ADT/PointerUnion.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/DenseMap.h
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/TargetInfo.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringSwitch.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringSwitch.h
+llvm/ADT/Triple.h
+../tools/clang/include/clang/Basic/llvm/ADT/Triple.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+cassert
+-
+vector
+-
+string
+-
+
+../tools/clang/include/clang/Basic/TemplateKinds.h
+
+../tools/clang/include/clang/Basic/TokenKinds.def
+
+../tools/clang/include/clang/Basic/TokenKinds.h
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+
+../tools/clang/include/clang/Lex/CodeCompletionHandler.h
+
+../tools/clang/include/clang/Lex/DirectoryLookup.h
+clang/Basic/SourceManager.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceManager.h
+
+../tools/clang/include/clang/Lex/ExternalPreprocessorSource.h
+
+../tools/clang/include/clang/Lex/HeaderSearch.h
+clang/Lex/DirectoryLookup.h
+../tools/clang/include/clang/Lex/clang/Lex/DirectoryLookup.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/StringMap.h
+vector
+-
+
+../tools/clang/include/clang/Lex/LexDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Lex/clang/Basic/Diagnostic.h
+clang/Basic/DiagnosticLexKinds.inc
+../tools/clang/include/clang/Lex/clang/Basic/DiagnosticLexKinds.inc
+
+../tools/clang/include/clang/Lex/Lexer.h
+clang/Lex/PreprocessorLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PreprocessorLexer.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/Lex/clang/Basic/LangOptions.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+string
+-
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Lex/LiteralSupport.h
+string
+-
+llvm/ADT/APFloat.h
+../tools/clang/include/clang/Lex/llvm/ADT/APFloat.h
+llvm/ADT/SmallString.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallString.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Lex/llvm/System/DataTypes.h
+
+../tools/clang/include/clang/Lex/MacroInfo.h
+clang/Lex/Token.h
+../tools/clang/include/clang/Lex/clang/Lex/Token.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Lex/MultipleIncludeOpt.h
+
+../tools/clang/include/clang/Lex/PPCallbacks.h
+clang/Lex/DirectoryLookup.h
+../tools/clang/include/clang/Lex/clang/Lex/DirectoryLookup.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Lex/llvm/ADT/StringRef.h
+string
+-
+
+../tools/clang/include/clang/Lex/PTHLexer.h
+clang/Lex/PreprocessorLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PreprocessorLexer.h
+vector
+-
+
+../tools/clang/include/clang/Lex/PTHManager.h
+clang/Lex/PTHLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PTHLexer.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/Lex/clang/Basic/LangOptions.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/Lex/clang/Basic/IdentifierTable.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Lex/clang/Basic/Diagnostic.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/DenseMap.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+string
+-
+
+../tools/clang/include/clang/Lex/Pragma.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Lex/llvm/ADT/StringRef.h
+cassert
+-
+vector
+-
+
+../tools/clang/include/clang/Lex/PreprocessingRecord.h
+clang/Lex/PPCallbacks.h
+../tools/clang/include/clang/Lex/clang/Lex/PPCallbacks.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/DenseMap.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+vector
+-
+
+../tools/clang/include/clang/Lex/Preprocessor.h
+clang/Lex/Lexer.h
+../tools/clang/include/clang/Lex/clang/Lex/Lexer.h
+clang/Lex/PTHLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PTHLexer.h
+clang/Lex/PPCallbacks.h
+../tools/clang/include/clang/Lex/clang/Lex/PPCallbacks.h
+clang/Lex/TokenLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/TokenLexer.h
+clang/Lex/PTHManager.h
+../tools/clang/include/clang/Lex/clang/Lex/PTHManager.h
+clang/Basic/Builtins.h
+../tools/clang/include/clang/Lex/clang/Basic/Builtins.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Lex/clang/Basic/Diagnostic.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/Lex/clang/Basic/IdentifierTable.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/DenseMap.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Lex/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+vector
+-
+
+../tools/clang/include/clang/Lex/PreprocessorLexer.h
+clang/Lex/MultipleIncludeOpt.h
+../tools/clang/include/clang/Lex/clang/Lex/MultipleIncludeOpt.h
+clang/Lex/Token.h
+../tools/clang/include/clang/Lex/clang/Lex/Token.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+string
+-
+
+../tools/clang/include/clang/Lex/ScratchBuffer.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+
+../tools/clang/include/clang/Lex/Token.h
+clang/Basic/TemplateKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/TemplateKinds.h
+clang/Basic/TokenKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/TokenKinds.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/OperatorKinds.h
+cstdlib
+-
+
+../tools/clang/include/clang/Lex/TokenConcatenation.h
+clang/Basic/TokenKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/TokenKinds.h
+
+../tools/clang/include/clang/Lex/TokenLexer.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/Lexer.cpp
+clang/Lex/Lexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Lexer.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Lex/CodeCompletionHandler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/CodeCompletionHandler.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+llvm/ADT/StringSwitch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/StringSwitch.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/Compiler.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/MemoryBuffer.h
+cctype
+-
+emmintrin.h
+-
+altivec.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/LiteralSupport.cpp
+clang/Lex/LiteralSupport.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LiteralSupport.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/TargetInfo.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/StringRef.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroArgs.cpp
+MacroArgs.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroArgs.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroArgs.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroInfo.cpp
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PPCaching.cpp
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PPDirectives.cpp
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/LiteralSupport.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LiteralSupport.h
+clang/Lex/HeaderSearch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/HeaderSearch.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Lex/CodeCompletionHandler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/CodeCompletionHandler.h
+clang/Basic/FileManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/FileManager.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+llvm/ADT/APInt.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/APInt.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PPExpressions.cpp
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/LiteralSupport.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LiteralSupport.h
+clang/Lex/CodeCompletionHandler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/CodeCompletionHandler.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/TargetInfo.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+llvm/ADT/APSInt.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/APSInt.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PPLexerChange.cpp
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/HeaderSearch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/HeaderSearch.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/MemoryBuffer.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PPMacroExpansion.cpp
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+MacroArgs.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroArgs.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+clang/Basic/FileManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/FileManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/TargetInfo.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Lex/CodeCompletionHandler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/CodeCompletionHandler.h
+llvm/ADT/StringSwitch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/StringSwitch.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/raw_ostream.h
+cstdio
+-
+ctime
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PTHLexer.cpp
+clang/Basic/TokenKinds.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/TokenKinds.h
+clang/Basic/FileManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/FileManager.h
+clang/Basic/IdentifierTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/IdentifierTable.h
+clang/Basic/OnDiskHashTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/OnDiskHashTable.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Lex/PTHLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/PTHLexer.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/PTHManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/PTHManager.h
+clang/Lex/Token.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Token.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/OwningPtr.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/StringExtras.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/StringMap.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/MemoryBuffer.h
+sys/stat.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/Pragma.cpp
+clang/Lex/Pragma.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Pragma.h
+clang/Lex/HeaderSearch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/HeaderSearch.h
+clang/Lex/LiteralSupport.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LiteralSupport.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Basic/FileManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/FileManager.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+llvm/Support/CrashRecoveryContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/CrashRecoveryContext.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/ErrorHandling.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/Preprocessor.cpp
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+MacroArgs.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroArgs.h
+clang/Lex/ExternalPreprocessorSource.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/ExternalPreprocessorSource.h
+clang/Lex/HeaderSearch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/HeaderSearch.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/Pragma.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Pragma.h
+clang/Lex/PreprocessingRecord.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/PreprocessingRecord.h
+clang/Lex/ScratchBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/ScratchBuffer.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Lex/CodeCompletionHandler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/CodeCompletionHandler.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+clang/Basic/FileManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/FileManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/TargetInfo.h
+llvm/ADT/APFloat.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/SmallVector.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/MemoryBuffer.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/PreprocessorLexer.cpp
+clang/Lex/PreprocessorLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/PreprocessorLexer.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/TokenConcatenation.cpp
+clang/Lex/TokenConcatenation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/TokenConcatenation.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/TokenLexer.cpp
+clang/Lex/TokenLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/TokenLexer.h
+MacroArgs.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/MacroArgs.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/MacroInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/Preprocessor.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Basic/SourceManager.h
+clang/Lex/LexDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/clang/Lex/LexDiagnostic.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Lex/llvm/ADT/SmallVector.h
+
+include/llvm/Config/config.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+tools/clang/include/clang/Basic/DiagnosticCommonKinds.inc
+
+tools/clang/include/clang/Basic/DiagnosticLexKinds.inc
+

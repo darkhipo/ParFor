@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMMipsInfo.a  CMakeFiles/LLVMMipsInfo.dir/MipsTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMMipsInfo.a

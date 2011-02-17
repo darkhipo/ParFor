@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMSparcInfo.a  CMakeFiles/LLVMSparcInfo.dir/SparcTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMSparcInfo.a

@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\libLLVMExecutionEngine.a  CMakeFiles/LLVMExecutionEngine.dir/ExecutionEngine.cpp.obj CMakeFiles/LLVMExecutionEngine.dir/ExecutionEngineBindings.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\libLLVMExecutionEngine.a

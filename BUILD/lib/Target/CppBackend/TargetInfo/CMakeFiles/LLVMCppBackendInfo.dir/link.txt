@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMCppBackendInfo.a  CMakeFiles/LLVMCppBackendInfo.dir/CppBackendTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMCppBackendInfo.a

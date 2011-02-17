@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMMBlazeAsmPrinter.a  CMakeFiles/LLVMMBlazeAsmPrinter.dir/MBlazeAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMMBlazeAsmPrinter.a

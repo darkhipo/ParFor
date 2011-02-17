@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMPowerPCAsmPrinter.a  CMakeFiles/LLVMPowerPCAsmPrinter.dir/PPCAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMPowerPCAsmPrinter.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/utils/count/count.c
+stdlib.h
+-
+stdio.h
+-
+

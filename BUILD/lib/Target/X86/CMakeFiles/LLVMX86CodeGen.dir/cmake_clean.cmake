@@ -1,0 +1,43 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/LLVMX86CodeGen.dir/SSEDomainFix.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86AsmBackend.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86AsmPrinter.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86COFFMachineModuleInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86CodeEmitter.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86ELFWriterInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86FastISel.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86FloatingPoint.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86ISelDAGToDAG.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86ISelLowering.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86InstrInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86JITInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86MCAsmInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86MCCodeEmitter.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86MCInstLower.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86RegisterInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86SelectionDAGInfo.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86Subtarget.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86TargetMachine.cpp.obj"
+  "CMakeFiles/LLVMX86CodeGen.dir/X86TargetObjectFile.cpp.obj"
+  "X86GenRegisterInfo.h.inc"
+  "X86GenRegisterNames.inc"
+  "X86GenRegisterInfo.inc"
+  "X86GenDisassemblerTables.inc"
+  "X86GenInstrNames.inc"
+  "X86GenInstrInfo.inc"
+  "X86GenAsmWriter.inc"
+  "X86GenAsmWriter1.inc"
+  "X86GenAsmMatcher.inc"
+  "X86GenDAGISel.inc"
+  "X86GenFastISel.inc"
+  "X86GenCallingConv.inc"
+  "X86GenSubtarget.inc"
+  "X86GenEDInfo.inc"
+  "../../libLLVMX86CodeGen.pdb"
+  "../../libLLVMX86CodeGen.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/LLVMX86CodeGen.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

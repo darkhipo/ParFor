@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMBitWriter.a  CMakeFiles/LLVMBitWriter.dir/BitWriter.cpp.obj CMakeFiles/LLVMBitWriter.dir/BitcodeWriter.cpp.obj CMakeFiles/LLVMBitWriter.dir/BitcodeWriterPass.cpp.obj CMakeFiles/LLVMBitWriter.dir/ValueEnumerator.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMBitWriter.a

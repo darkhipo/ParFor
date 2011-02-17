@@ -1,0 +1,41 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/clangSema.dir/AnalysisBasedWarnings.cpp.obj"
+  "CMakeFiles/clangSema.dir/AttributeList.cpp.obj"
+  "CMakeFiles/clangSema.dir/CodeCompleteConsumer.cpp.obj"
+  "CMakeFiles/clangSema.dir/DeclSpec.cpp.obj"
+  "CMakeFiles/clangSema.dir/IdentifierResolver.cpp.obj"
+  "CMakeFiles/clangSema.dir/JumpDiagnostics.cpp.obj"
+  "CMakeFiles/clangSema.dir/Sema.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaAccess.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaAttr.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaCXXCast.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaCXXScopeSpec.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaChecking.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaCodeComplete.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaDecl.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaDeclAttr.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaDeclCXX.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaDeclObjC.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaExceptionSpec.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaExpr.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaExprCXX.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaExprObjC.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaInit.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaLookup.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaObjCProperty.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaOverload.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaStmt.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaTemplate.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaTemplateDeduction.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaTemplateInstantiate.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaTemplateInstantiateDecl.cpp.obj"
+  "CMakeFiles/clangSema.dir/SemaType.cpp.obj"
+  "CMakeFiles/clangSema.dir/TargetAttributesSema.cpp.obj"
+  "../../../../lib/libclangSema.pdb"
+  "../../../../lib/libclangSema.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/clangSema.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

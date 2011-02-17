@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/System/RWMutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Threading.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/RWMutex.cpp
+llvm/Config/config.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/llvm/Config/config.h
+llvm/System/RWMutex.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/llvm/System/RWMutex.h
+cstring
+-
+cassert
+-
+pthread.h
+-
+stdlib.h
+-
+Unix/RWMutex.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Unix/RWMutex.inc
+Win32/RWMutex.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Win32/RWMutex.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Unix/RWMutex.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Win32/RWMutex.inc
+Win32.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Win32/Win32.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Win32/Win32.h
+llvm/Config/config.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Win32/llvm/Config/config.h
+windows.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/System/Win32/windows.h
+cassert
+-
+string
+-
+
+include/llvm/Config/config.h
+

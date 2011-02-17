@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMMipsAsmPrinter.a  CMakeFiles/LLVMMipsAsmPrinter.dir/MipsAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMMipsAsmPrinter.a

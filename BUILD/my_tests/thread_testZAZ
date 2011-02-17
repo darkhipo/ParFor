@@ -1,0 +1,649 @@
+typedef typeof (((int *)0) - ((int *)0)) ptrdiff_t;
+typedef typeof (sizeof(int)) size_t;
+typedef unsigned short wchar_t;
+typedef int wint_t;
+typedef __builtin_va_list va_list;
+typedef __builtin_va_list __gnuc_va_list;
+struct _iobuf {
+    char *_ptr;
+    int _cnt;
+    char *_base;
+    int _flag;
+    int _file;
+    int _charbuf;
+    int _bufsiz;
+    char *_tmpfname;
+};
+typedef struct _iobuf FILE;
+extern FILE _iob[];
+FILE *fopen(char const *, char const *);
+FILE *freopen(char const *, char const *, FILE *);
+int fflush(FILE *);
+int fclose(FILE *);
+int remove(char const *);
+int rename(char const *, char const *);
+FILE *tmpfile();
+char *tmpnam(char *);
+char *_tempnam(char const *, char const *);
+int _rmtmp();
+int _unlink(char const *);
+char *tempnam(char const *, char const *);
+int rmtmp();
+int unlink(char const *);
+int setvbuf(FILE *, char *, int, size_t);
+void setbuf(FILE *, char *);
+extern int __mingw_fprintf(FILE *, char const *, ...);
+extern int __mingw_printf(char const *, ...);
+extern int __mingw_sprintf(char *, char const *, ...);
+extern int __mingw_snprintf(char *, size_t, char const *, ...);
+extern int __mingw_vfprintf(FILE *, char const *, __gnuc_va_list);
+extern int __mingw_vprintf(char const *, __gnuc_va_list);
+extern int __mingw_vsprintf(char *, char const *, __gnuc_va_list);
+extern int __mingw_vsnprintf(char *, size_t, char const *, __gnuc_va_list);
+int fprintf(FILE *, char const *, ...);
+int printf(char const *, ...);
+int sprintf(char *, char const *, ...);
+int vfprintf(FILE *, char const *, __gnuc_va_list);
+int vprintf(char const *, __gnuc_va_list);
+int vsprintf(char *, char const *, __gnuc_va_list);
+int __msvcrt_fprintf(FILE *, char const *, ...);
+int __msvcrt_printf(char const *, ...);
+int __msvcrt_sprintf(char *, char const *, ...);
+int __msvcrt_vfprintf(FILE *, char const *, __gnuc_va_list);
+int __msvcrt_vprintf(char const *, __gnuc_va_list);
+int __msvcrt_vsprintf(char *, char const *, __gnuc_va_list);
+int _snprintf(char *, size_t, char const *, ...);
+int _vsnprintf(char *, size_t, char const *, __gnuc_va_list);
+int _vscprintf(char const *, __gnuc_va_list);
+int snprintf(char *, size_t, char const *, ...);
+int vsnprintf(char *, size_t, char const *, __gnuc_va_list);
+int vscanf(char const *restrict, __gnuc_va_list);
+int vfscanf(FILE *restrict, char const *restrict, __gnuc_va_list);
+int vsscanf(char const *restrict, char const *restrict, __gnuc_va_list);
+int fscanf(FILE *, char const *, ...);
+int scanf(char const *, ...);
+int sscanf(char const *, char const *, ...);
+int fgetc(FILE *);
+char *fgets(char *, int, FILE *);
+int fputc(int, FILE *);
+int fputs(char const *, FILE *);
+char *gets(char *);
+int puts(char const *);
+int ungetc(int, FILE *);
+int _filbuf(FILE *);
+int _flsbuf(int, FILE *);
+extern inline int getc(FILE *__F) {
+    return (--__F->_cnt >= 0) ? (int)(unsigned char)*__F->_ptr++ : _filbuf(__F);
+}
+
+
+extern inline int putc(int __c, FILE *__F) {
+    return (--__F->_cnt >= 0) ? (int)(unsigned char)(*__F->_ptr++ = (char)__c) : _flsbuf(__c, __F);
+}
+
+
+extern inline int getchar() {
+    return (--(&_iob[0])->_cnt >= 0) ? (int)(unsigned char)*(&_iob[0])->_ptr++ : _filbuf((&_iob[0]));
+}
+
+
+extern inline int putchar(int __c) {
+    return (--(&_iob[1])->_cnt >= 0) ? (int)(unsigned char)(*(&_iob[1])->_ptr++ = (char)__c) : _flsbuf(__c, (&_iob[1]));
+}
+
+
+size_t fread(void *, size_t, size_t, FILE *);
+size_t fwrite(void const *, size_t, size_t, FILE *);
+int fseek(FILE *, long, int);
+long ftell(FILE *);
+void rewind(FILE *);
+typedef long long fpos_t;
+int fgetpos(FILE *, fpos_t *);
+int fsetpos(FILE *, fpos_t const *);
+int feof(FILE *);
+int ferror(FILE *);
+void clearerr(FILE *);
+void perror(char const *);
+FILE *_popen(char const *, char const *);
+int _pclose(FILE *);
+FILE *popen(char const *, char const *);
+int pclose(FILE *);
+int _flushall();
+int _fgetchar();
+int _fputchar(int);
+FILE *_fdopen(int, char const *);
+int _fileno(FILE *);
+int _fcloseall();
+FILE *_fsopen(char const *, char const *, int);
+int _getmaxstdio();
+int _setmaxstdio(int);
+int fgetchar();
+int fputchar(int);
+FILE *fdopen(int, char const *);
+int fileno(FILE *);
+typedef long __time32_t;
+typedef long long __time64_t;
+typedef __time32_t time_t;
+typedef long _off_t;
+typedef _off_t off_t;
+typedef unsigned int _dev_t;
+typedef _dev_t dev_t;
+typedef short _ino_t;
+typedef _ino_t ino_t;
+typedef int _pid_t;
+typedef _pid_t pid_t;
+typedef unsigned short _mode_t;
+typedef _mode_t mode_t;
+typedef int _sigset_t;
+typedef _sigset_t sigset_t;
+typedef long _ssize_t;
+typedef _ssize_t ssize_t;
+typedef long long fpos64_t;
+typedef long long off64_t;
+typedef unsigned int useconds_t;
+extern inline FILE *fopen64(char const *filename, char const *mode) {
+    return fopen(filename, mode);
+}
+
+
+int fseeko64(FILE *, off64_t, int);
+extern inline off64_t ftello64(FILE *stream) {
+    fpos_t pos;
+    if (fgetpos(stream, &pos))
+        return -1LL;
+    else
+        return ((off64_t)pos);
+}
+
+
+int fwprintf(FILE *, wchar_t const *, ...);
+int wprintf(wchar_t const *, ...);
+int _snwprintf(wchar_t *, size_t, wchar_t const *, ...);
+int vfwprintf(FILE *, wchar_t const *, __gnuc_va_list);
+int vwprintf(wchar_t const *, __gnuc_va_list);
+int _vsnwprintf(wchar_t *, size_t, wchar_t const *, __gnuc_va_list);
+int _vscwprintf(wchar_t const *, __gnuc_va_list);
+int fwscanf(FILE *, wchar_t const *, ...);
+int wscanf(wchar_t const *, ...);
+int swscanf(wchar_t const *, wchar_t const *, ...);
+wint_t fgetwc(FILE *);
+wint_t fputwc(wchar_t, FILE *);
+wint_t ungetwc(wchar_t, FILE *);
+int swprintf(wchar_t *, wchar_t const *, ...);
+int vswprintf(wchar_t *, wchar_t const *, __gnuc_va_list);
+wchar_t *fgetws(wchar_t *, int, FILE *);
+int fputws(wchar_t const *, FILE *);
+wint_t getwc(FILE *);
+wint_t getwchar();
+wchar_t *_getws(wchar_t *);
+wint_t putwc(wint_t, FILE *);
+int _putws(wchar_t const *);
+wint_t putwchar(wint_t);
+FILE *_wfdopen(int, wchar_t const *);
+FILE *_wfopen(wchar_t const *, wchar_t const *);
+FILE *_wfreopen(wchar_t const *, wchar_t const *, FILE *);
+FILE *_wfsopen(wchar_t const *, wchar_t const *, int);
+wchar_t *_wtmpnam(wchar_t *);
+wchar_t *_wtempnam(wchar_t const *, wchar_t const *);
+int _wrename(wchar_t const *, wchar_t const *);
+int _wremove(wchar_t const *);
+void _wperror(wchar_t const *);
+FILE *_wpopen(wchar_t const *, wchar_t const *);
+int snwprintf(wchar_t *s, size_t n, wchar_t const *format, ...);
+int vsnwprintf(wchar_t *s, size_t n, wchar_t const *format, __gnuc_va_list arg);
+int vwscanf(wchar_t const *restrict, __gnuc_va_list);
+int vfwscanf(FILE *restrict, wchar_t const *restrict, __gnuc_va_list);
+int vswscanf(wchar_t const *restrict, wchar_t const *restrict, __gnuc_va_list);
+FILE *wpopen(wchar_t const *, wchar_t const *);
+wint_t _fgetwchar();
+wint_t _fputwchar(wint_t);
+int _getw(FILE *);
+int _putw(int, FILE *);
+wint_t fgetwchar();
+wint_t fputwchar(wint_t);
+int getw(FILE *);
+int putw(int, FILE *);
+typedef long clock_t;
+struct tm {
+    int tm_sec;
+    int tm_min;
+    int tm_hour;
+    int tm_mday;
+    int tm_mon;
+    int tm_year;
+    int tm_wday;
+    int tm_yday;
+    int tm_isdst;
+};
+clock_t clock();
+time_t time(time_t *);
+double difftime(time_t, time_t);
+time_t mktime(struct tm *);
+char *asctime(struct tm const *);
+char *ctime(time_t const *);
+struct tm *gmtime(time_t const *);
+struct tm *localtime(time_t const *);
+size_t strftime(char *, size_t, char const *, struct tm const *);
+extern void _tzset();
+extern void tzset();
+char *_strdate(char *);
+char *_strtime(char *);
+extern int *__p__daylight();
+extern long *__p__timezone();
+extern char **__p__tzname();
+extern int _daylight;
+extern long _timezone;
+extern char *_tzname[2];
+extern int daylight;
+extern long timezone;
+extern char *tzname[2];
+wchar_t *_wasctime(struct tm const *);
+wchar_t *_wctime(time_t const *);
+wchar_t *_wstrdate(wchar_t *);
+wchar_t *_wstrtime(wchar_t *);
+size_t wcsftime(wchar_t *, size_t, wchar_t const *, struct tm const *);
+typedef int jmp_buf[16];
+int _setjmp(jmp_buf);
+void longjmp(jmp_buf, int) __attribute((noreturn));
+enum  {
+    PTW32_FALSE = 0,
+    PTW32_TRUE = (!PTW32_FALSE)
+};
+int *_errno();
+enum  {
+    SCHED_OTHER = 0,
+    SCHED_FIFO,
+    SCHED_RR,
+    SCHED_MIN = SCHED_OTHER,
+    SCHED_MAX = SCHED_RR
+};
+struct sched_param {
+    int sched_priority;
+};
+int sched_yield();
+int sched_get_priority_min(int policy);
+int sched_get_priority_max(int policy);
+int sched_setscheduler(pid_t pid, int policy);
+int sched_getscheduler(pid_t pid);
+struct timespec {
+    long tv_sec;
+    long tv_nsec;
+};
+struct {
+    void *p;
+    unsigned int x;
+} typedef ptw32_handle_t;
+typedef ptw32_handle_t pthread_t;
+struct pthread_attr_t_;
+typedef struct pthread_attr_t_ *pthread_attr_t;
+struct pthread_once_t_;
+typedef struct pthread_once_t_ pthread_once_t;
+struct pthread_key_t_;
+typedef struct pthread_key_t_ *pthread_key_t;
+struct pthread_mutex_t_;
+typedef struct pthread_mutex_t_ *pthread_mutex_t;
+struct pthread_mutexattr_t_;
+typedef struct pthread_mutexattr_t_ *pthread_mutexattr_t;
+struct pthread_cond_t_;
+typedef struct pthread_cond_t_ *pthread_cond_t;
+struct pthread_condattr_t_;
+typedef struct pthread_condattr_t_ *pthread_condattr_t;
+struct pthread_rwlock_t_;
+typedef struct pthread_rwlock_t_ *pthread_rwlock_t;
+struct pthread_rwlockattr_t_;
+typedef struct pthread_rwlockattr_t_ *pthread_rwlockattr_t;
+struct pthread_spinlock_t_;
+typedef struct pthread_spinlock_t_ *pthread_spinlock_t;
+struct pthread_barrier_t_;
+typedef struct pthread_barrier_t_ *pthread_barrier_t;
+struct pthread_barrierattr_t_;
+typedef struct pthread_barrierattr_t_ *pthread_barrierattr_t;
+enum  {
+    PTHREAD_CREATE_JOINABLE = 0,
+    PTHREAD_CREATE_DETACHED = 1,
+    PTHREAD_INHERIT_SCHED = 0,
+    PTHREAD_EXPLICIT_SCHED = 1,
+    PTHREAD_SCOPE_PROCESS = 0,
+    PTHREAD_SCOPE_SYSTEM = 1,
+    PTHREAD_CANCEL_ENABLE = 0,
+    PTHREAD_CANCEL_DISABLE = 1,
+    PTHREAD_CANCEL_ASYNCHRONOUS = 0,
+    PTHREAD_CANCEL_DEFERRED = 1,
+    PTHREAD_PROCESS_PRIVATE = 0,
+    PTHREAD_PROCESS_SHARED = 1,
+    PTHREAD_BARRIER_SERIAL_THREAD = -1
+};
+struct pthread_once_t_ {
+    int done;
+    void *lock;
+    int reserved1;
+    int reserved2;
+};
+enum  {
+    PTHREAD_MUTEX_FAST_NP,
+    PTHREAD_MUTEX_RECURSIVE_NP,
+    PTHREAD_MUTEX_ERRORCHECK_NP,
+    PTHREAD_MUTEX_TIMED_NP = PTHREAD_MUTEX_FAST_NP,
+    PTHREAD_MUTEX_ADAPTIVE_NP = PTHREAD_MUTEX_FAST_NP,
+    PTHREAD_MUTEX_NORMAL = PTHREAD_MUTEX_FAST_NP,
+    PTHREAD_MUTEX_RECURSIVE = PTHREAD_MUTEX_RECURSIVE_NP,
+    PTHREAD_MUTEX_ERRORCHECK = PTHREAD_MUTEX_ERRORCHECK_NP,
+    PTHREAD_MUTEX_DEFAULT = PTHREAD_MUTEX_NORMAL
+};
+struct ptw32_cleanup_t;
+typedef struct ptw32_cleanup_t ptw32_cleanup_t;
+typedef void (*ptw32_cleanup_callback_t)(void *);
+struct ptw32_cleanup_t {
+    ptw32_cleanup_callback_t routine;
+    void *arg;
+    struct ptw32_cleanup_t *prev;
+};
+int pthread_attr_init(pthread_attr_t *attr);
+int pthread_attr_destroy(pthread_attr_t *attr);
+int pthread_attr_getdetachstate(pthread_attr_t const *attr, int *detachstate);
+int pthread_attr_getstackaddr(pthread_attr_t const *attr, void **stackaddr);
+int pthread_attr_getstacksize(pthread_attr_t const *attr, size_t *stacksize);
+int pthread_attr_setdetachstate(pthread_attr_t *attr, int detachstate);
+int pthread_attr_setstackaddr(pthread_attr_t *attr, void *stackaddr);
+int pthread_attr_setstacksize(pthread_attr_t *attr, size_t stacksize);
+int pthread_attr_getschedparam(pthread_attr_t const *attr, struct sched_param *param);
+int pthread_attr_setschedparam(pthread_attr_t *attr, struct sched_param const *param);
+int pthread_attr_setschedpolicy(pthread_attr_t *, int);
+int pthread_attr_getschedpolicy(pthread_attr_t *, int *);
+int pthread_attr_setinheritsched(pthread_attr_t *attr, int inheritsched);
+int pthread_attr_getinheritsched(pthread_attr_t *attr, int *inheritsched);
+int pthread_attr_setscope(pthread_attr_t *, int);
+int pthread_attr_getscope(pthread_attr_t const *, int *);
+int pthread_create(pthread_t *tid, pthread_attr_t const *attr, void *(*start)(void *), void *arg);
+int pthread_detach(pthread_t tid);
+int pthread_equal(pthread_t t1, pthread_t t2);
+void pthread_exit(void *value_ptr);
+int pthread_join(pthread_t thread, void **value_ptr);
+pthread_t pthread_self();
+int pthread_cancel(pthread_t thread);
+int pthread_setcancelstate(int state, int *oldstate);
+int pthread_setcanceltype(int type, int *oldtype);
+void pthread_testcancel();
+int pthread_once(pthread_once_t *once_control, void (*init_routine)(void));
+ptw32_cleanup_t *ptw32_pop_cleanup(int execute);
+void ptw32_push_cleanup(ptw32_cleanup_t *cleanup, void (*routine)(void *), void *arg);
+int pthread_key_create(pthread_key_t *key, void (*destructor)(void *));
+int pthread_key_delete(pthread_key_t key);
+int pthread_setspecific(pthread_key_t key, void const *value);
+void *pthread_getspecific(pthread_key_t key);
+int pthread_mutexattr_init(pthread_mutexattr_t *attr);
+int pthread_mutexattr_destroy(pthread_mutexattr_t *attr);
+int pthread_mutexattr_getpshared(pthread_mutexattr_t const *attr, int *pshared);
+int pthread_mutexattr_setpshared(pthread_mutexattr_t *attr, int pshared);
+int pthread_mutexattr_settype(pthread_mutexattr_t *attr, int kind);
+int pthread_mutexattr_gettype(pthread_mutexattr_t *attr, int *kind);
+int pthread_barrierattr_init(pthread_barrierattr_t *attr);
+int pthread_barrierattr_destroy(pthread_barrierattr_t *attr);
+int pthread_barrierattr_getpshared(pthread_barrierattr_t const *attr, int *pshared);
+int pthread_barrierattr_setpshared(pthread_barrierattr_t *attr, int pshared);
+int pthread_mutex_init(pthread_mutex_t *mutex, pthread_mutexattr_t const *attr);
+int pthread_mutex_destroy(pthread_mutex_t *mutex);
+int pthread_mutex_lock(pthread_mutex_t *mutex);
+int pthread_mutex_timedlock(pthread_mutex_t *mutex, struct timespec const *abstime);
+int pthread_mutex_trylock(pthread_mutex_t *mutex);
+int pthread_mutex_unlock(pthread_mutex_t *mutex);
+int pthread_spin_init(pthread_spinlock_t *lock, int pshared);
+int pthread_spin_destroy(pthread_spinlock_t *lock);
+int pthread_spin_lock(pthread_spinlock_t *lock);
+int pthread_spin_trylock(pthread_spinlock_t *lock);
+int pthread_spin_unlock(pthread_spinlock_t *lock);
+int pthread_barrier_init(pthread_barrier_t *barrier, pthread_barrierattr_t const *attr, unsigned int count);
+int pthread_barrier_destroy(pthread_barrier_t *barrier);
+int pthread_barrier_wait(pthread_barrier_t *barrier);
+int pthread_condattr_init(pthread_condattr_t *attr);
+int pthread_condattr_destroy(pthread_condattr_t *attr);
+int pthread_condattr_getpshared(pthread_condattr_t const *attr, int *pshared);
+int pthread_condattr_setpshared(pthread_condattr_t *attr, int pshared);
+int pthread_cond_init(pthread_cond_t *cond, pthread_condattr_t const *attr);
+int pthread_cond_destroy(pthread_cond_t *cond);
+int pthread_cond_wait(pthread_cond_t *cond, pthread_mutex_t *mutex);
+int pthread_cond_timedwait(pthread_cond_t *cond, pthread_mutex_t *mutex, struct timespec const *abstime);
+int pthread_cond_signal(pthread_cond_t *cond);
+int pthread_cond_broadcast(pthread_cond_t *cond);
+int pthread_setschedparam(pthread_t thread, int policy, struct sched_param const *param);
+int pthread_getschedparam(pthread_t thread, int *policy, struct sched_param *param);
+int pthread_setconcurrency(int);
+int pthread_getconcurrency();
+int pthread_rwlock_init(pthread_rwlock_t *lock, pthread_rwlockattr_t const *attr);
+int pthread_rwlock_destroy(pthread_rwlock_t *lock);
+int pthread_rwlock_tryrdlock(pthread_rwlock_t *);
+int pthread_rwlock_trywrlock(pthread_rwlock_t *);
+int pthread_rwlock_rdlock(pthread_rwlock_t *lock);
+int pthread_rwlock_timedrdlock(pthread_rwlock_t *lock, struct timespec const *abstime);
+int pthread_rwlock_wrlock(pthread_rwlock_t *lock);
+int pthread_rwlock_timedwrlock(pthread_rwlock_t *lock, struct timespec const *abstime);
+int pthread_rwlock_unlock(pthread_rwlock_t *lock);
+int pthread_rwlockattr_init(pthread_rwlockattr_t *attr);
+int pthread_rwlockattr_destroy(pthread_rwlockattr_t *attr);
+int pthread_rwlockattr_getpshared(pthread_rwlockattr_t const *attr, int *pshared);
+int pthread_rwlockattr_setpshared(pthread_rwlockattr_t *attr, int pshared);
+int pthread_kill(pthread_t thread, int sig);
+int pthread_mutexattr_setkind_np(pthread_mutexattr_t *attr, int kind);
+int pthread_mutexattr_getkind_np(pthread_mutexattr_t *attr, int *kind);
+int pthread_delay_np(struct timespec *interval);
+int pthread_num_processors_np();
+int pthread_win32_process_attach_np();
+int pthread_win32_process_detach_np();
+int pthread_win32_thread_attach_np();
+int pthread_win32_thread_detach_np();
+int pthread_win32_test_features_np(int);
+enum ptw32_features {
+    PTW32_SYSTEM_INTERLOCKED_COMPARE_EXCHANGE = 1,
+    PTW32_ALERTABLE_ASYNC_CANCEL = 2
+};
+void *pthread_timechange_handler_np(void *);
+void *pthread_getw32threadhandle_np(pthread_t thread);
+int pthreadCancelableWait(void *waitHandle);
+int pthreadCancelableTimedWait(void *waitHandle, unsigned long timeout);
+unsigned long ptw32_get_exception_services_code();
+extern int _argc;
+extern char **_argv;
+extern int *__p___argc();
+extern char ***__p___argv();
+extern wchar_t ***__p___wargv();
+extern int __mb_cur_max;
+int *_errno();
+int *__doserrno();
+extern char ***__p__environ();
+extern wchar_t ***__p__wenviron();
+extern int _sys_nerr;
+extern char *_sys_errlist[];
+extern unsigned int *__p__osver();
+extern unsigned int *__p__winver();
+extern unsigned int *__p__winmajor();
+extern unsigned int *__p__winminor();
+extern unsigned int _osver;
+extern unsigned int _winver;
+extern unsigned int _winmajor;
+extern unsigned int _winminor;
+char **__p__pgmptr();
+wchar_t **__p__wpgmptr();
+extern int _fmode;
+double atof(char const *);
+int atoi(char const *);
+long atol(char const *);
+double _wtof(wchar_t const *);
+int _wtoi(wchar_t const *);
+long _wtol(wchar_t const *);
+double __strtod(char const *, char **);
+static inline double strtod(char const *restrict __nptr, char **restrict __endptr) {
+    return __strtod(__nptr, __endptr);
+}
+
+
+float strtof(char const *restrict, char **restrict);
+long double strtold(char const *restrict, char **restrict);
+long strtol(char const *, char **, int);
+unsigned long strtoul(char const *, char **, int);
+long wcstol(wchar_t const *, wchar_t **, int);
+unsigned long wcstoul(wchar_t const *, wchar_t **, int);
+double wcstod(wchar_t const *, wchar_t **);
+float wcstof(wchar_t const *restrict, wchar_t **restrict);
+long double wcstold(wchar_t const *restrict, wchar_t **restrict);
+wchar_t *_wgetenv(wchar_t const *);
+int _wputenv(wchar_t const *);
+void _wsearchenv(wchar_t const *, wchar_t const *, wchar_t *);
+int _wsystem(wchar_t const *);
+void _wmakepath(wchar_t *, wchar_t const *, wchar_t const *, wchar_t const *, wchar_t const *);
+void _wsplitpath(wchar_t const *, wchar_t *, wchar_t *, wchar_t *, wchar_t *);
+wchar_t *_wfullpath(wchar_t *, wchar_t const *, size_t);
+size_t wcstombs(char *, wchar_t const *, size_t);
+int wctomb(char *, wchar_t);
+int mblen(char const *, size_t);
+size_t mbstowcs(wchar_t *, char const *, size_t);
+int mbtowc(wchar_t *, char const *, size_t);
+int rand();
+void srand(unsigned int);
+void *calloc(size_t, size_t);
+void *malloc(size_t);
+void *realloc(void *, size_t);
+void free(void *);
+void abort() __attribute((noreturn));
+void exit(int) __attribute((noreturn));
+int atexit(void (*)(void));
+int system(char const *);
+char *getenv(char const *);
+void *bsearch(void const *, void const *, size_t, size_t, int (*)(void const *, void const *));
+void qsort(void *, size_t, size_t, int (*)(void const *, void const *));
+int abs(int);
+long labs(long);
+struct {
+    int quot;
+    int rem;
+} typedef div_t;
+struct {
+    long quot;
+    long rem;
+} typedef ldiv_t;
+div_t div(int, int);
+ldiv_t ldiv(long, long);
+void _beep(unsigned int, unsigned int);
+void _seterrormode(int);
+void _sleep(unsigned long);
+void _exit(int) __attribute((noreturn));
+typedef int (*_onexit_t)(void);
+_onexit_t _onexit(_onexit_t);
+int _putenv(char const *);
+void _searchenv(char const *, char const *, char *);
+char *_ecvt(double, int, int *, int *);
+char *_fcvt(double, int, int *, int *);
+char *_gcvt(double, int, char *);
+void _makepath(char *, char const *, char const *, char const *, char const *);
+void _splitpath(char const *, char *, char *, char *, char *);
+char *_fullpath(char *, char const *, size_t);
+char *_itoa(int, char *, int);
+char *_ltoa(long, char *, int);
+char *_ultoa(unsigned long, char *, int);
+wchar_t *_itow(int, wchar_t *, int);
+wchar_t *_ltow(long, wchar_t *, int);
+wchar_t *_ultow(unsigned long, wchar_t *, int);
+long long _atoi64(char const *);
+char *_i64toa(long long, char *, int);
+char *_ui64toa(unsigned long long, char *, int);
+long long _wtoi64(wchar_t const *);
+wchar_t *_i64tow(long long, wchar_t *, int);
+wchar_t *_ui64tow(unsigned long long, wchar_t *, int);
+unsigned int _rotl(unsigned int, int);
+unsigned int _rotr(unsigned int, int);
+unsigned long _lrotl(unsigned long, int);
+unsigned long _lrotr(unsigned long, int);
+int _set_error_mode(int);
+int putenv(char const *);
+void searchenv(char const *, char const *, char *);
+char *itoa(int, char *, int);
+char *ltoa(long, char *, int);
+char *ecvt(double, int, int *, int *);
+char *fcvt(double, int, int *, int *);
+char *gcvt(double, int, char *);
+void _Exit(int) __attribute((noreturn));
+struct {
+    long long quot;
+    long long rem;
+} typedef lldiv_t;
+lldiv_t lldiv(long long, long long);
+long long llabs(long long);
+long long strtoll(char const *restrict, char **restrict, int);
+unsigned long long strtoull(char const *restrict, char **restrict, int);
+long long atoll(char const *);
+long long wtoll(wchar_t const *);
+char *lltoa(long long, char *, int);
+char *ulltoa(unsigned long long, char *, int);
+wchar_t *lltow(long long, wchar_t *, int);
+wchar_t *ulltow(unsigned long long, wchar_t *, int);
+struct {
+    int tid;
+    int T;
+    int n;
+    float *x;
+    float *y;
+    float *z;
+} typedef Thread_Arg_Struct;
+void *entry_point(void *arg) {
+    Thread_Arg_Struct *str = (Thread_Arg_Struct *)arg;
+    int chunksize = str->n / str->T;
+    int extra = str->n % str->T;
+    int start = str->tid * chunksize;
+    int end = start + chunksize;
+    int i;
+    if (str->tid == str->T - 1) {
+        end += extra;
+    }
+    for (i = start; i < end; i++) {
+        str->z[i] = str->x[i] + str->y[i];
+        printf("Put %d \n", i);
+    }
+    return (((void *)0));
+}
+
+
+int main(int argc, char **argv) {
+    int THREADS = 2;
+    int n = 100;
+    pthread_t thr[THREADS];
+    pthread_barrier_t barr;
+    int i;
+    if (pthread_barrier_init(&barr, ((void *)0), THREADS)) {
+        printf("Could not create a barrier\n");
+        return -1;
+    }
+    float *x = calloc(n, sizeof(int));
+    float *y = calloc(n, sizeof(int));
+    float *z = calloc(n, sizeof(int));
+    for (i = 0; i < n; ++i) {
+        x[i] = 1;
+        y[i] = 2;
+    }
+    Thread_Arg_Struct store[THREADS];
+    for (i = 0; i < THREADS; ++i) {
+        (store)[i].tid = i;
+        (store)[i].T = THREADS;
+        (store)[i].n = n;
+        (store)[i].x = x;
+        (store)[i].y = y;
+        (store)[i].z = z;
+        if (pthread_create(&thr[i], ((void *)0), &entry_point, &(store[i]))) {
+            printf("Could not create thread %d\n", i);
+            return -1;
+        }
+    }
+    for (i = 0; i < THREADS; ++i) {
+        if (pthread_join(thr[i], ((void *)0))) {
+            printf("Could not join thread %d\n", i);
+            return -1;
+        }
+    }
+    for (i = 0; i < n; ++i) {
+        printf("Z[%d] = %f\n", i, z[i]);
+    }
+    free(x);
+    free(y);
+    free(z);
+    return 0;
+}
+
+

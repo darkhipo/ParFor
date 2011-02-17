@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMARMAsmPrinter.a  CMakeFiles/LLVMARMAsmPrinter.dir/ARMInstPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMARMAsmPrinter.a

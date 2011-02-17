@@ -1,0 +1,43 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/clangCodeGen.dir/BackendUtil.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGBlocks.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGBuiltin.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGCall.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGClass.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGCXX.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGDebugInfo.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGDecl.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGDeclCXX.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGException.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGExpr.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGExprAgg.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGExprComplex.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGExprConstant.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGExprCXX.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGExprScalar.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGObjC.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGObjCGNU.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGObjCMac.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGRecordLayoutBuilder.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGRTTI.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGStmt.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGTemporaries.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGVTables.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CGVTT.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CodeGenAction.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CodeGenFunction.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CodeGenModule.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/CodeGenTypes.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/ItaniumCXXABI.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/Mangle.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/MicrosoftCXXABI.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/ModuleBuilder.cpp.obj"
+  "CMakeFiles/clangCodeGen.dir/TargetInfo.cpp.obj"
+  "../../../../lib/libclangCodeGen.pdb"
+  "../../../../lib/libclangCodeGen.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/clangCodeGen.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

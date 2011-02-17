@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMMCDisassembler.a  CMakeFiles/LLVMMCDisassembler.dir/EDDisassembler.cpp.obj CMakeFiles/LLVMMCDisassembler.dir/EDOperand.cpp.obj CMakeFiles/LLVMMCDisassembler.dir/EDInst.cpp.obj CMakeFiles/LLVMMCDisassembler.dir/EDToken.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMMCDisassembler.a

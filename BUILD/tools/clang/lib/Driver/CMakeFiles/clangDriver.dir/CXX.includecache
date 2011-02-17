@@ -1,0 +1,724 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/IntrusiveRefCntPtr.h
+cassert
+-
+llvm/Support/Casting.h
+../include/llvm/ADT/llvm/Support/Casting.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/StringSet.h
+llvm/ADT/StringMap.h
+../include/llvm/ADT/llvm/ADT/StringMap.h
+
+../include/llvm/ADT/StringSwitch.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/Format.h
+cassert
+-
+cstdio
+-
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PrettyStackTrace.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Host.h
+llvm/ADT/StringMap.h
+../include/llvm/System/llvm/ADT/StringMap.h
+string
+-
+
+../include/llvm/System/Path.h
+llvm/ADT/StringRef.h
+../include/llvm/System/llvm/ADT/StringRef.h
+llvm/System/TimeValue.h
+../include/llvm/System/llvm/System/TimeValue.h
+set
+-
+string
+-
+vector
+-
+
+../include/llvm/System/Process.h
+llvm/System/TimeValue.h
+../include/llvm/System/llvm/System/TimeValue.h
+
+../include/llvm/System/Program.h
+llvm/System/Path.h
+../include/llvm/System/llvm/System/Path.h
+
+../include/llvm/System/TimeValue.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+../tools/clang/include/clang/Basic/Diagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/ADT/IntrusiveRefCntPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/IntrusiveRefCntPtr.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/Basic/llvm/Support/type_traits.h
+string
+-
+vector
+-
+cassert
+-
+clang/Basic/DiagnosticCommonKinds.inc
+../tools/clang/include/clang/Basic/clang/Basic/DiagnosticCommonKinds.inc
+
+../tools/clang/include/clang/Basic/SourceLocation.h
+utility
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/Version.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+clang/Basic/Version.inc
+../tools/clang/include/clang/Basic/clang/Basic/Version.inc
+
+../tools/clang/include/clang/Driver/Action.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Driver/llvm/ADT/SmallVector.h
+clang/Driver/Types.h
+../tools/clang/include/clang/Driver/clang/Driver/Types.h
+clang/Driver/Util.h
+../tools/clang/include/clang/Driver/clang/Driver/Util.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/Driver/llvm/Support/Casting.h
+
+../tools/clang/include/clang/Driver/Arg.h
+Util.h
+../tools/clang/include/clang/Driver/Util.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Driver/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Driver/llvm/ADT/StringRef.h
+vector
+-
+string
+-
+
+../tools/clang/include/clang/Driver/ArgList.h
+clang/Driver/OptSpecifier.h
+../tools/clang/include/clang/Driver/clang/Driver/OptSpecifier.h
+clang/Driver/Util.h
+../tools/clang/include/clang/Driver/clang/Driver/Util.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Driver/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Driver/llvm/ADT/StringRef.h
+list
+-
+string
+-
+vector
+-
+
+../tools/clang/include/clang/Driver/CC1AsOptions.h
+clang/Driver/CC1AsOptions.inc
+../tools/clang/include/clang/Driver/clang/Driver/CC1AsOptions.inc
+
+../tools/clang/include/clang/Driver/CC1Options.h
+clang/Driver/CC1Options.inc
+../tools/clang/include/clang/Driver/clang/Driver/CC1Options.inc
+
+../tools/clang/include/clang/Driver/Compilation.h
+clang/Driver/Job.h
+../tools/clang/include/clang/Driver/clang/Driver/Job.h
+clang/Driver/Util.h
+../tools/clang/include/clang/Driver/clang/Driver/Util.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Driver/llvm/ADT/DenseMap.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Driver/llvm/ADT/SmallVector.h
+
+../tools/clang/include/clang/Driver/Driver.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Driver/clang/Basic/Diagnostic.h
+clang/Driver/Phases.h
+../tools/clang/include/clang/Driver/clang/Driver/Phases.h
+clang/Driver/Util.h
+../tools/clang/include/clang/Driver/clang/Driver/Util.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Driver/llvm/ADT/StringRef.h
+llvm/ADT/Triple.h
+../tools/clang/include/clang/Driver/llvm/ADT/Triple.h
+llvm/System/Path.h
+../tools/clang/include/clang/Driver/llvm/System/Path.h
+list
+-
+set
+-
+string
+-
+
+../tools/clang/include/clang/Driver/DriverDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Driver/clang/Basic/Diagnostic.h
+clang/Basic/DiagnosticDriverKinds.inc
+../tools/clang/include/clang/Driver/clang/Basic/DiagnosticDriverKinds.inc
+
+../tools/clang/include/clang/Driver/HostInfo.h
+llvm/ADT/Triple.h
+../tools/clang/include/clang/Driver/llvm/ADT/Triple.h
+string
+-
+
+../tools/clang/include/clang/Driver/Job.h
+clang/Driver/Util.h
+../tools/clang/include/clang/Driver/clang/Driver/Util.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Driver/llvm/ADT/SmallVector.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/Driver/llvm/Support/Casting.h
+
+../tools/clang/include/clang/Driver/OptSpecifier.h
+
+../tools/clang/include/clang/Driver/OptTable.h
+clang/Driver/OptSpecifier.h
+../tools/clang/include/clang/Driver/clang/Driver/OptSpecifier.h
+cassert
+-
+
+../tools/clang/include/clang/Driver/Option.h
+clang/Driver/OptSpecifier.h
+../tools/clang/include/clang/Driver/clang/Driver/OptSpecifier.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/Driver/llvm/Support/Casting.h
+
+../tools/clang/include/clang/Driver/Options.h
+clang/Driver/Options.inc
+../tools/clang/include/clang/Driver/clang/Driver/Options.inc
+
+../tools/clang/include/clang/Driver/Phases.h
+
+../tools/clang/include/clang/Driver/Tool.h
+
+../tools/clang/include/clang/Driver/ToolChain.h
+clang/Driver/Types.h
+../tools/clang/include/clang/Driver/clang/Driver/Types.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Driver/llvm/ADT/SmallVector.h
+llvm/ADT/Triple.h
+../tools/clang/include/clang/Driver/llvm/ADT/Triple.h
+llvm/System/Path.h
+../tools/clang/include/clang/Driver/llvm/System/Path.h
+string
+-
+
+../tools/clang/include/clang/Driver/Types.def
+
+../tools/clang/include/clang/Driver/Types.h
+clang/Driver/Phases.h
+../tools/clang/include/clang/Driver/clang/Driver/Phases.h
+clang/Driver/Types.def
+../tools/clang/include/clang/Driver/clang/Driver/Types.def
+
+../tools/clang/include/clang/Driver/Util.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ArgList.cpp
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Arg.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Arg.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/SmallString.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/Twine.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/CC1AsOptions.cpp
+clang/Driver/CC1AsOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/CC1AsOptions.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/OptTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/OptTable.h
+clang/Driver/CC1AsOptions.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/CC1AsOptions.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/CC1Options.cpp
+clang/Driver/CC1Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/CC1Options.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/OptTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/OptTable.h
+clang/Driver/CC1Options.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/CC1Options.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/Compilation.cpp
+clang/Driver/Compilation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Compilation.h
+clang/Driver/Action.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Action.h
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Driver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Driver.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+clang/Driver/ToolChain.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ToolChain.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/raw_ostream.h
+llvm/System/Program.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/System/Program.h
+sys/stat.h
+-
+errno.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/Driver.cpp
+clang/Driver/Driver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Driver.h
+clang/Driver/Action.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Action.h
+clang/Driver/Arg.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Arg.h
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Compilation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Compilation.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/HostInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/HostInfo.h
+clang/Driver/Job.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Job.h
+clang/Driver/OptTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/OptTable.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+clang/Driver/Tool.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Tool.h
+clang/Driver/ToolChain.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ToolChain.h
+clang/Driver/Types.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Types.h
+clang/Basic/Version.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Basic/Version.h
+llvm/Config/config.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Config/config.h
+llvm/ADT/StringSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/StringSet.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/OwningPtr.h
+llvm/Support/PrettyStackTrace.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/PrettyStackTrace.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/raw_ostream.h
+llvm/System/Path.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/System/Path.h
+llvm/System/Program.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/System/Program.h
+InputInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/InputInfo.h
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/DriverOptions.cpp
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+clang/Driver/OptTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/OptTable.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/Options.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/HostInfo.cpp
+clang/Driver/HostInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/HostInfo.h
+clang/Driver/Arg.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Arg.h
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Driver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Driver.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/StringMap.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/Compiler.h
+ToolChains.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ToolChains.h
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/InputInfo.h
+clang/Driver/Types.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Types.h
+cassert
+-
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ToolChain.cpp
+clang/Driver/ToolChain.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ToolChain.h
+clang/Driver/Action.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Action.h
+clang/Driver/Arg.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Arg.h
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Driver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Driver.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/HostInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/HostInfo.h
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ToolChains.cpp
+ToolChains.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ToolChains.h
+clang/Driver/Arg.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Arg.h
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Compilation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Compilation.h
+clang/Driver/Driver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Driver.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/HostInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/HostInfo.h
+clang/Driver/OptTable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/OptTable.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+clang/Basic/Version.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Basic/Version.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/SmallString.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/StringExtras.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/raw_ostream.h
+llvm/System/Path.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/System/Path.h
+cstdlib
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ToolChains.h
+clang/Driver/Action.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Action.h
+clang/Driver/ToolChain.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ToolChain.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/DenseMap.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/Compiler.h
+Tools.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/Tools.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/Tools.cpp
+Tools.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/Tools.h
+clang/Driver/Action.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Action.h
+clang/Driver/Arg.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Arg.h
+clang/Driver/ArgList.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ArgList.h
+clang/Driver/Driver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Driver.h
+clang/Driver/DriverDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/DriverDiagnostic.h
+clang/Driver/Compilation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Compilation.h
+clang/Driver/Job.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Job.h
+clang/Driver/HostInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/HostInfo.h
+clang/Driver/Option.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Option.h
+clang/Driver/Options.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Options.h
+clang/Driver/ToolChain.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/ToolChain.h
+clang/Driver/Util.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Util.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/SmallString.h
+llvm/ADT/StringSwitch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/StringSwitch.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/ADT/Twine.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/Format.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/raw_ostream.h
+llvm/System/Host.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/System/Host.h
+llvm/System/Process.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/System/Process.h
+InputInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/InputInfo.h
+ToolChains.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/ToolChains.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/Tools.h
+clang/Driver/Tool.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Tool.h
+clang/Driver/Types.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Types.h
+clang/Driver/Util.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/clang/Driver/Util.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Driver/llvm/Support/Compiler.h
+
+include/llvm/Config/config.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+tools/clang/include/clang/Basic/DiagnosticCommonKinds.inc
+
+tools/clang/include/clang/Basic/DiagnosticDriverKinds.inc
+
+tools/clang/include/clang/Basic/Version.inc
+
+tools/clang/include/clang/Driver/CC1AsOptions.inc
+
+tools/clang/include/clang/Driver/CC1Options.inc
+
+tools/clang/include/clang/Driver/Options.inc
+

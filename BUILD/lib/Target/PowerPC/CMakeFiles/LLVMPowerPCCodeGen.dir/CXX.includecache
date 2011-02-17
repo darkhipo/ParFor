@@ -1,0 +1,1462 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/BitVector.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+algorithm
+-
+cassert
+-
+climits
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DenseSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+
+../include/llvm/ADT/FoldingSet.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/GraphTraits.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/PointerIntPair.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+cassert
+-
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallPtrSet.h
+cassert
+-
+cstring
+-
+iterator
+-
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+
+../include/llvm/ADT/SmallSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+set
+-
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/Statistic.h
+llvm/System/Atomic.h
+../include/llvm/ADT/llvm/System/Atomic.h
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/ADT/VectorExtras.h
+cstdarg
+-
+vector
+-
+
+../include/llvm/ADT/ilist.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../include/llvm/ADT/ilist_node.h
+
+../include/llvm/AbstractTypeUser.h
+cassert
+-
+
+../include/llvm/Argument.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/Attributes.h
+llvm/Support/MathExtras.h
+../include/llvm/llvm/Support/MathExtras.h
+cassert
+-
+string
+-
+
+../include/llvm/BasicBlock.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/SymbolTableListTraits.h
+../include/llvm/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+
+../include/llvm/CallingConv.h
+
+../include/llvm/CodeGen/CallingConvLower.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/CodeGen/llvm/CodeGen/ValueTypes.h
+llvm/Target/TargetCallingConv.h
+../include/llvm/CodeGen/llvm/Target/TargetCallingConv.h
+llvm/CallingConv.h
+../include/llvm/CodeGen/llvm/CallingConv.h
+
+../include/llvm/CodeGen/ISDOpcodes.h
+
+../include/llvm/CodeGen/JITCodeEmitter.h
+string
+-
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+llvm/CodeGen/MachineCodeEmitter.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineCodeEmitter.h
+llvm/ADT/DenseMap.h
+../include/llvm/CodeGen/llvm/ADT/DenseMap.h
+
+../include/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/MachineInstr.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineInstr.h
+llvm/ADT/GraphTraits.h
+../include/llvm/CodeGen/llvm/ADT/GraphTraits.h
+
+../include/llvm/CodeGen/MachineCodeEmitter.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+
+../include/llvm/CodeGen/MachineFrameInfo.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+cassert
+-
+vector
+-
+
+../include/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineBasicBlock.h
+llvm/ADT/ilist.h
+../include/llvm/CodeGen/llvm/ADT/ilist.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+llvm/Support/Allocator.h
+../include/llvm/CodeGen/llvm/Support/Allocator.h
+llvm/Support/Recycler.h
+../include/llvm/CodeGen/llvm/Support/Recycler.h
+
+../include/llvm/CodeGen/MachineFunctionAnalysis.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+llvm/Target/TargetMachine.h
+../include/llvm/CodeGen/llvm/Target/TargetMachine.h
+
+../include/llvm/CodeGen/MachineFunctionPass.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+
+../include/llvm/CodeGen/MachineInstr.h
+llvm/CodeGen/MachineOperand.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineOperand.h
+llvm/Target/TargetInstrDesc.h
+../include/llvm/CodeGen/llvm/Target/TargetInstrDesc.h
+llvm/Target/TargetOpcodes.h
+../include/llvm/CodeGen/llvm/Target/TargetOpcodes.h
+llvm/ADT/ilist.h
+../include/llvm/CodeGen/llvm/ADT/ilist.h
+llvm/ADT/ilist_node.h
+../include/llvm/CodeGen/llvm/ADT/ilist_node.h
+llvm/ADT/STLExtras.h
+../include/llvm/CodeGen/llvm/ADT/STLExtras.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/CodeGen/llvm/ADT/DenseMapInfo.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+vector
+-
+
+../include/llvm/CodeGen/MachineInstrBuilder.h
+llvm/CodeGen/MachineFunction.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineFunction.h
+
+../include/llvm/CodeGen/MachineLocation.h
+
+../include/llvm/CodeGen/MachineMemOperand.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+
+../include/llvm/CodeGen/MachineModuleInfo.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+llvm/GlobalValue.h
+../include/llvm/CodeGen/llvm/GlobalValue.h
+llvm/Metadata.h
+../include/llvm/CodeGen/llvm/Metadata.h
+llvm/CodeGen/MachineLocation.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineLocation.h
+llvm/MC/MCContext.h
+../include/llvm/CodeGen/llvm/MC/MCContext.h
+llvm/Support/Dwarf.h
+../include/llvm/CodeGen/llvm/Support/Dwarf.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+llvm/Support/ValueHandle.h
+../include/llvm/CodeGen/llvm/Support/ValueHandle.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/ADT/DenseMap.h
+../include/llvm/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/CodeGen/llvm/ADT/PointerIntPair.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/CodeGen/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+
+../include/llvm/CodeGen/MachineOperand.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+cassert
+-
+
+../include/llvm/CodeGen/MachineRegisterInfo.h
+llvm/Target/TargetRegisterInfo.h
+../include/llvm/CodeGen/llvm/Target/TargetRegisterInfo.h
+llvm/ADT/BitVector.h
+../include/llvm/CodeGen/llvm/ADT/BitVector.h
+vector
+-
+
+../include/llvm/CodeGen/MachineRelocation.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+cassert
+-
+
+../include/llvm/CodeGen/PseudoSourceValue.h
+llvm/Value.h
+../include/llvm/CodeGen/llvm/Value.h
+
+../include/llvm/CodeGen/RegisterScavenging.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineBasicBlock.h
+llvm/ADT/BitVector.h
+../include/llvm/CodeGen/llvm/ADT/BitVector.h
+
+../include/llvm/CodeGen/RuntimeLibcalls.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/CodeGen/llvm/CodeGen/ValueTypes.h
+
+../include/llvm/CodeGen/ScheduleDAG.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineBasicBlock.h
+llvm/Target/TargetMachine.h
+../include/llvm/CodeGen/llvm/Target/TargetMachine.h
+llvm/ADT/DenseMap.h
+../include/llvm/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/BitVector.h
+../include/llvm/CodeGen/llvm/ADT/BitVector.h
+llvm/ADT/GraphTraits.h
+../include/llvm/CodeGen/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/CodeGen/llvm/ADT/PointerIntPair.h
+
+../include/llvm/CodeGen/ScheduleHazardRecognizer.h
+
+../include/llvm/CodeGen/SelectionDAG.h
+llvm/ADT/ilist.h
+../include/llvm/CodeGen/llvm/ADT/ilist.h
+llvm/ADT/DenseSet.h
+../include/llvm/CodeGen/llvm/ADT/DenseSet.h
+llvm/ADT/StringMap.h
+../include/llvm/CodeGen/llvm/ADT/StringMap.h
+llvm/CodeGen/SelectionDAGNodes.h
+../include/llvm/CodeGen/llvm/CodeGen/SelectionDAGNodes.h
+llvm/Support/RecyclingAllocator.h
+../include/llvm/CodeGen/llvm/Support/RecyclingAllocator.h
+llvm/Target/TargetMachine.h
+../include/llvm/CodeGen/llvm/Target/TargetMachine.h
+cassert
+-
+vector
+-
+map
+-
+string
+-
+
+../include/llvm/CodeGen/SelectionDAGISel.h
+llvm/BasicBlock.h
+../include/llvm/CodeGen/llvm/BasicBlock.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+llvm/CodeGen/SelectionDAG.h
+../include/llvm/CodeGen/llvm/CodeGen/SelectionDAG.h
+llvm/CodeGen/MachineFunctionPass.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineFunctionPass.h
+
+../include/llvm/CodeGen/SelectionDAGNodes.h
+llvm/Constants.h
+../include/llvm/CodeGen/llvm/Constants.h
+llvm/ADT/FoldingSet.h
+../include/llvm/CodeGen/llvm/ADT/FoldingSet.h
+llvm/ADT/GraphTraits.h
+../include/llvm/CodeGen/llvm/ADT/GraphTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/CodeGen/llvm/ADT/ilist_node.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+../include/llvm/CodeGen/llvm/ADT/STLExtras.h
+llvm/CodeGen/ISDOpcodes.h
+../include/llvm/CodeGen/llvm/CodeGen/ISDOpcodes.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/CodeGen/llvm/CodeGen/ValueTypes.h
+llvm/CodeGen/MachineMemOperand.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineMemOperand.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+cassert
+-
+
+../include/llvm/CodeGen/TargetLoweringObjectFileImpl.h
+llvm/ADT/StringRef.h
+../include/llvm/CodeGen/llvm/ADT/StringRef.h
+llvm/MC/SectionKind.h
+../include/llvm/CodeGen/llvm/MC/SectionKind.h
+llvm/Target/TargetLoweringObjectFile.h
+../include/llvm/CodeGen/llvm/Target/TargetLoweringObjectFile.h
+
+../include/llvm/CodeGen/ValueTypes.h
+cassert
+-
+string
+-
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+
+../include/llvm/Constant.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Constants.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/APInt.h
+../include/llvm/llvm/ADT/APInt.h
+llvm/ADT/APFloat.h
+../include/llvm/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+vector
+-
+
+../include/llvm/DerivedTypes.h
+llvm/Type.h
+../include/llvm/llvm/Type.h
+
+../include/llvm/Function.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/BasicBlock.h
+../include/llvm/llvm/BasicBlock.h
+llvm/Argument.h
+../include/llvm/llvm/Argument.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/Support/Compiler.h
+../include/llvm/llvm/Support/Compiler.h
+
+../include/llvm/GlobalAlias.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/GlobalValue.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+
+../include/llvm/GlobalVariable.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/InlineAsm.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+vector
+-
+
+../include/llvm/Instruction.def
+
+../include/llvm/Instruction.h
+llvm/User.h
+../include/llvm/llvm/User.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/Support/DebugLoc.h
+../include/llvm/llvm/Support/DebugLoc.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Intrinsics.h
+string
+-
+llvm/Intrinsics.gen
+../include/llvm/llvm/Intrinsics.gen
+
+../include/llvm/MC/MCAsmInfo.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+cassert
+-
+
+../include/llvm/MC/MCAsmInfoDarwin.h
+llvm/MC/MCAsmInfo.h
+../include/llvm/MC/llvm/MC/MCAsmInfo.h
+
+../include/llvm/MC/MCContext.h
+llvm/MC/SectionKind.h
+../include/llvm/MC/llvm/MC/SectionKind.h
+llvm/MC/MCDwarf.h
+../include/llvm/MC/llvm/MC/MCDwarf.h
+llvm/ADT/DenseMap.h
+../include/llvm/MC/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+../include/llvm/MC/llvm/ADT/StringMap.h
+llvm/Support/Allocator.h
+../include/llvm/MC/llvm/Support/Allocator.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+vector
+-
+
+../include/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/MCDwarf.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/MC/SectionKind.h
+
+../include/llvm/Metadata.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/ADT/FoldingSet.h
+../include/llvm/llvm/ADT/FoldingSet.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+
+../include/llvm/Module.h
+llvm/Function.h
+../include/llvm/llvm/Function.h
+llvm/GlobalVariable.h
+../include/llvm/llvm/GlobalVariable.h
+llvm/GlobalAlias.h
+../include/llvm/llvm/GlobalAlias.h
+llvm/Metadata.h
+../include/llvm/llvm/Metadata.h
+llvm/ADT/OwningPtr.h
+../include/llvm/llvm/ADT/OwningPtr.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+vector
+-
+
+../include/llvm/OperandTraits.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Pass.h
+string
+-
+llvm/PassSupport.h
+../include/llvm/llvm/PassSupport.h
+llvm/PassAnalysisSupport.h
+../include/llvm/llvm/PassAnalysisSupport.h
+
+../include/llvm/PassAnalysisSupport.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/PassManager.h
+llvm/Pass.h
+../include/llvm/llvm/Pass.h
+
+../include/llvm/PassRegistry.h
+llvm/ADT/StringMap.h
+../include/llvm/llvm/ADT/StringMap.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/System/Mutex.h
+../include/llvm/llvm/System/Mutex.h
+map
+-
+set
+-
+vector
+-
+
+../include/llvm/PassSupport.h
+Pass.h
+../include/llvm/Pass.h
+llvm/PassRegistry.h
+../include/llvm/llvm/PassRegistry.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/CommandLine.h
+llvm/Support/type_traits.h
+../include/llvm/Support/llvm/Support/type_traits.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+llvm/ADT/SmallVector.h
+../include/llvm/Support/llvm/ADT/SmallVector.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+cassert
+-
+climits
+-
+cstdarg
+-
+utility
+-
+vector
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/DebugLoc.h
+
+../include/llvm/Support/Dwarf.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/FormattedStream.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/llvm/Support/raw_ostream.h
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/Recycler.h
+llvm/ADT/ilist.h
+../include/llvm/Support/llvm/ADT/ilist.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+cassert
+-
+
+../include/llvm/Support/RecyclingAllocator.h
+llvm/Support/Recycler.h
+../include/llvm/Support/llvm/Support/Recycler.h
+
+../include/llvm/Support/ValueHandle.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/Support/llvm/ADT/DenseMapInfo.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Support/llvm/ADT/PointerIntPair.h
+llvm/Value.h
+../include/llvm/Support/llvm/Value.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Atomic.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+
+../include/llvm/System/Memory.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+../include/llvm/System/Mutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Threading.h
+
+../include/llvm/Target/SubtargetFeature.h
+string
+-
+vector
+-
+cstring
+-
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetCallingConv.h
+
+../include/llvm/Target/TargetData.h
+llvm/Pass.h
+../include/llvm/Target/llvm/Pass.h
+llvm/ADT/SmallVector.h
+../include/llvm/Target/llvm/ADT/SmallVector.h
+
+../include/llvm/Target/TargetFrameInfo.h
+utility
+-
+
+../include/llvm/Target/TargetInstrDesc.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetInstrInfo.h
+llvm/Target/TargetInstrDesc.h
+../include/llvm/Target/llvm/Target/TargetInstrDesc.h
+llvm/CodeGen/MachineFunction.h
+../include/llvm/Target/llvm/CodeGen/MachineFunction.h
+
+../include/llvm/Target/TargetInstrItineraries.h
+algorithm
+-
+
+../include/llvm/Target/TargetJITInfo.h
+cassert
+-
+llvm/Support/ErrorHandling.h
+../include/llvm/Target/llvm/Support/ErrorHandling.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetLowering.h
+llvm/CallingConv.h
+../include/llvm/Target/llvm/CallingConv.h
+llvm/InlineAsm.h
+../include/llvm/Target/llvm/InlineAsm.h
+llvm/Attributes.h
+../include/llvm/Target/llvm/Attributes.h
+llvm/CodeGen/SelectionDAGNodes.h
+../include/llvm/Target/llvm/CodeGen/SelectionDAGNodes.h
+llvm/CodeGen/RuntimeLibcalls.h
+../include/llvm/Target/llvm/CodeGen/RuntimeLibcalls.h
+llvm/ADT/APFloat.h
+../include/llvm/Target/llvm/ADT/APFloat.h
+llvm/ADT/DenseMap.h
+../include/llvm/Target/llvm/ADT/DenseMap.h
+llvm/ADT/SmallSet.h
+../include/llvm/Target/llvm/ADT/SmallSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/Target/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+../include/llvm/Target/llvm/ADT/STLExtras.h
+llvm/Support/DebugLoc.h
+../include/llvm/Target/llvm/Support/DebugLoc.h
+llvm/Target/TargetCallingConv.h
+../include/llvm/Target/llvm/Target/TargetCallingConv.h
+llvm/Target/TargetMachine.h
+../include/llvm/Target/llvm/Target/TargetMachine.h
+climits
+-
+map
+-
+vector
+-
+
+../include/llvm/Target/TargetLoweringObjectFile.h
+llvm/ADT/StringRef.h
+../include/llvm/Target/llvm/ADT/StringRef.h
+llvm/MC/SectionKind.h
+../include/llvm/Target/llvm/MC/SectionKind.h
+
+../include/llvm/Target/TargetMachine.h
+llvm/Target/TargetInstrItineraries.h
+../include/llvm/Target/llvm/Target/TargetInstrItineraries.h
+cassert
+-
+string
+-
+
+../include/llvm/Target/TargetOpcodes.h
+
+../include/llvm/Target/TargetOptions.h
+
+../include/llvm/Target/TargetRegisterInfo.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/Target/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/Target/llvm/CodeGen/ValueTypes.h
+llvm/ADT/DenseSet.h
+../include/llvm/Target/llvm/ADT/DenseSet.h
+cassert
+-
+functional
+-
+
+../include/llvm/Target/TargetRegistry.h
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+string
+-
+cassert
+-
+
+../include/llvm/Target/TargetSelectionDAGInfo.h
+llvm/CodeGen/SelectionDAGNodes.h
+../include/llvm/Target/llvm/CodeGen/SelectionDAGNodes.h
+
+../include/llvm/Target/TargetSubtarget.h
+llvm/Target/TargetMachine.h
+../include/llvm/Target/llvm/Target/TargetMachine.h
+
+../include/llvm/Type.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/ADT/GraphTraits.h
+../include/llvm/llvm/ADT/GraphTraits.h
+string
+-
+vector
+-
+
+../include/llvm/Use.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/llvm/ADT/PointerIntPair.h
+cstddef
+-
+iterator
+-
+
+../include/llvm/User.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+
+../include/llvm/Value.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Use.h
+../include/llvm/llvm/Use.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetMachine.h
+PPCGenRegisterNames.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenRegisterNames.inc
+PPCGenInstrNames.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenInstrNames.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCBranchSelector.cpp
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrBuilder.h
+PPCInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.h
+PPCPredicates.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.h
+llvm/CodeGen/MachineFunctionPass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunctionPass.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetMachine.h
+llvm/ADT/Statistic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/Statistic.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/MathExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCCodeEmitter.cpp
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+PPCRelocations.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRelocations.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Module.h
+llvm/PassManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/PassManager.h
+llvm/CodeGen/JITCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/JITCodeEmitter.h
+llvm/CodeGen/MachineFunctionPass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunctionPass.h
+llvm/CodeGen/MachineInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineInstrBuilder.h
+llvm/CodeGen/MachineModuleInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineModuleInfo.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetOptions.h
+PPCGenCodeEmitter.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenCodeEmitter.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCFrameInfo.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCSubtarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.h
+llvm/Target/TargetFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetFrameInfo.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetMachine.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/STLExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCHazardRecognizers.cpp
+PPCHazardRecognizers.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCHazardRecognizers.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.h
+llvm/CodeGen/ScheduleDAG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/ScheduleDAG.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCHazardRecognizers.h
+llvm/CodeGen/ScheduleHazardRecognizer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/ScheduleHazardRecognizer.h
+llvm/CodeGen/SelectionDAGNodes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/SelectionDAGNodes.h
+PPCInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCISelDAGToDAG.cpp
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCPredicates.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.h
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+PPCHazardRecognizers.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCHazardRecognizers.h
+llvm/CodeGen/MachineInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineInstrBuilder.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineFunctionAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunctionAnalysis.h
+llvm/CodeGen/MachineRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineRegisterInfo.h
+llvm/CodeGen/SelectionDAG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/SelectionDAG.h
+llvm/CodeGen/SelectionDAGISel.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/SelectionDAGISel.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetOptions.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Function.h
+llvm/GlobalValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/GlobalValue.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Intrinsics.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/Debug.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/MathExtras.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+PPCGenDAGISel.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenDAGISel.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCISelLowering.cpp
+PPCISelLowering.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCISelLowering.h
+PPCMachineFunctionInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCMachineFunctionInfo.h
+PPCPerfectShuffle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPerfectShuffle.h
+PPCPredicates.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.h
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/STLExtras.h
+llvm/ADT/VectorExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/VectorExtras.h
+llvm/CodeGen/CallingConvLower.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/CallingConvLower.h
+llvm/CodeGen/MachineFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFrameInfo.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineInstrBuilder.h
+llvm/CodeGen/MachineRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineRegisterInfo.h
+llvm/CodeGen/PseudoSourceValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/PseudoSourceValue.h
+llvm/CodeGen/SelectionDAG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/SelectionDAG.h
+llvm/CodeGen/TargetLoweringObjectFileImpl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/TargetLoweringObjectFileImpl.h
+llvm/CallingConv.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CallingConv.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Function.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Intrinsics.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/MathExtras.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetOptions.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/CommandLine.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/DerivedTypes.h
+PPCGenCallingConv.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenCallingConv.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCISelLowering.h
+llvm/Target/TargetLowering.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetLowering.h
+llvm/CodeGen/SelectionDAG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/SelectionDAG.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCSubtarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrBuilder.h
+llvm/CodeGen/MachineInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineInstrBuilder.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.cpp
+PPCInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.h
+PPCInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrBuilder.h
+PPCMachineFunctionInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCMachineFunctionInfo.h
+PPCPredicates.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.h
+PPCGenInstrInfo.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenInstrInfo.inc
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/STLExtras.h
+llvm/CodeGen/MachineFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFrameInfo.h
+llvm/CodeGen/MachineInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineInstrBuilder.h
+llvm/CodeGen/MachineMemOperand.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineMemOperand.h
+llvm/CodeGen/MachineRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineRegisterInfo.h
+llvm/CodeGen/PseudoSourceValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/PseudoSourceValue.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/CommandLine.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/MC/MCAsmInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+llvm/Target/TargetInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetInstrInfo.h
+PPCRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRegisterInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCJITInfo.cpp
+PPCJITInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCJITInfo.h
+PPCRelocations.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRelocations.h
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Function.h
+llvm/System/Memory.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/System/Memory.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCJITInfo.h
+llvm/Target/TargetJITInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetJITInfo.h
+llvm/CodeGen/JITCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/JITCodeEmitter.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCMCAsmInfo.h
+llvm/MC/MCAsmInfoDarwin.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/MC/MCAsmInfoDarwin.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCMachineFunctionInfo.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunction.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPerfectShuffle.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.cpp
+PPCPredicates.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCPredicates.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRegisterInfo.cpp
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrBuilder.h
+PPCMachineFunctionInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCMachineFunctionInfo.h
+PPCRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRegisterInfo.h
+PPCFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCFrameInfo.h
+PPCSubtarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.h
+llvm/CallingConv.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CallingConv.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Constants.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Function.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Type.h
+llvm/CodeGen/ValueTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/ValueTypes.h
+llvm/CodeGen/MachineInstrBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineInstrBuilder.h
+llvm/CodeGen/MachineModuleInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineModuleInfo.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineFrameInfo.h
+llvm/CodeGen/MachineLocation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineLocation.h
+llvm/CodeGen/MachineRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineRegisterInfo.h
+llvm/CodeGen/RegisterScavenging.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/RegisterScavenging.h
+llvm/Target/TargetFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetFrameInfo.h
+llvm/Target/TargetInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetInstrInfo.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetMachine.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetOptions.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/CommandLine.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/ErrorHandling.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/MathExtras.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/raw_ostream.h
+llvm/ADT/BitVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/BitVector.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/ADT/STLExtras.h
+cstdlib
+-
+PPCGenRegisterInfo.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenRegisterInfo.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRegisterInfo.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCGenRegisterInfo.h.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenRegisterInfo.h.inc
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCRelocations.h
+llvm/CodeGen/MachineRelocation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/CodeGen/MachineRelocation.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSelectionDAGInfo.cpp
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSelectionDAGInfo.h
+llvm/Target/TargetSelectionDAGInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetSelectionDAGInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.cpp
+PPCSubtarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.h
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+llvm/GlobalValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/GlobalValue.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetMachine.h
+PPCGenSubtarget.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCGenSubtarget.inc
+cstdlib
+-
+mach/mach.h
+-
+mach/mach_host.h
+-
+mach/host_info.h
+-
+mach/machine.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.h
+llvm/Target/TargetInstrItineraries.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetInstrItineraries.h
+llvm/Target/TargetSubtarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetSubtarget.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.cpp
+PPC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPC.h
+PPCMCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCMCAsmInfo.h
+PPCTargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+llvm/PassManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/PassManager.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetOptions.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetRegistry.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Support/FormattedStream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCTargetMachine.h
+PPCFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCFrameInfo.h
+PPCSubtarget.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSubtarget.h
+PPCJITInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCJITInfo.h
+PPCInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCInstrInfo.h
+PPCISelLowering.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCISelLowering.h
+PPCSelectionDAGInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/PPCSelectionDAGInfo.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetMachine.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/PowerPC/llvm/Target/TargetData.h
+
+include/llvm/Intrinsics.gen
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+lib/Target/PowerPC/PPCGenCallingConv.inc
+
+lib/Target/PowerPC/PPCGenCodeEmitter.inc
+
+lib/Target/PowerPC/PPCGenDAGISel.inc
+
+lib/Target/PowerPC/PPCGenInstrInfo.inc
+
+lib/Target/PowerPC/PPCGenInstrNames.inc
+
+lib/Target/PowerPC/PPCGenRegisterInfo.h.inc
+llvm/Target/TargetRegisterInfo.h
+lib/Target/PowerPC/llvm/Target/TargetRegisterInfo.h
+string
+-
+
+lib/Target/PowerPC/PPCGenRegisterInfo.inc
+
+lib/Target/PowerPC/PPCGenRegisterNames.inc
+
+lib/Target/PowerPC/PPCGenSubtarget.inc
+llvm/Support/Debug.h
+lib/Target/PowerPC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+lib/Target/PowerPC/llvm/Support/raw_ostream.h
+llvm/Target/SubtargetFeature.h
+lib/Target/PowerPC/llvm/Target/SubtargetFeature.h
+llvm/Target/TargetInstrItineraries.h
+lib/Target/PowerPC/llvm/Target/TargetInstrItineraries.h
+

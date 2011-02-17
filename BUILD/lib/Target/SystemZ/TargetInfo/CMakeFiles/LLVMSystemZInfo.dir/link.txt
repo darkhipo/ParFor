@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMSystemZInfo.a  CMakeFiles/LLVMSystemZInfo.dir/SystemZTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMSystemZInfo.a

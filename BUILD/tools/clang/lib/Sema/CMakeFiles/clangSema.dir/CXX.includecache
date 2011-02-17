@@ -1,0 +1,2400 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/APSInt.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/BitVector.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+algorithm
+-
+cassert
+-
+climits
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DenseSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+
+../include/llvm/ADT/FoldingSet.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/GraphTraits.h
+
+../include/llvm/ADT/IntrusiveRefCntPtr.h
+cassert
+-
+llvm/Support/Casting.h
+../include/llvm/ADT/llvm/Support/Casting.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/PointerIntPair.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+cassert
+-
+
+../include/llvm/ADT/PointerUnion.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/ADT/llvm/ADT/PointerIntPair.h
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallPtrSet.h
+cassert
+-
+cstring
+-
+iterator
+-
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+
+../include/llvm/ADT/SmallSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+set
+-
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/StringSwitch.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PrettyStackTrace.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../tools/clang/include/clang-c/Index.h
+sys/stat.h
+-
+time.h
+-
+stdio.h
+-
+
+../tools/clang/include/clang/AST/APValue.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/APFloat.h
+../tools/clang/include/clang/AST/llvm/ADT/APFloat.h
+
+../tools/clang/include/clang/AST/ASTConsumer.h
+
+../tools/clang/include/clang/AST/ASTContext.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/AST/clang/Basic/LangOptions.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/AST/clang/Basic/OperatorKinds.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/NestedNameSpecifier.h
+../tools/clang/include/clang/AST/clang/AST/NestedNameSpecifier.h
+clang/AST/PrettyPrinter.h
+../tools/clang/include/clang/AST/clang/AST/PrettyPrinter.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/AST/clang/AST/CanonicalType.h
+clang/AST/UsuallyTinyPtrVector.h
+../tools/clang/include/clang/AST/clang/AST/UsuallyTinyPtrVector.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/AST/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallPtrSet.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/AST/llvm/Support/Allocator.h
+vector
+-
+
+../tools/clang/include/clang/AST/ASTDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/Diagnostic.h
+clang/Basic/DiagnosticASTKinds.inc
+../tools/clang/include/clang/AST/clang/Basic/DiagnosticASTKinds.inc
+
+../tools/clang/include/clang/AST/ASTVector.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/AST/llvm/Support/type_traits.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/AST/llvm/Support/Allocator.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+algorithm
+-
+memory
+-
+cstring
+-
+
+../tools/clang/include/clang/AST/Attr.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/AST/llvm/ADT/StringRef.h
+clang/Basic/AttrKinds.h
+../tools/clang/include/clang/AST/clang/Basic/AttrKinds.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/AST/clang/Basic/SourceLocation.h
+cassert
+-
+cstring
+-
+algorithm
+-
+clang/AST/Attrs.inc
+../tools/clang/include/clang/AST/clang/AST/Attrs.inc
+
+../tools/clang/include/clang/AST/CXXInheritance.h
+clang/AST/DeclarationName.h
+../tools/clang/include/clang/AST/clang/AST/DeclarationName.h
+clang/AST/DeclBase.h
+../tools/clang/include/clang/AST/clang/AST/DeclBase.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/TypeOrdering.h
+../tools/clang/include/clang/AST/clang/AST/TypeOrdering.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+list
+-
+map
+-
+cassert
+-
+
+../tools/clang/include/clang/AST/CanonicalType.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/AST/llvm/Support/type_traits.h
+iterator
+-
+
+../tools/clang/include/clang/AST/CharUnits.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+
+../tools/clang/include/clang/AST/Decl.h
+clang/AST/APValue.h
+../tools/clang/include/clang/AST/clang/AST/APValue.h
+clang/AST/DeclBase.h
+../tools/clang/include/clang/AST/clang/AST/DeclBase.h
+clang/AST/Redeclarable.h
+../tools/clang/include/clang/AST/clang/AST/Redeclarable.h
+clang/AST/DeclarationName.h
+../tools/clang/include/clang/AST/clang/AST/DeclarationName.h
+clang/AST/ExternalASTSource.h
+../tools/clang/include/clang/AST/clang/AST/ExternalASTSource.h
+clang/Basic/Linkage.h
+../tools/clang/include/clang/AST/clang/Basic/Linkage.h
+
+../tools/clang/include/clang/AST/DeclAccessPair.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/AST/clang/Basic/Specifiers.h
+
+../tools/clang/include/clang/AST/DeclBase.h
+clang/AST/Attr.h
+../tools/clang/include/clang/AST/clang/AST/Attr.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/AST/clang/Basic/Specifiers.h
+llvm/Support/PrettyStackTrace.h
+../tools/clang/include/clang/AST/llvm/Support/PrettyStackTrace.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+
+../tools/clang/include/clang/AST/DeclCXX.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/TypeLoc.h
+../tools/clang/include/clang/AST/clang/AST/TypeLoc.h
+clang/AST/UnresolvedSet.h
+../tools/clang/include/clang/AST/clang/AST/UnresolvedSet.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallPtrSet.h
+
+../tools/clang/include/clang/AST/DeclContextInternals.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/DeclarationName.h
+../tools/clang/include/clang/AST/clang/AST/DeclarationName.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+algorithm
+-
+
+../tools/clang/include/clang/AST/DeclFriend.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+
+../tools/clang/include/clang/AST/DeclGroup.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+cassert
+-
+
+../tools/clang/include/clang/AST/DeclObjC.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+llvm/ADT/STLExtras.h
+../tools/clang/include/clang/AST/llvm/ADT/STLExtras.h
+
+../tools/clang/include/clang/AST/DeclTemplate.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+limits
+-
+
+../tools/clang/include/clang/AST/DeclVisitor.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/DeclObjC.h
+../tools/clang/include/clang/AST/clang/AST/DeclObjC.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+clang/AST/DeclFriend.h
+../tools/clang/include/clang/AST/clang/AST/DeclFriend.h
+clang/AST/DeclTemplate.h
+../tools/clang/include/clang/AST/clang/AST/DeclTemplate.h
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+
+../tools/clang/include/clang/AST/DeclarationName.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/AST/clang/AST/CanonicalType.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+
+../tools/clang/include/clang/AST/DependentDiagnostic.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/AST/clang/Basic/SourceLocation.h
+clang/AST/DeclBase.h
+../tools/clang/include/clang/AST/clang/AST/DeclBase.h
+clang/AST/DeclContextInternals.h
+../tools/clang/include/clang/AST/clang/AST/DeclContextInternals.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+
+../tools/clang/include/clang/AST/Expr.h
+clang/AST/APValue.h
+../tools/clang/include/clang/AST/clang/AST/APValue.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/DeclAccessPair.h
+../tools/clang/include/clang/AST/clang/AST/DeclAccessPair.h
+clang/AST/OperationKinds.h
+../tools/clang/include/clang/AST/clang/AST/OperationKinds.h
+clang/AST/ASTVector.h
+../tools/clang/include/clang/AST/clang/AST/ASTVector.h
+clang/AST/UsuallyTinyPtrVector.h
+../tools/clang/include/clang/AST/clang/AST/UsuallyTinyPtrVector.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/APFloat.h
+../tools/clang/include/clang/AST/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/AST/llvm/ADT/StringRef.h
+vector
+-
+
+../tools/clang/include/clang/AST/ExprCXX.h
+clang/Basic/TypeTraits.h
+../tools/clang/include/clang/AST/clang/Basic/TypeTraits.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/AST/UnresolvedSet.h
+../tools/clang/include/clang/AST/clang/AST/UnresolvedSet.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+
+../tools/clang/include/clang/AST/ExprObjC.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+
+../tools/clang/include/clang/AST/ExternalASTSource.h
+cassert
+-
+vector
+-
+
+../tools/clang/include/clang/AST/FullExpr.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+
+../tools/clang/include/clang/AST/NestedNameSpecifier.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/Diagnostic.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+
+../tools/clang/include/clang/AST/OperationKinds.h
+
+../tools/clang/include/clang/AST/PrettyPrinter.h
+
+../tools/clang/include/clang/AST/RecordLayout.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/AST/llvm/ADT/DenseMap.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+
+../tools/clang/include/clang/AST/RecursiveASTVisitor.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/AST/clang/AST/DeclCXX.h
+clang/AST/DeclFriend.h
+../tools/clang/include/clang/AST/clang/AST/DeclFriend.h
+clang/AST/DeclObjC.h
+../tools/clang/include/clang/AST/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+../tools/clang/include/clang/AST/clang/AST/DeclTemplate.h
+clang/AST/Expr.h
+../tools/clang/include/clang/AST/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+../tools/clang/include/clang/AST/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+../tools/clang/include/clang/AST/clang/AST/ExprObjC.h
+clang/AST/NestedNameSpecifier.h
+../tools/clang/include/clang/AST/clang/AST/NestedNameSpecifier.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+clang/AST/StmtCXX.h
+../tools/clang/include/clang/AST/clang/AST/StmtCXX.h
+clang/AST/StmtObjC.h
+../tools/clang/include/clang/AST/clang/AST/StmtObjC.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/TypeLoc.h
+../tools/clang/include/clang/AST/clang/AST/TypeLoc.h
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+clang/AST/DeclNodes.inc
+../tools/clang/include/clang/AST/clang/AST/DeclNodes.inc
+
+../tools/clang/include/clang/AST/Redeclarable.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+iterator
+-
+
+../tools/clang/include/clang/AST/Stmt.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/Support/raw_ostream.h
+../tools/clang/include/clang/AST/llvm/Support/raw_ostream.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/AST/clang/Basic/SourceLocation.h
+clang/AST/PrettyPrinter.h
+../tools/clang/include/clang/AST/clang/AST/PrettyPrinter.h
+clang/AST/StmtIterator.h
+../tools/clang/include/clang/AST/clang/AST/StmtIterator.h
+clang/AST/DeclGroup.h
+../tools/clang/include/clang/AST/clang/AST/DeclGroup.h
+clang/AST/FullExpr.h
+../tools/clang/include/clang/AST/clang/AST/FullExpr.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+clang/AST/ASTContext.h
+../tools/clang/include/clang/AST/clang/AST/ASTContext.h
+string
+-
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+
+../tools/clang/include/clang/AST/StmtCXX.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+
+../tools/clang/include/clang/AST/StmtIterator.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/AST/llvm/System/DataTypes.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../tools/clang/include/clang/AST/StmtObjC.h
+clang/AST/Stmt.h
+../tools/clang/include/clang/AST/clang/AST/Stmt.h
+
+../tools/clang/include/clang/AST/StmtVisitor.h
+clang/AST/ExprCXX.h
+../tools/clang/include/clang/AST/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+../tools/clang/include/clang/AST/clang/AST/ExprObjC.h
+clang/AST/StmtCXX.h
+../tools/clang/include/clang/AST/clang/AST/StmtCXX.h
+clang/AST/StmtObjC.h
+../tools/clang/include/clang/AST/clang/AST/StmtObjC.h
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+clang/AST/StmtNodes.inc
+../tools/clang/include/clang/AST/clang/AST/StmtNodes.inc
+
+../tools/clang/include/clang/AST/TemplateBase.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+llvm/Support/ErrorHandling.h
+../tools/clang/include/clang/AST/llvm/Support/ErrorHandling.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+
+../tools/clang/include/clang/AST/TemplateName.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/AST/clang/Basic/OperatorKinds.h
+
+../tools/clang/include/clang/AST/Type.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/Diagnostic.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/AST/clang/Basic/IdentifierTable.h
+clang/Basic/Linkage.h
+../tools/clang/include/clang/AST/clang/Basic/Linkage.h
+clang/Basic/PartialDiagnostic.h
+../tools/clang/include/clang/AST/clang/Basic/PartialDiagnostic.h
+clang/AST/NestedNameSpecifier.h
+../tools/clang/include/clang/AST/clang/AST/NestedNameSpecifier.h
+clang/AST/TemplateName.h
+../tools/clang/include/clang/AST/clang/AST/TemplateName.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/AST/llvm/Support/Casting.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/AST/llvm/Support/type_traits.h
+llvm/ADT/APSInt.h
+../tools/clang/include/clang/AST/llvm/ADT/APSInt.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/AST/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerIntPair.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/AST/llvm/ADT/PointerUnion.h
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeLoc.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/Decl.h
+../tools/clang/include/clang/AST/clang/AST/Decl.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/AST/clang/AST/TemplateBase.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/AST/clang/Basic/Specifiers.h
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeLocBuilder.h
+clang/AST/TypeLoc.h
+../tools/clang/include/clang/AST/clang/AST/TypeLoc.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+clang/AST/ASTContext.h
+../tools/clang/include/clang/AST/clang/AST/ASTContext.h
+
+../tools/clang/include/clang/AST/TypeLocNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeLocVisitor.h
+clang/AST/TypeLoc.h
+../tools/clang/include/clang/AST/clang/AST/TypeLoc.h
+clang/AST/TypeVisitor.h
+../tools/clang/include/clang/AST/clang/AST/TypeVisitor.h
+llvm/Support/ErrorHandling.h
+../tools/clang/include/clang/AST/llvm/Support/ErrorHandling.h
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+clang/AST/TypeLocNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeLocNodes.def
+
+../tools/clang/include/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/TypeOrdering.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/AST/clang/AST/CanonicalType.h
+functional
+-
+
+../tools/clang/include/clang/AST/TypeVisitor.h
+clang/AST/Type.h
+../tools/clang/include/clang/AST/clang/AST/Type.h
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+clang/AST/TypeNodes.def
+../tools/clang/include/clang/AST/clang/AST/TypeNodes.def
+
+../tools/clang/include/clang/AST/UnresolvedSet.h
+iterator
+-
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/AST/llvm/ADT/SmallVector.h
+clang/AST/DeclAccessPair.h
+../tools/clang/include/clang/AST/clang/AST/DeclAccessPair.h
+
+../tools/clang/include/clang/AST/UsuallyTinyPtrVector.h
+vector
+-
+
+../tools/clang/include/clang/Analysis/Analyses/FormatString.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/Analysis/Analyses/clang/AST/CanonicalType.h
+
+../tools/clang/include/clang/Analysis/Analyses/ReachableCode.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Analysis/Analyses/clang/Basic/SourceLocation.h
+
+../tools/clang/include/clang/Analysis/AnalysisContext.h
+clang/AST/Decl.h
+../tools/clang/include/clang/Analysis/clang/AST/Decl.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Analysis/llvm/ADT/OwningPtr.h
+llvm/ADT/FoldingSet.h
+../tools/clang/include/clang/Analysis/llvm/ADT/FoldingSet.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/Analysis/llvm/ADT/PointerUnion.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Analysis/llvm/ADT/DenseMap.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Analysis/llvm/Support/Allocator.h
+
+../tools/clang/include/clang/Analysis/CFG.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Analysis/llvm/ADT/PointerIntPair.h
+llvm/ADT/GraphTraits.h
+../tools/clang/include/clang/Analysis/llvm/ADT/GraphTraits.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Analysis/llvm/Support/Allocator.h
+llvm/Support/Casting.h
+../tools/clang/include/clang/Analysis/llvm/Support/Casting.h
+clang/Analysis/Support/BumpVector.h
+../tools/clang/include/clang/Analysis/clang/Analysis/Support/BumpVector.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Analysis/clang/Basic/SourceLocation.h
+cassert
+-
+
+../tools/clang/include/clang/Analysis/Support/BumpVector.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/Analysis/Support/llvm/Support/type_traits.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Analysis/Support/llvm/Support/Allocator.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Analysis/Support/llvm/ADT/PointerIntPair.h
+algorithm
+-
+cstring
+-
+memory
+-
+
+../tools/clang/include/clang/Basic/AttrKinds.h
+clang/Basic/AttrList.inc
+../tools/clang/include/clang/Basic/clang/Basic/AttrList.inc
+
+../tools/clang/include/clang/Basic/Builtins.def
+
+../tools/clang/include/clang/Basic/Builtins.h
+cstring
+-
+clang/Basic/Builtins.def
+../tools/clang/include/clang/Basic/clang/Basic/Builtins.def
+
+../tools/clang/include/clang/Basic/BuiltinsARM.def
+clang/Basic/arm_neon.inc
+../tools/clang/include/clang/Basic/clang/Basic/arm_neon.inc
+
+../tools/clang/include/clang/Basic/BuiltinsPPC.def
+
+../tools/clang/include/clang/Basic/BuiltinsX86.def
+
+../tools/clang/include/clang/Basic/Diagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/ADT/IntrusiveRefCntPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/IntrusiveRefCntPtr.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/Support/type_traits.h
+../tools/clang/include/clang/Basic/llvm/Support/type_traits.h
+string
+-
+vector
+-
+cassert
+-
+clang/Basic/DiagnosticCommonKinds.inc
+../tools/clang/include/clang/Basic/clang/Basic/DiagnosticCommonKinds.inc
+
+../tools/clang/include/clang/Basic/IdentifierTable.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.h
+clang/Basic/TokenKinds.h
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringRef.h
+llvm/ADT/SmallString.h
+../tools/clang/include/clang/Basic/llvm/ADT/SmallString.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Basic/llvm/ADT/OwningPtr.h
+llvm/Support/PointerLikeTypeTraits.h
+../tools/clang/include/clang/Basic/llvm/Support/PointerLikeTypeTraits.h
+string
+-
+cassert
+-
+clang/Basic/OperatorKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/LangOptions.h
+string
+-
+
+../tools/clang/include/clang/Basic/Linkage.h
+
+../tools/clang/include/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/OperatorKinds.h
+clang/Basic/OperatorKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/OperatorKinds.def
+
+../tools/clang/include/clang/Basic/PartialDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Basic/clang/Basic/Diagnostic.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/ADT/STLExtras.h
+../tools/clang/include/clang/Basic/llvm/ADT/STLExtras.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+cassert
+-
+
+../tools/clang/include/clang/Basic/SourceLocation.h
+utility
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/SourceManager.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Basic/clang/Basic/SourceLocation.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Basic/llvm/Support/Allocator.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Basic/llvm/ADT/PointerIntPair.h
+llvm/ADT/PointerUnion.h
+../tools/clang/include/clang/Basic/llvm/ADT/PointerUnion.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/DenseMap.h
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Basic/Specifiers.h
+
+../tools/clang/include/clang/Basic/TargetBuiltins.h
+clang/Basic/Builtins.h
+../tools/clang/include/clang/Basic/clang/Basic/Builtins.h
+clang/Basic/BuiltinsARM.def
+../tools/clang/include/clang/Basic/clang/Basic/BuiltinsARM.def
+clang/Basic/BuiltinsPPC.def
+../tools/clang/include/clang/Basic/clang/Basic/BuiltinsPPC.def
+clang/Basic/BuiltinsX86.def
+../tools/clang/include/clang/Basic/clang/Basic/BuiltinsX86.def
+
+../tools/clang/include/clang/Basic/TargetInfo.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringMap.h
+llvm/ADT/StringSwitch.h
+../tools/clang/include/clang/Basic/llvm/ADT/StringSwitch.h
+llvm/ADT/Triple.h
+../tools/clang/include/clang/Basic/llvm/ADT/Triple.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Basic/llvm/System/DataTypes.h
+cassert
+-
+vector
+-
+string
+-
+
+../tools/clang/include/clang/Basic/TemplateKinds.h
+
+../tools/clang/include/clang/Basic/TokenKinds.def
+
+../tools/clang/include/clang/Basic/TokenKinds.h
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+clang/Basic/TokenKinds.def
+../tools/clang/include/clang/Basic/clang/Basic/TokenKinds.def
+
+../tools/clang/include/clang/Basic/TypeTraits.h
+
+../tools/clang/include/clang/Lex/DirectoryLookup.h
+clang/Basic/SourceManager.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceManager.h
+
+../tools/clang/include/clang/Lex/HeaderSearch.h
+clang/Lex/DirectoryLookup.h
+../tools/clang/include/clang/Lex/clang/Lex/DirectoryLookup.h
+llvm/ADT/StringMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/StringMap.h
+vector
+-
+
+../tools/clang/include/clang/Lex/Lexer.h
+clang/Lex/PreprocessorLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PreprocessorLexer.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/Lex/clang/Basic/LangOptions.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+string
+-
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Lex/LiteralSupport.h
+string
+-
+llvm/ADT/APFloat.h
+../tools/clang/include/clang/Lex/llvm/ADT/APFloat.h
+llvm/ADT/SmallString.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallString.h
+llvm/System/DataTypes.h
+../tools/clang/include/clang/Lex/llvm/System/DataTypes.h
+
+../tools/clang/include/clang/Lex/MacroInfo.h
+clang/Lex/Token.h
+../tools/clang/include/clang/Lex/clang/Lex/Token.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+vector
+-
+cassert
+-
+
+../tools/clang/include/clang/Lex/MultipleIncludeOpt.h
+
+../tools/clang/include/clang/Lex/PPCallbacks.h
+clang/Lex/DirectoryLookup.h
+../tools/clang/include/clang/Lex/clang/Lex/DirectoryLookup.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Lex/llvm/ADT/StringRef.h
+string
+-
+
+../tools/clang/include/clang/Lex/PTHLexer.h
+clang/Lex/PreprocessorLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PreprocessorLexer.h
+vector
+-
+
+../tools/clang/include/clang/Lex/PTHManager.h
+clang/Lex/PTHLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PTHLexer.h
+clang/Basic/LangOptions.h
+../tools/clang/include/clang/Lex/clang/Basic/LangOptions.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/Lex/clang/Basic/IdentifierTable.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Lex/clang/Basic/Diagnostic.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/DenseMap.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+string
+-
+
+../tools/clang/include/clang/Lex/Preprocessor.h
+clang/Lex/Lexer.h
+../tools/clang/include/clang/Lex/clang/Lex/Lexer.h
+clang/Lex/PTHLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/PTHLexer.h
+clang/Lex/PPCallbacks.h
+../tools/clang/include/clang/Lex/clang/Lex/PPCallbacks.h
+clang/Lex/TokenLexer.h
+../tools/clang/include/clang/Lex/clang/Lex/TokenLexer.h
+clang/Lex/PTHManager.h
+../tools/clang/include/clang/Lex/clang/Lex/PTHManager.h
+clang/Basic/Builtins.h
+../tools/clang/include/clang/Lex/clang/Basic/Builtins.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Lex/clang/Basic/Diagnostic.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/Lex/clang/Basic/IdentifierTable.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Lex/llvm/ADT/DenseMap.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Lex/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+llvm/Support/Allocator.h
+../tools/clang/include/clang/Lex/llvm/Support/Allocator.h
+vector
+-
+
+../tools/clang/include/clang/Lex/PreprocessorLexer.h
+clang/Lex/MultipleIncludeOpt.h
+../tools/clang/include/clang/Lex/clang/Lex/MultipleIncludeOpt.h
+clang/Lex/Token.h
+../tools/clang/include/clang/Lex/clang/Lex/Token.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Lex/llvm/ADT/SmallVector.h
+string
+-
+
+../tools/clang/include/clang/Lex/Token.h
+clang/Basic/TemplateKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/TemplateKinds.h
+clang/Basic/TokenKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/TokenKinds.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/Lex/clang/Basic/OperatorKinds.h
+cstdlib
+-
+
+../tools/clang/include/clang/Lex/TokenLexer.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Lex/clang/Basic/SourceLocation.h
+
+../tools/clang/include/clang/Parse/ParseDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Parse/clang/Basic/Diagnostic.h
+clang/Basic/DiagnosticParseKinds.inc
+../tools/clang/include/clang/Parse/clang/Basic/DiagnosticParseKinds.inc
+
+../tools/clang/include/clang/Sema/AnalysisBasedWarnings.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Sema/llvm/ADT/DenseMap.h
+
+../tools/clang/include/clang/Sema/AttributeList.h
+clang/Sema/Ownership.h
+../tools/clang/include/clang/Sema/clang/Sema/Ownership.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Sema/clang/Basic/SourceLocation.h
+cassert
+-
+
+../tools/clang/include/clang/Sema/CXXFieldCollector.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+
+../tools/clang/include/clang/Sema/CodeCompleteConsumer.h
+clang/AST/Type.h
+../tools/clang/include/clang/Sema/clang/AST/Type.h
+clang/AST/CanonicalType.h
+../tools/clang/include/clang/Sema/clang/AST/CanonicalType.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../tools/clang/include/clang/Sema/llvm/ADT/StringRef.h
+clang-c/Index.h
+../tools/clang/include/clang/Sema/clang-c/Index.h
+memory
+-
+string
+-
+
+../tools/clang/include/clang/Sema/DeclSpec.h
+clang/Sema/AttributeList.h
+../tools/clang/include/clang/Sema/clang/Sema/AttributeList.h
+clang/Sema/Ownership.h
+../tools/clang/include/clang/Sema/clang/Sema/Ownership.h
+clang/Lex/Token.h
+../tools/clang/include/clang/Sema/clang/Lex/Token.h
+clang/Basic/OperatorKinds.h
+../tools/clang/include/clang/Sema/clang/Basic/OperatorKinds.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/Sema/clang/Basic/Specifiers.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+
+../tools/clang/include/clang/Sema/DelayedDiagnostic.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/Sema/clang/AST/DeclCXX.h
+
+../tools/clang/include/clang/Sema/Designator.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Sema/clang/Basic/SourceLocation.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+
+../tools/clang/include/clang/Sema/ExternalSemaSource.h
+clang/AST/ExternalASTSource.h
+../tools/clang/include/clang/Sema/clang/AST/ExternalASTSource.h
+clang/Sema/ObjCMethodList.h
+../tools/clang/include/clang/Sema/clang/Sema/ObjCMethodList.h
+
+../tools/clang/include/clang/Sema/IdentifierResolver.h
+clang/Basic/IdentifierTable.h
+../tools/clang/include/clang/Sema/clang/Basic/IdentifierTable.h
+
+../tools/clang/include/clang/Sema/Initialization.h
+clang/Sema/Ownership.h
+../tools/clang/include/clang/Sema/clang/Sema/Ownership.h
+clang/Sema/Overload.h
+../tools/clang/include/clang/Sema/clang/Sema/Overload.h
+clang/AST/Type.h
+../tools/clang/include/clang/Sema/clang/AST/Type.h
+clang/AST/UnresolvedSet.h
+../tools/clang/include/clang/Sema/clang/AST/UnresolvedSet.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Sema/clang/Basic/SourceLocation.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Sema/llvm/ADT/PointerIntPair.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+cassert
+-
+
+../tools/clang/include/clang/Sema/Lookup.h
+clang/Sema/Sema.h
+../tools/clang/include/clang/Sema/clang/Sema/Sema.h
+clang/AST/DeclCXX.h
+../tools/clang/include/clang/Sema/clang/AST/DeclCXX.h
+
+../tools/clang/include/clang/Sema/ObjCMethodList.h
+
+../tools/clang/include/clang/Sema/Overload.h
+clang/AST/Decl.h
+../tools/clang/include/clang/Sema/clang/AST/Decl.h
+clang/AST/DeclTemplate.h
+../tools/clang/include/clang/Sema/clang/AST/DeclTemplate.h
+clang/AST/Expr.h
+../tools/clang/include/clang/Sema/clang/AST/Expr.h
+clang/AST/TemplateBase.h
+../tools/clang/include/clang/Sema/clang/AST/TemplateBase.h
+clang/AST/Type.h
+../tools/clang/include/clang/Sema/clang/AST/Type.h
+clang/AST/UnresolvedSet.h
+../tools/clang/include/clang/Sema/clang/AST/UnresolvedSet.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+
+../tools/clang/include/clang/Sema/Ownership.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+llvm/ADT/PointerIntPair.h
+../tools/clang/include/clang/Sema/llvm/ADT/PointerIntPair.h
+
+../tools/clang/include/clang/Sema/ParsedTemplate.h
+clang/Sema/DeclSpec.h
+../tools/clang/include/clang/Sema/clang/Sema/DeclSpec.h
+clang/Sema/Ownership.h
+../tools/clang/include/clang/Sema/clang/Sema/Ownership.h
+cassert
+-
+
+../tools/clang/include/clang/Sema/PrettyDeclStackTrace.h
+clang/Basic/SourceLocation.h
+../tools/clang/include/clang/Sema/clang/Basic/SourceLocation.h
+llvm/Support/PrettyStackTrace.h
+../tools/clang/include/clang/Sema/llvm/Support/PrettyStackTrace.h
+
+../tools/clang/include/clang/Sema/Scope.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallPtrSet.h
+
+../tools/clang/include/clang/Sema/ScopeInfo.h
+clang/AST/Type.h
+../tools/clang/include/clang/Sema/clang/AST/Type.h
+llvm/ADT/DenseMap.h
+../tools/clang/include/clang/Sema/llvm/ADT/DenseMap.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+
+../tools/clang/include/clang/Sema/Sema.h
+clang/Sema/Ownership.h
+../tools/clang/include/clang/Sema/clang/Sema/Ownership.h
+clang/Sema/AnalysisBasedWarnings.h
+../tools/clang/include/clang/Sema/clang/Sema/AnalysisBasedWarnings.h
+clang/Sema/IdentifierResolver.h
+../tools/clang/include/clang/Sema/clang/Sema/IdentifierResolver.h
+clang/Sema/ObjCMethodList.h
+../tools/clang/include/clang/Sema/clang/Sema/ObjCMethodList.h
+clang/Sema/DeclSpec.h
+../tools/clang/include/clang/Sema/clang/Sema/DeclSpec.h
+clang/AST/OperationKinds.h
+../tools/clang/include/clang/Sema/clang/AST/OperationKinds.h
+clang/AST/DeclarationName.h
+../tools/clang/include/clang/Sema/clang/AST/DeclarationName.h
+clang/AST/ExternalASTSource.h
+../tools/clang/include/clang/Sema/clang/AST/ExternalASTSource.h
+clang/Basic/Specifiers.h
+../tools/clang/include/clang/Sema/clang/Basic/Specifiers.h
+clang/Basic/TemplateKinds.h
+../tools/clang/include/clang/Sema/clang/Basic/TemplateKinds.h
+clang/Basic/TypeTraits.h
+../tools/clang/include/clang/Sema/clang/Basic/TypeTraits.h
+llvm/ADT/OwningPtr.h
+../tools/clang/include/clang/Sema/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallPtrSet.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+deque
+-
+string
+-
+
+../tools/clang/include/clang/Sema/SemaConsumer.h
+clang/AST/ASTConsumer.h
+../tools/clang/include/clang/Sema/clang/AST/ASTConsumer.h
+
+../tools/clang/include/clang/Sema/SemaDiagnostic.h
+clang/Basic/Diagnostic.h
+../tools/clang/include/clang/Sema/clang/Basic/Diagnostic.h
+clang/Basic/DiagnosticSemaKinds.inc
+../tools/clang/include/clang/Sema/clang/Basic/DiagnosticSemaKinds.inc
+
+../tools/clang/include/clang/Sema/SemaInternal.h
+clang/Sema/Sema.h
+../tools/clang/include/clang/Sema/clang/Sema/Sema.h
+clang/Sema/SemaDiagnostic.h
+../tools/clang/include/clang/Sema/clang/Sema/SemaDiagnostic.h
+clang/AST/ASTContext.h
+../tools/clang/include/clang/Sema/clang/AST/ASTContext.h
+
+../tools/clang/include/clang/Sema/Template.h
+clang/AST/DeclTemplate.h
+../tools/clang/include/clang/Sema/clang/AST/DeclTemplate.h
+llvm/ADT/SmallVector.h
+../tools/clang/include/clang/Sema/llvm/ADT/SmallVector.h
+cassert
+-
+
+../tools/clang/include/clang/Sema/TemplateDeduction.h
+clang/AST/DeclTemplate.h
+../tools/clang/include/clang/Sema/clang/AST/DeclTemplate.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/AnalysisBasedWarnings.cpp
+clang/Sema/AnalysisBasedWarnings.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/AnalysisBasedWarnings.h
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/SourceManager.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtObjC.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtCXX.h
+clang/Analysis/AnalysisContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Analysis/AnalysisContext.h
+clang/Analysis/CFG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Analysis/CFG.h
+clang/Analysis/Analyses/ReachableCode.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Analysis/Analyses/ReachableCode.h
+llvm/ADT/BitVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/BitVector.h
+llvm/Support/Casting.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/Casting.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/CodeCompleteConsumer.cpp
+clang/Sema/CodeCompleteConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/CodeCompleteConsumer.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/Sema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Sema.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang-c/Index.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang-c/Index.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/raw_ostream.h
+algorithm
+-
+cstring
+-
+functional
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/DeclSpec.cpp
+clang/Parse/ParseDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Parse/ParseDiagnostic.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/ParsedTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ParsedTemplate.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/LangOptions.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/ErrorHandling.h
+cstring
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/IdentifierResolver.cpp
+clang/Sema/IdentifierResolver.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/IdentifierResolver.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Decl.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/LangOptions.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/JumpDiagnostics.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtObjC.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtCXX.h
+llvm/ADT/BitVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/BitVector.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/Sema.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/DelayedDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DelayedDiagnostic.h
+TargetAttributesSema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TargetAttributesSema.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/DenseMap.h
+llvm/ADT/SmallSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallSet.h
+llvm/ADT/APFloat.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/APFloat.h
+clang/Sema/CXXFieldCollector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/CXXFieldCollector.h
+clang/Sema/ExternalSemaSource.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ExternalSemaSource.h
+clang/Sema/PrettyDeclStackTrace.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/PrettyDeclStackTrace.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/Sema/SemaConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaConsumer.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/ASTDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTDiagnostic.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaAccess.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/DelayedDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DelayedDiagnostic.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclFriend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclFriend.h
+clang/AST/DependentDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DependentDiagnostic.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaAttr.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/AST/Attr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Attr.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaCXXCast.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallVector.h
+set
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaCXXScopeSpec.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/NestedNameSpecifier.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/NestedNameSpecifier.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaChecking.cpp
+clang/Sema/Sema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Sema.h
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/Analysis/Analyses/FormatString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Analysis/Analyses/FormatString.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CharUnits.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CharUnits.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtCXX.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtObjC.h
+clang/Lex/LiteralSupport.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/LiteralSupport.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+llvm/ADT/BitVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/BitVector.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/raw_ostream.h
+clang/Basic/TargetBuiltins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetBuiltins.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+limits
+-
+clang/Basic/arm_neon.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/arm_neon.inc
+clang/Basic/arm_neon.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/arm_neon.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaCodeComplete.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/Overload.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Overload.h
+clang/Sema/CodeCompleteConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/CodeCompleteConsumer.h
+clang/Sema/ExternalSemaSource.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ExternalSemaSource.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/Lex/MacroInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/MacroInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallPtrSet.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/StringExtras.h
+llvm/ADT/StringSwitch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/StringSwitch.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/Twine.h
+list
+-
+map
+-
+vector
+-
+clang/Basic/OperatorKinds.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/OperatorKinds.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaDecl.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/CXXFieldCollector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/CXXFieldCollector.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/AST/APValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/APValue.h
+clang/AST/ASTConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTConsumer.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtCXX.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/ParsedTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ParsedTemplate.h
+clang/Parse/ParseDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Parse/ParseDiagnostic.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/SourceManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/Lex/HeaderSearch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/HeaderSearch.h
+llvm/ADT/Triple.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/Triple.h
+algorithm
+-
+cstring
+-
+functional
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaDeclAttr.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+TargetAttributesSema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TargetAttributesSema.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/DelayedDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DelayedDiagnostic.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaDeclCXX.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/CXXFieldCollector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/CXXFieldCollector.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/AST/ASTConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTConsumer.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CharUnits.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CharUnits.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclVisitor.h
+clang/AST/RecordLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/RecordLayout.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtVisitor.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/AST/TypeOrdering.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeOrdering.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/ParsedTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ParsedTemplate.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/DenseSet.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+map
+-
+set
+-
+clang/AST/TypeLocNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLocNodes.def
+clang/Basic/OperatorKinds.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/OperatorKinds.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaDeclObjC.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/ExternalSemaSource.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ExternalSemaSource.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/DenseSet.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaExceptionSpec.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/Basic/Diagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/Diagnostic.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/SourceManager.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallPtrSet.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaExpr.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/AnalysisBasedWarnings.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/AnalysisBasedWarnings.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/RecursiveASTVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/RecursiveASTVisitor.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Basic/SourceManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/SourceManager.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/Lex/LiteralSupport.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/LiteralSupport.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/Designator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Designator.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/Sema/ParsedTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ParsedTemplate.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaExprCXX.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/ParsedTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ParsedTemplate.h
+clang/Sema/TemplateDeduction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/TemplateDeduction.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaExprObjC.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallString.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaInit.cpp
+clang/Sema/Designator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Designator.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/ErrorHandling.h
+map
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaLookup.cpp
+clang/Sema/Sema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Sema.h
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/Sema/TemplateDeduction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/TemplateDeduction.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Decl.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/Basic/Builtins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/Builtins.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/LangOptions.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/DenseSet.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallPtrSet.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/ErrorHandling.h
+list
+-
+set
+-
+vector
+-
+iterator
+-
+utility
+-
+algorithm
+-
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeNodes.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaObjCProperty.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+llvm/ADT/DenseSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/DenseSet.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaOverload.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+clang/Sema/TemplateDeduction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/TemplateDeduction.h
+clang/Basic/Diagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/Diagnostic.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/TypeOrdering.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeOrdering.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallPtrSet.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaStmt.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/Sema/Initialization.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Initialization.h
+clang/AST/APValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/APValue.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtObjC.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtCXX.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/STLExtras.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallVector.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaTemplate.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/Scope.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Scope.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+clang/Sema/TemplateDeduction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/TemplateDeduction.h
+TreeTransform.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TreeTransform.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/DeclFriend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclFriend.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/ParsedTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ParsedTemplate.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/LangOptions.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/StringExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaTemplateDeduction.cpp
+clang/Sema/Sema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Sema.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+clang/Sema/TemplateDeduction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/TemplateDeduction.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/StmtVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtVisitor.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+algorithm
+-
+clang/AST/TypeNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeNodes.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaTemplateInstantiate.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+TreeTransform.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TreeTransform.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+clang/Sema/TemplateDeduction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/TemplateDeduction.h
+clang/AST/ASTConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTConsumer.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/Basic/LangOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/LangOptions.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaTemplateInstantiateDecl.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/PrettyDeclStackTrace.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/PrettyDeclStackTrace.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+clang/AST/ASTConsumer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTConsumer.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/DeclVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclVisitor.h
+clang/AST/DependentDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DependentDiagnostic.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/SemaType.cpp
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Template.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Template.h
+clang/AST/ASTContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ASTContext.h
+clang/AST/CXXInheritance.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/CXXInheritance.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/DeclTemplate.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclTemplate.h
+clang/AST/TypeLoc.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLoc.h
+clang/AST/TypeLocVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLocVisitor.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/Basic/PartialDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/PartialDiagnostic.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/Sema/DeclSpec.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/DeclSpec.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/SmallPtrSet.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/ErrorHandling.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TargetAttributesSema.cpp
+TargetAttributesSema.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TargetAttributesSema.h
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Basic/TargetInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/TargetInfo.h
+clang/AST/DeclCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclCXX.h
+llvm/ADT/Triple.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/ADT/Triple.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TargetAttributesSema.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/TreeTransform.h
+clang/Sema/SemaInternal.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaInternal.h
+clang/Sema/Lookup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Lookup.h
+clang/Sema/SemaDiagnostic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/SemaDiagnostic.h
+clang/Sema/ScopeInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/ScopeInfo.h
+clang/AST/Decl.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Decl.h
+clang/AST/DeclObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/DeclObjC.h
+clang/AST/Expr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Expr.h
+clang/AST/ExprCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprCXX.h
+clang/AST/ExprObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/ExprObjC.h
+clang/AST/Stmt.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/Stmt.h
+clang/AST/StmtCXX.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtCXX.h
+clang/AST/StmtObjC.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtObjC.h
+clang/AST/TypeLocBuilder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLocBuilder.h
+clang/Sema/Ownership.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Ownership.h
+clang/Sema/Designator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Sema/Designator.h
+clang/Lex/Preprocessor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Lex/Preprocessor.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/llvm/Support/ErrorHandling.h
+algorithm
+-
+clang/AST/TypeLocNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLocNodes.def
+clang/AST/StmtNodes.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtNodes.inc
+clang/AST/StmtNodes.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtNodes.inc
+clang/AST/StmtNodes.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtNodes.inc
+clang/AST/StmtNodes.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/StmtNodes.inc
+clang/AST/TypeLocNodes.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/AST/TypeLocNodes.def
+clang/Basic/OperatorKinds.def
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/lib/Sema/clang/Basic/OperatorKinds.def
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+tools/clang/include/clang/AST/Attrs.inc
+
+tools/clang/include/clang/AST/DeclNodes.inc
+
+tools/clang/include/clang/AST/StmtNodes.inc
+
+tools/clang/include/clang/Basic/AttrList.inc
+
+tools/clang/include/clang/Basic/DiagnosticASTKinds.inc
+
+tools/clang/include/clang/Basic/DiagnosticCommonKinds.inc
+
+tools/clang/include/clang/Basic/DiagnosticParseKinds.inc
+
+tools/clang/include/clang/Basic/DiagnosticSemaKinds.inc
+
+tools/clang/include/clang/Basic/arm_neon.inc
+

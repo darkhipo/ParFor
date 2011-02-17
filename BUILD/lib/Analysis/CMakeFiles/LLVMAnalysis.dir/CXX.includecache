@@ -1,0 +1,1196 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/ADT/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/ADT/llvm/ADT/PointerIntPair.h
+set
+-
+vector
+-
+
+../include/llvm/ADT/FoldingSet.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/GraphTraits.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/PointerIntPair.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+cassert
+-
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallPtrSet.h
+cassert
+-
+cstring
+-
+iterator
+-
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/Statistic.h
+llvm/System/Atomic.h
+../include/llvm/ADT/llvm/System/Atomic.h
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/ADT/ValueMap.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+llvm/Support/ValueHandle.h
+../include/llvm/ADT/llvm/Support/ValueHandle.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/System/Mutex.h
+../include/llvm/ADT/llvm/System/Mutex.h
+iterator
+-
+
+../include/llvm/ADT/ilist.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../include/llvm/ADT/ilist_node.h
+
+../include/llvm/AbstractTypeUser.h
+cassert
+-
+
+../include/llvm/Analysis/AliasAnalysis.h
+llvm/Support/CallSite.h
+../include/llvm/Analysis/llvm/Support/CallSite.h
+llvm/System/IncludeFile.h
+../include/llvm/Analysis/llvm/System/IncludeFile.h
+vector
+-
+
+../include/llvm/Analysis/AliasSetTracker.h
+llvm/Support/CallSite.h
+../include/llvm/Analysis/llvm/Support/CallSite.h
+llvm/Support/ValueHandle.h
+../include/llvm/Analysis/llvm/Support/ValueHandle.h
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/ilist.h
+../include/llvm/Analysis/llvm/ADT/ilist.h
+llvm/ADT/ilist_node.h
+../include/llvm/Analysis/llvm/ADT/ilist_node.h
+vector
+-
+
+../include/llvm/Analysis/CaptureTracking.h
+
+../include/llvm/Analysis/CodeMetrics.h
+
+../include/llvm/Analysis/ConstantFolding.h
+
+../include/llvm/Analysis/DebugInfo.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/StringRef.h
+../include/llvm/Analysis/llvm/ADT/StringRef.h
+llvm/Support/Dwarf.h
+../include/llvm/Analysis/llvm/Support/Dwarf.h
+
+../include/llvm/Analysis/Dominators.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/Function.h
+../include/llvm/Analysis/llvm/Function.h
+llvm/Instructions.h
+../include/llvm/Analysis/llvm/Instructions.h
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/DepthFirstIterator.h
+../include/llvm/Analysis/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Analysis/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/Assembly/Writer.h
+../include/llvm/Analysis/llvm/Assembly/Writer.h
+llvm/Support/CFG.h
+../include/llvm/Analysis/llvm/Support/CFG.h
+llvm/Support/Compiler.h
+../include/llvm/Analysis/llvm/Support/Compiler.h
+llvm/Support/raw_ostream.h
+../include/llvm/Analysis/llvm/Support/raw_ostream.h
+algorithm
+-
+map
+-
+set
+-
+
+../include/llvm/Analysis/InlineCost.h
+cassert
+-
+climits
+-
+vector
+-
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/ValueMap.h
+../include/llvm/Analysis/llvm/ADT/ValueMap.h
+llvm/Analysis/CodeMetrics.h
+../include/llvm/Analysis/llvm/Analysis/CodeMetrics.h
+
+../include/llvm/Analysis/InstructionSimplify.h
+
+../include/llvm/Analysis/Lint.h
+string
+-
+
+../include/llvm/Analysis/Loads.h
+llvm/BasicBlock.h
+../include/llvm/Analysis/llvm/BasicBlock.h
+
+../include/llvm/Analysis/LoopInfo.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/ADT/DepthFirstIterator.h
+../include/llvm/Analysis/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Analysis/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+../include/llvm/Analysis/llvm/ADT/STLExtras.h
+llvm/Analysis/Dominators.h
+../include/llvm/Analysis/llvm/Analysis/Dominators.h
+llvm/Support/CFG.h
+../include/llvm/Analysis/llvm/Support/CFG.h
+llvm/Support/raw_ostream.h
+../include/llvm/Analysis/llvm/Support/raw_ostream.h
+algorithm
+-
+
+../include/llvm/Analysis/MemoryBuiltins.h
+
+../include/llvm/Analysis/MemoryDependenceAnalysis.h
+llvm/BasicBlock.h
+../include/llvm/Analysis/llvm/BasicBlock.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/Support/ValueHandle.h
+../include/llvm/Analysis/llvm/Support/ValueHandle.h
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/OwningPtr.h
+../include/llvm/Analysis/llvm/ADT/OwningPtr.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Analysis/llvm/ADT/PointerIntPair.h
+
+../include/llvm/Analysis/PHITransAddr.h
+llvm/Instruction.h
+../include/llvm/Analysis/llvm/Instruction.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+
+../include/llvm/Analysis/Passes.h
+
+../include/llvm/Analysis/ScalarEvolution.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/Instructions.h
+../include/llvm/Analysis/llvm/Instructions.h
+llvm/Function.h
+../include/llvm/Analysis/llvm/Function.h
+llvm/System/DataTypes.h
+../include/llvm/Analysis/llvm/System/DataTypes.h
+llvm/Support/ValueHandle.h
+../include/llvm/Analysis/llvm/Support/ValueHandle.h
+llvm/Support/Allocator.h
+../include/llvm/Analysis/llvm/Support/Allocator.h
+llvm/Support/ConstantRange.h
+../include/llvm/Analysis/llvm/Support/ConstantRange.h
+llvm/ADT/FoldingSet.h
+../include/llvm/Analysis/llvm/ADT/FoldingSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+map
+-
+
+../include/llvm/Analysis/ScalarEvolutionExpander.h
+llvm/Analysis/ScalarEvolutionExpressions.h
+../include/llvm/Analysis/llvm/Analysis/ScalarEvolutionExpressions.h
+llvm/Analysis/ScalarEvolutionNormalization.h
+../include/llvm/Analysis/llvm/Analysis/ScalarEvolutionNormalization.h
+llvm/Support/IRBuilder.h
+../include/llvm/Analysis/llvm/Support/IRBuilder.h
+llvm/Support/TargetFolder.h
+../include/llvm/Analysis/llvm/Support/TargetFolder.h
+llvm/Support/ValueHandle.h
+../include/llvm/Analysis/llvm/Support/ValueHandle.h
+set
+-
+
+../include/llvm/Analysis/ScalarEvolutionExpressions.h
+llvm/Analysis/ScalarEvolution.h
+../include/llvm/Analysis/llvm/Analysis/ScalarEvolution.h
+llvm/Support/ErrorHandling.h
+../include/llvm/Analysis/llvm/Support/ErrorHandling.h
+
+../include/llvm/Analysis/ScalarEvolutionNormalization.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+
+../include/llvm/Analysis/ValueTracking.h
+llvm/System/DataTypes.h
+../include/llvm/Analysis/llvm/System/DataTypes.h
+string
+-
+
+../include/llvm/Argument.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/Assembly/Writer.h
+string
+-
+
+../include/llvm/Attributes.h
+llvm/Support/MathExtras.h
+../include/llvm/llvm/Support/MathExtras.h
+cassert
+-
+string
+-
+
+../include/llvm/BasicBlock.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/SymbolTableListTraits.h
+../include/llvm/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+
+../include/llvm/CallingConv.h
+
+../include/llvm/Constant.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Constants.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/APInt.h
+../include/llvm/llvm/ADT/APInt.h
+llvm/ADT/APFloat.h
+../include/llvm/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+vector
+-
+
+../include/llvm/DerivedTypes.h
+llvm/Type.h
+../include/llvm/llvm/Type.h
+
+../include/llvm/Function.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/BasicBlock.h
+../include/llvm/llvm/BasicBlock.h
+llvm/Argument.h
+../include/llvm/llvm/Argument.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/Support/Compiler.h
+../include/llvm/llvm/Support/Compiler.h
+
+../include/llvm/GlobalAlias.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/GlobalValue.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+
+../include/llvm/GlobalVariable.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/InstrTypes.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/Operator.h
+../include/llvm/llvm/Operator.h
+llvm/DerivedTypes.h
+../include/llvm/llvm/DerivedTypes.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Instruction.def
+
+../include/llvm/Instruction.h
+llvm/User.h
+../include/llvm/llvm/User.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/Support/DebugLoc.h
+../include/llvm/llvm/Support/DebugLoc.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Instructions.h
+llvm/InstrTypes.h
+../include/llvm/llvm/InstrTypes.h
+llvm/DerivedTypes.h
+../include/llvm/llvm/DerivedTypes.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+iterator
+-
+
+../include/llvm/IntrinsicInst.h
+llvm/Constants.h
+../include/llvm/llvm/Constants.h
+llvm/Function.h
+../include/llvm/llvm/Function.h
+llvm/Instructions.h
+../include/llvm/llvm/Instructions.h
+llvm/Intrinsics.h
+../include/llvm/llvm/Intrinsics.h
+
+../include/llvm/Intrinsics.h
+string
+-
+llvm/Intrinsics.gen
+../include/llvm/llvm/Intrinsics.gen
+
+../include/llvm/LLVMContext.h
+
+../include/llvm/Metadata.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/ADT/FoldingSet.h
+../include/llvm/llvm/ADT/FoldingSet.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+
+../include/llvm/Module.h
+llvm/Function.h
+../include/llvm/llvm/Function.h
+llvm/GlobalVariable.h
+../include/llvm/llvm/GlobalVariable.h
+llvm/GlobalAlias.h
+../include/llvm/llvm/GlobalAlias.h
+llvm/Metadata.h
+../include/llvm/llvm/Metadata.h
+llvm/ADT/OwningPtr.h
+../include/llvm/llvm/ADT/OwningPtr.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+vector
+-
+
+../include/llvm/OperandTraits.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Operator.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/Constants.h
+../include/llvm/llvm/Constants.h
+
+../include/llvm/Pass.h
+string
+-
+llvm/PassSupport.h
+../include/llvm/llvm/PassSupport.h
+llvm/PassAnalysisSupport.h
+../include/llvm/llvm/PassAnalysisSupport.h
+
+../include/llvm/PassAnalysisSupport.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/PassManager.h
+llvm/Pass.h
+../include/llvm/llvm/Pass.h
+
+../include/llvm/PassRegistry.h
+llvm/ADT/StringMap.h
+../include/llvm/llvm/ADT/StringMap.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/System/Mutex.h
+../include/llvm/llvm/System/Mutex.h
+map
+-
+set
+-
+vector
+-
+
+../include/llvm/PassSupport.h
+Pass.h
+../include/llvm/Pass.h
+llvm/PassRegistry.h
+../include/llvm/llvm/PassRegistry.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/CFG.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Support/llvm/ADT/GraphTraits.h
+llvm/Function.h
+../include/llvm/Support/llvm/Function.h
+llvm/InstrTypes.h
+../include/llvm/Support/llvm/InstrTypes.h
+
+../include/llvm/Support/CallSite.h
+llvm/Attributes.h
+../include/llvm/Support/llvm/Attributes.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Support/llvm/ADT/PointerIntPair.h
+llvm/BasicBlock.h
+../include/llvm/Support/llvm/BasicBlock.h
+llvm/CallingConv.h
+../include/llvm/Support/llvm/CallingConv.h
+llvm/Instructions.h
+../include/llvm/Support/llvm/Instructions.h
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/CommandLine.h
+llvm/Support/type_traits.h
+../include/llvm/Support/llvm/Support/type_traits.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+llvm/ADT/SmallVector.h
+../include/llvm/Support/llvm/ADT/SmallVector.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+cassert
+-
+climits
+-
+cstdarg
+-
+utility
+-
+vector
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/ConstantFolder.h
+llvm/Constants.h
+../include/llvm/Support/llvm/Constants.h
+llvm/InstrTypes.h
+../include/llvm/Support/llvm/InstrTypes.h
+
+../include/llvm/Support/ConstantRange.h
+llvm/ADT/APInt.h
+../include/llvm/Support/llvm/ADT/APInt.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/DebugLoc.h
+
+../include/llvm/Support/Dwarf.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/GetElementPtrTypeIterator.h
+llvm/User.h
+../include/llvm/Support/llvm/User.h
+llvm/DerivedTypes.h
+../include/llvm/Support/llvm/DerivedTypes.h
+
+../include/llvm/Support/IRBuilder.h
+llvm/Instructions.h
+../include/llvm/Support/llvm/Instructions.h
+llvm/BasicBlock.h
+../include/llvm/Support/llvm/BasicBlock.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+llvm/Support/ConstantFolder.h
+../include/llvm/Support/llvm/Support/ConstantFolder.h
+
+../include/llvm/Support/InstIterator.h
+llvm/BasicBlock.h
+../include/llvm/Support/llvm/BasicBlock.h
+llvm/Function.h
+../include/llvm/Support/llvm/Function.h
+
+../include/llvm/Support/InstVisitor.h
+llvm/Function.h
+../include/llvm/Support/llvm/Function.h
+llvm/Instructions.h
+../include/llvm/Support/llvm/Instructions.h
+llvm/Module.h
+../include/llvm/Support/llvm/Module.h
+llvm/Support/ErrorHandling.h
+../include/llvm/Support/llvm/Support/ErrorHandling.h
+llvm/Instruction.def
+../include/llvm/Support/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/Support/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/Support/llvm/Instruction.def
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PredIteratorCache.h
+llvm/Support/Allocator.h
+../include/llvm/Support/llvm/Support/Allocator.h
+llvm/Support/CFG.h
+../include/llvm/Support/llvm/Support/CFG.h
+llvm/ADT/DenseMap.h
+../include/llvm/Support/llvm/ADT/DenseMap.h
+llvm/ADT/SmallVector.h
+../include/llvm/Support/llvm/ADT/SmallVector.h
+
+../include/llvm/Support/TargetFolder.h
+llvm/Constants.h
+../include/llvm/Support/llvm/Constants.h
+llvm/InstrTypes.h
+../include/llvm/Support/llvm/InstrTypes.h
+llvm/Analysis/ConstantFolding.h
+../include/llvm/Support/llvm/Analysis/ConstantFolding.h
+
+../include/llvm/Support/ValueHandle.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/Support/llvm/ADT/DenseMapInfo.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Support/llvm/ADT/PointerIntPair.h
+llvm/Value.h
+../include/llvm/Support/llvm/Value.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Atomic.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+
+../include/llvm/System/IncludeFile.h
+
+../include/llvm/System/Mutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Threading.h
+
+../include/llvm/Target/TargetData.h
+llvm/Pass.h
+../include/llvm/Target/llvm/Pass.h
+llvm/ADT/SmallVector.h
+../include/llvm/Target/llvm/ADT/SmallVector.h
+
+../include/llvm/Type.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/ADT/GraphTraits.h
+../include/llvm/llvm/ADT/GraphTraits.h
+string
+-
+vector
+-
+
+../include/llvm/Use.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/llvm/ADT/PointerIntPair.h
+cstddef
+-
+iterator
+-
+
+../include/llvm/User.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+
+../include/llvm/Value.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Use.h
+../include/llvm/llvm/Use.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/AliasAnalysis.cpp
+llvm/Analysis/AliasAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasAnalysis.h
+llvm/Pass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Pass.h
+llvm/BasicBlock.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/BasicBlock.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Function.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Type.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/Intrinsics.gen
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Intrinsics.gen
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/AliasSetTracker.cpp
+llvm/Analysis/AliasSetTracker.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasSetTracker.h
+llvm/Analysis/AliasAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasAnalysis.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Pass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Pass.h
+llvm/Type.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Type.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/Assembly/Writer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Assembly/Writer.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/ErrorHandling.h
+llvm/Support/InstIterator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/InstIterator.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/BasicAliasAnalysis.cpp
+llvm/Analysis/AliasAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasAnalysis.h
+llvm/Analysis/Passes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Passes.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Constants.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/DerivedTypes.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Function.h
+llvm/GlobalAlias.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalAlias.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalVariable.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Operator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Operator.h
+llvm/Pass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Pass.h
+llvm/Analysis/CaptureTracking.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/CaptureTracking.h
+llvm/Analysis/MemoryBuiltins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/MemoryBuiltins.h
+llvm/Analysis/ValueTracking.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ValueTracking.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallVector.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/ErrorHandling.h
+llvm/Support/GetElementPtrTypeIterator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/GetElementPtrTypeIterator.h
+algorithm
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/ConstantFolding.cpp
+llvm/Analysis/ConstantFolding.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ConstantFolding.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Constants.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/DerivedTypes.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Function.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalVariable.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Intrinsics.h
+llvm/Analysis/ValueTracking.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ValueTracking.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallVector.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/StringMap.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/ErrorHandling.h
+llvm/Support/GetElementPtrTypeIterator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/GetElementPtrTypeIterator.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/MathExtras.h
+cerrno
+-
+cmath
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/DbgInfoPrinter.cpp
+llvm/Pass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Pass.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Function.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Metadata.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Metadata.h
+llvm/Assembly/Writer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Assembly/Writer.h
+llvm/Analysis/DebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/DebugInfo.h
+llvm/Analysis/Passes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Passes.h
+llvm/Support/CFG.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/CFG.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/CommandLine.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/DebugInfo.cpp
+llvm/Analysis/DebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/DebugInfo.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Constants.h
+llvm/DerivedTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/DerivedTypes.h
+llvm/Intrinsics.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Intrinsics.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Module.h
+llvm/Analysis/ValueTracking.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ValueTracking.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallString.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/STLExtras.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/Debug.h
+llvm/Support/Dwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/Dwarf.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/InlineCost.cpp
+llvm/Analysis/InlineCost.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/InlineCost.h
+llvm/Support/CallSite.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/CallSite.h
+llvm/CallingConv.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/CallingConv.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallPtrSet.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/Lint.cpp
+llvm/Analysis/Passes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Passes.h
+llvm/Analysis/AliasAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasAnalysis.h
+llvm/Analysis/InstructionSimplify.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/InstructionSimplify.h
+llvm/Analysis/ConstantFolding.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ConstantFolding.h
+llvm/Analysis/Dominators.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Dominators.h
+llvm/Analysis/Lint.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Lint.h
+llvm/Analysis/Loads.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Loads.h
+llvm/Analysis/ValueTracking.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ValueTracking.h
+llvm/Assembly/Writer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Assembly/Writer.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/Pass.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Pass.h
+llvm/PassManager.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/PassManager.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Function.h
+llvm/Support/CallSite.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/CallSite.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/Debug.h
+llvm/Support/InstVisitor.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/InstVisitor.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/raw_ostream.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/STLExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/Loads.cpp
+llvm/Analysis/Loads.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Loads.h
+llvm/Analysis/AliasAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasAnalysis.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/GlobalAlias.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalAlias.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalVariable.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/MemoryDependenceAnalysis.cpp
+llvm/Analysis/MemoryDependenceAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/MemoryDependenceAnalysis.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/Function.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Function.h
+llvm/Analysis/AliasAnalysis.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/AliasAnalysis.h
+llvm/Analysis/Dominators.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/Dominators.h
+llvm/Analysis/InstructionSimplify.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/InstructionSimplify.h
+llvm/Analysis/MemoryBuiltins.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/MemoryBuiltins.h
+llvm/Analysis/PHITransAddr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/PHITransAddr.h
+llvm/ADT/Statistic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/Statistic.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/STLExtras.h
+llvm/Support/PredIteratorCache.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/PredIteratorCache.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/Debug.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/ScalarEvolutionExpander.cpp
+llvm/Analysis/ScalarEvolutionExpander.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ScalarEvolutionExpander.h
+llvm/Analysis/LoopInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/LoopInfo.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/LLVMContext.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/STLExtras.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/ValueTracking.cpp
+llvm/Analysis/ValueTracking.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Analysis/ValueTracking.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Constants.h
+llvm/Instructions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Instructions.h
+llvm/GlobalVariable.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalVariable.h
+llvm/GlobalAlias.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/GlobalAlias.h
+llvm/IntrinsicInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/IntrinsicInst.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/LLVMContext.h
+llvm/Operator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Operator.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Target/TargetData.h
+llvm/Support/GetElementPtrTypeIterator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/GetElementPtrTypeIterator.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/Support/MathExtras.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Analysis/llvm/ADT/SmallPtrSet.h
+cstring
+-
+
+include/llvm/Intrinsics.gen
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

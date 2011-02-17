@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\libLLVMArchive.a  CMakeFiles/LLVMArchive.dir/Archive.cpp.obj CMakeFiles/LLVMArchive.dir/ArchiveReader.cpp.obj CMakeFiles/LLVMArchive.dir/ArchiveWriter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\libLLVMArchive.a

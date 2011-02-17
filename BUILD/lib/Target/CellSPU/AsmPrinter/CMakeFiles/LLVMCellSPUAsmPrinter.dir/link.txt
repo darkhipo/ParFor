@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMCellSPUAsmPrinter.a  CMakeFiles/LLVMCellSPUAsmPrinter.dir/SPUAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMCellSPUAsmPrinter.a

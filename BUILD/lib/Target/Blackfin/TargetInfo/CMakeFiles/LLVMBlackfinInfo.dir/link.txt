@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMBlackfinInfo.a  CMakeFiles/LLVMBlackfinInfo.dir/BlackfinTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMBlackfinInfo.a

@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMInstrumentation.a  CMakeFiles/LLVMInstrumentation.dir/EdgeProfiling.cpp.obj CMakeFiles/LLVMInstrumentation.dir/OptimalEdgeProfiling.cpp.obj CMakeFiles/LLVMInstrumentation.dir/ProfilingUtils.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMInstrumentation.a

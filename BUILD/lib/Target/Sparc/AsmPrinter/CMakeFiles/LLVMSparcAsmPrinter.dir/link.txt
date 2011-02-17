@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMSparcAsmPrinter.a  CMakeFiles/LLVMSparcAsmPrinter.dir/SparcAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMSparcAsmPrinter.a

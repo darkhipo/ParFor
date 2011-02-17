@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMipa.a  CMakeFiles/LLVMipa.dir/CallGraph.cpp.obj CMakeFiles/LLVMipa.dir/CallGraphSCCPass.cpp.obj CMakeFiles/LLVMipa.dir/FindUsedTypes.cpp.obj CMakeFiles/LLVMipa.dir/GlobalsModRef.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMipa.a

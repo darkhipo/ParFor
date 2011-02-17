@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMPowerPCInfo.a  CMakeFiles/LLVMPowerPCInfo.dir/PowerPCTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMPowerPCInfo.a

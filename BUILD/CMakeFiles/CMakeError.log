@@ -1,0 +1,779 @@
+Determining if the include file argz.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:18: error: argz.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file dl.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:16: error: dl.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file dld.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:17: error: dld.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file execinfo.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:22: error: execinfo.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file link.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:18: error: link.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:27: error: malloc/malloc.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:18: error: ndir.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/dir.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: error: sys/dir.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/dl.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: error: sys/dl.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:22: error: sys/mman.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:22: error: sys/ndir.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:26: error: sys/resource.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:22: error: sys/wait.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file termios.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: error: termios.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:31: error: valgrind/valgrind.h: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the getpagesize exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'getpagesize' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef getpagesize
+  cmakeRequireSymbol(0,&getpagesize);
+#endif
+  return 0;
+}
+
+Determining if the getrusage exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:26: error: sys/resource.h: No such file or directory
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'getrusage' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef getrusage
+  cmakeRequireSymbol(0,&getrusage);
+#endif
+  return 0;
+}
+
+Determining if the setrlimit exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:26: error: sys/resource.h: No such file or directory
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'setrlimit' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef setrlimit
+  cmakeRequireSymbol(0,&setrlimit);
+#endif
+  return 0;
+}
+
+Determining if the isinf exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:17: error: cmath: No such file or directory
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'isinf' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef isinf
+  cmakeRequireSymbol(0,&isinf);
+#endif
+  return 0;
+}
+
+Determining if the isnan exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:17: error: cmath: No such file or directory
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'isnan' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef isnan
+  cmakeRequireSymbol(0,&isnan);
+#endif
+  return 0;
+}
+
+Determining if the mallinfo exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'mallinfo' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef mallinfo
+  cmakeRequireSymbol(0,&mallinfo);
+#endif
+  return 0;
+}
+
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:27: error: malloc/malloc.h: No such file or directory
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'malloc_zone_statistics' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef malloc_zone_statistics
+  cmakeRequireSymbol(0,&malloc_zone_statistics);
+#endif
+  return 0;
+}
+
+Determining if the mkdtemp exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:9: error: 'mkdtemp' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:9: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:9: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef mkdtemp
+  cmakeRequireSymbol(0,&mkdtemp);
+#endif
+  return 0;
+}
+
+Determining if the mkstemp exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:9: error: 'mkstemp' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:9: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:9: error: for each function it appears in.)
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef mkstemp
+  cmakeRequireSymbol(0,&mkstemp);
+#endif
+  return 0;
+}
+
+Determining if the sbrk exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'sbrk' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef sbrk
+  cmakeRequireSymbol(0,&sbrk);
+#endif
+  return 0;
+}
+
+Determining if the strerror_r exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'strerror_r' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef strerror_r
+  cmakeRequireSymbol(0,&strerror_r);
+#endif
+  return 0;
+}
+
+Determining if the strerror_s exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'strerror_s' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef strerror_s
+  cmakeRequireSymbol(0,&strerror_s);
+#endif
+  return 0;
+}
+
+Determining if the setenv exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: 'setenv' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef setenv
+  cmakeRequireSymbol(0,&setenv);
+#endif
+  return 0;
+}
+
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckSymbolExists.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: '__GLIBC__' undeclared (first use in this function)
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8: error: for each function it appears in.)
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+File C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef __GLIBC__
+  cmakeRequireSymbol(0,&__GLIBC__);
+#endif
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_BI_ITERATOR failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.obj
+C:\strawberry\c\bin\g++.exe    -DHAVE_BI_ITERATOR   -o CMakeFiles\cmTryCompileExec.dir\src.cxx.obj -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx:4: error: expected constructor, destructor, or type conversion before '<' token
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include<iterator>
+#include<iostream>
+ std::bidirectional_iterator<int,int> typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_FWD_ITERATOR failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.obj
+C:\strawberry\c\bin\g++.exe    -DHAVE_FWD_ITERATOR   -o CMakeFiles\cmTryCompileExec.dir\src.cxx.obj -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx:3: error: expected constructor, destructor, or type conversion before '<' token
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include<iterator>
+ std::forward_iterator<int,int> typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.obj
+C:\strawberry\c\bin\g++.exe    -DHAVE_U_INT64_T   -o CMakeFiles\cmTryCompileExec.dir\src.cxx.obj -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx"
+C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx:5: error: 'u_int64_t' does not name a type
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test LLVM_MULTITHREADED failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.obj
+C:\strawberry\c\bin\g++.exe    -DLLVM_MULTITHREADED   -o CMakeFiles\cmTryCompileExec.dir\src.cxx.obj -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\src.cxx"
+Linking CXX executable cmTryCompileExec.exe
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec.dir\link.txt --verbose=1
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec.dir/objects.a
+C:\strawberry\c\bin\ar.exe cr CMakeFiles\cmTryCompileExec.dir/objects.a @CMakeFiles\cmTryCompileExec.dir\objects1.rsp
+C:\strawberry\c\bin\g++.exe     -DLLVM_MULTITHREADED   -Wl,--whole-archive CMakeFiles\cmTryCompileExec.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+CMakeFiles\cmTryCompileExec.dir/objects.a(src.cxx.obj):src.cxx:(.text+0x33): undefined reference to `__sync_val_compare_and_swap_4'
+collect2: ld returned 1 exit status
+mingw32-make.exe[1]: *** [cmTryCompileExec.exe] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec.dir\build.make CMakeFiles/cmTryCompileExec.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\strawberry\c\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj   -c "C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+In file included from C:\Documents and Settings\darkhipo\Desktop\clang_source_2\llvm-2.8\BUILD\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:
+/mingw/include/pthread.h:307: error: redefinition of 'struct timespec'
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec/fast] Error 2
+
+

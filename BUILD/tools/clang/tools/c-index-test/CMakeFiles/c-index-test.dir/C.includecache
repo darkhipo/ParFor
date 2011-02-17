@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tools/clang/include/clang-c/Index.h
+sys/stat.h
+-
+time.h
+-
+stdio.h
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/tools/c-index-test/c-index-test.c
+clang-c/Index.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/clang/tools/c-index-test/clang-c/Index.h
+ctype.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+assert.h
+-
+

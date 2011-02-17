@@ -1,0 +1,82 @@
+# The set of languages for which implicit dependencies are needed:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/llvm-mc/Disassembler.cpp" "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/tools/llvm-mc/CMakeFiles/llvm-mc.dir/Disassembler.cpp.obj"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/llvm-mc/llvm-mc.cpp" "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/tools/llvm-mc/CMakeFiles/llvm-mc.dir/llvm-mc.cpp.obj"
+  )
+SET(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+SET(CMAKE_TARGET_DEFINITIONS
+  "_DEBUG"
+  "__STDC_LIMIT_MACROS"
+  "__STDC_CONSTANT_MACROS"
+  )
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/ARM/AsmPrinter/CMakeFiles/LLVMARMAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/MC/MCDisassembler/CMakeFiles/LLVMMCDisassembler.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/ARM/AsmParser/CMakeFiles/LLVMARMAsmParser.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/ARM/CMakeFiles/LLVMARMCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Alpha/AsmPrinter/CMakeFiles/LLVMAlphaAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Alpha/CMakeFiles/LLVMAlphaCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Blackfin/AsmPrinter/CMakeFiles/LLVMBlackfinAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Blackfin/CMakeFiles/LLVMBlackfinCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CBackend/CMakeFiles/LLVMCBackend.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CellSPU/AsmPrinter/CMakeFiles/LLVMCellSPUAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CellSPU/CMakeFiles/LLVMCellSPUCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CppBackend/CMakeFiles/LLVMCppBackend.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/MBlaze/AsmPrinter/CMakeFiles/LLVMMBlazeAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/MSP430/AsmPrinter/CMakeFiles/LLVMMSP430AsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/MSP430/CMakeFiles/LLVMMSP430CodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Mips/AsmPrinter/CMakeFiles/LLVMMipsAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/PIC16/AsmPrinter/CMakeFiles/LLVMPIC16AsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/PowerPC/AsmPrinter/CMakeFiles/LLVMPowerPCAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/PowerPC/CMakeFiles/LLVMPowerPCCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Sparc/AsmPrinter/CMakeFiles/LLVMSparcAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Sparc/CMakeFiles/LLVMSparcCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/SystemZ/AsmPrinter/CMakeFiles/LLVMSystemZAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/SystemZ/CMakeFiles/LLVMSystemZCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/X86/AsmParser/CMakeFiles/LLVMX86AsmParser.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/X86/CMakeFiles/LLVMX86CodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/X86/Disassembler/CMakeFiles/LLVMX86Disassembler.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/XCore/AsmPrinter/CMakeFiles/LLVMXCoreAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/XCore/CMakeFiles/LLVMXCoreCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/ARM/TargetInfo/CMakeFiles/LLVMARMInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Alpha/TargetInfo/CMakeFiles/LLVMAlphaInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Blackfin/TargetInfo/CMakeFiles/LLVMBlackfinInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CBackend/TargetInfo/CMakeFiles/LLVMCBackendInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CellSPU/TargetInfo/CMakeFiles/LLVMCellSPUInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CppBackend/TargetInfo/CMakeFiles/LLVMCppBackendInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/MBlaze/CMakeFiles/LLVMMBlazeCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/MSP430/TargetInfo/CMakeFiles/LLVMMSP430Info.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Mips/CMakeFiles/LLVMMipsCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/PIC16/CMakeFiles/LLVMPIC16CodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/PowerPC/TargetInfo/CMakeFiles/LLVMPowerPCInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Sparc/TargetInfo/CMakeFiles/LLVMSparcInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/SystemZ/TargetInfo/CMakeFiles/LLVMSystemZInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/X86/AsmPrinter/CMakeFiles/LLVMX86AsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/X86/TargetInfo/CMakeFiles/LLVMX86Info.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/CodeGen/AsmPrinter/CMakeFiles/LLVMAsmPrinter.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/XCore/TargetInfo/CMakeFiles/LLVMXCoreInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/MBlaze/TargetInfo/CMakeFiles/LLVMMBlazeInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/Mips/TargetInfo/CMakeFiles/LLVMMipsInfo.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/PIC16/TargetInfo/CMakeFiles/LLVMPIC16Info.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/CodeGen/SelectionDAG/CMakeFiles/LLVMSelectionDAG.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/MC/MCParser/CMakeFiles/LLVMMCParser.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/CodeGen/CMakeFiles/LLVMCodeGen.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Transforms/Scalar/CMakeFiles/LLVMScalarOpts.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Transforms/InstCombine/CMakeFiles/LLVMInstCombine.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Transforms/Utils/CMakeFiles/LLVMTransformUtils.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Analysis/IPA/CMakeFiles/LLVMipa.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Analysis/CMakeFiles/LLVMAnalysis.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Target/CMakeFiles/LLVMTarget.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/VMCore/CMakeFiles/LLVMCore.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/MC/CMakeFiles/LLVMMC.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/Support/CMakeFiles/LLVMSupport.dir/DependInfo.cmake"
+  "C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/BUILD/lib/System/CMakeFiles/LLVMSystem.dir/DependInfo.cmake"
+  )

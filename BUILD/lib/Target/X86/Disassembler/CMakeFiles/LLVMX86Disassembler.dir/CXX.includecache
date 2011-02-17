@@ -1,0 +1,150 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/MC/EDInstInfo.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCDisassembler.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCInst.h
+llvm/ADT/SmallVector.h
+../include/llvm/MC/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/MemoryObject.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/Target/TargetRegistry.h
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+string
+-
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86Disassembler.cpp
+X86Disassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86Disassembler.h
+X86DisassemblerDecoder.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoder.h
+llvm/MC/EDInstInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/MC/EDInstInfo.h
+llvm/MC/MCDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/MC/MCDisassembler.h
+llvm/MC/MCDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/MC/MCDisassembler.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/MC/MCInst.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/Target/TargetRegistry.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/Support/Debug.h
+llvm/Support/MemoryObject.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/Support/MemoryObject.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/Support/raw_ostream.h
+X86GenRegisterNames.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86GenRegisterNames.inc
+X86GenEDInfo.inc
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86GenEDInfo.inc
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86Disassembler.h
+X86DisassemblerDecoderCommon.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+llvm/MC/MCDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/MC/MCDisassembler.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoder.h
+X86DisassemblerDecoderCommon.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/X86DisassemblerDecoderCommon.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/Target/X86/Disassembler/llvm/System/DataTypes.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+
+lib/Target/X86/Disassembler/../X86GenEDInfo.inc
+
+lib/Target/X86/Disassembler/../X86GenRegisterNames.inc
+

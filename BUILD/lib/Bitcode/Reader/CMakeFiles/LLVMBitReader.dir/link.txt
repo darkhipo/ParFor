@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMBitReader.a  CMakeFiles/LLVMBitReader.dir/BitReader.cpp.obj CMakeFiles/LLVMBitReader.dir/BitcodeReader.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMBitReader.a

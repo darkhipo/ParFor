@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMSystemZAsmPrinter.a  CMakeFiles/LLVMSystemZAsmPrinter.dir/SystemZAsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMSystemZAsmPrinter.a

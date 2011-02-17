@@ -1,0 +1,980 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/Statistic.h
+llvm/System/Atomic.h
+../include/llvm/ADT/llvm/System/Atomic.h
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/StringSwitch.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/ADT/ilist.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../include/llvm/ADT/ilist_node.h
+
+../include/llvm/MC/ELFObjectWriter.h
+llvm/MC/MCObjectWriter.h
+../include/llvm/MC/llvm/MC/MCObjectWriter.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+cassert
+-
+
+../include/llvm/MC/MCAsmInfo.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+cassert
+-
+
+../include/llvm/MC/MCAsmInfoCOFF.h
+llvm/MC/MCAsmInfo.h
+../include/llvm/MC/llvm/MC/MCAsmInfo.h
+
+../include/llvm/MC/MCAsmInfoDarwin.h
+llvm/MC/MCAsmInfo.h
+../include/llvm/MC/llvm/MC/MCAsmInfo.h
+
+../include/llvm/MC/MCAsmLayout.h
+llvm/ADT/SmallVector.h
+../include/llvm/MC/llvm/ADT/SmallVector.h
+
+../include/llvm/MC/MCAssembler.h
+llvm/ADT/DenseMap.h
+../include/llvm/MC/llvm/ADT/DenseMap.h
+llvm/ADT/SmallString.h
+../include/llvm/MC/llvm/ADT/SmallString.h
+llvm/ADT/ilist.h
+../include/llvm/MC/llvm/ADT/ilist.h
+llvm/ADT/ilist_node.h
+../include/llvm/MC/llvm/ADT/ilist_node.h
+llvm/Support/Casting.h
+../include/llvm/MC/llvm/Support/Casting.h
+llvm/MC/MCFixup.h
+../include/llvm/MC/llvm/MC/MCFixup.h
+llvm/MC/MCInst.h
+../include/llvm/MC/llvm/MC/MCInst.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+vector
+-
+
+../include/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCFixup.h
+../include/llvm/MC/llvm/MC/MCFixup.h
+cassert
+-
+
+../include/llvm/MC/MCContext.h
+llvm/MC/SectionKind.h
+../include/llvm/MC/llvm/MC/SectionKind.h
+llvm/MC/MCDwarf.h
+../include/llvm/MC/llvm/MC/MCDwarf.h
+llvm/ADT/DenseMap.h
+../include/llvm/MC/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+../include/llvm/MC/llvm/ADT/StringMap.h
+llvm/Support/Allocator.h
+../include/llvm/MC/llvm/Support/Allocator.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+vector
+-
+
+../include/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/MCDisassembler.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCDwarf.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/MC/MCELFSymbolFlags.h
+llvm/Support/ELF.h
+../include/llvm/MC/llvm/Support/ELF.h
+
+../include/llvm/MC/MCExpr.h
+llvm/Support/Casting.h
+../include/llvm/MC/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCFixup.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+cassert
+-
+
+../include/llvm/MC/MCInst.h
+llvm/ADT/SmallVector.h
+../include/llvm/MC/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCInstPrinter.h
+
+../include/llvm/MC/MCLabel.h
+
+../include/llvm/MC/MCMachOSymbolFlags.h
+
+../include/llvm/MC/MCObjectStreamer.h
+llvm/MC/MCStreamer.h
+../include/llvm/MC/llvm/MC/MCStreamer.h
+
+../include/llvm/MC/MCObjectWriter.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+cassert
+-
+
+../include/llvm/MC/MCSection.h
+string
+-
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+llvm/MC/SectionKind.h
+../include/llvm/MC/llvm/MC/SectionKind.h
+llvm/Support/Casting.h
+../include/llvm/MC/llvm/Support/Casting.h
+
+../include/llvm/MC/MCSectionCOFF.h
+llvm/MC/MCSection.h
+../include/llvm/MC/llvm/MC/MCSection.h
+llvm/Support/COFF.h
+../include/llvm/MC/llvm/Support/COFF.h
+
+../include/llvm/MC/MCSectionELF.h
+llvm/MC/MCSection.h
+../include/llvm/MC/llvm/MC/MCSection.h
+
+../include/llvm/MC/MCSectionMachO.h
+llvm/MC/MCSection.h
+../include/llvm/MC/llvm/MC/MCSection.h
+
+../include/llvm/MC/MCStreamer.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/MCSymbol.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+
+../include/llvm/MC/MCValue.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+llvm/MC/MCSymbol.h
+../include/llvm/MC/llvm/MC/MCSymbol.h
+cassert
+-
+
+../include/llvm/MC/MachObjectWriter.h
+llvm/MC/MCObjectWriter.h
+../include/llvm/MC/llvm/MC/MCObjectWriter.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+cassert
+-
+
+../include/llvm/MC/SectionKind.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/COFF.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+cstring
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/ELF.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+cstring
+-
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/Format.h
+cassert
+-
+cstdio
+-
+
+../include/llvm/Support/FormattedStream.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/llvm/Support/raw_ostream.h
+
+../include/llvm/Support/MachO.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Atomic.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+
+../include/llvm/System/TimeValue.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+../include/llvm/Target/TargetAsmBackend.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetRegistry.h
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+string
+-
+cassert
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/../Target/X86/X86FixupKinds.h
+llvm/MC/MCFixup.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/../Target/X86/llvm/MC/MCFixup.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/ELFObjectWriter.cpp
+llvm/MC/ELFObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/ELFObjectWriter.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/STLExtras.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringMap.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCAsmLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmLayout.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCELFSymbolFlags.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCELFSymbolFlags.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectWriter.h
+llvm/MC/MCSectionELF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionELF.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/ELF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ELF.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+../Target/X86/X86FixupKinds.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/../Target/X86/X86FixupKinds.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCAsmInfo.cpp
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfo.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/System/DataTypes.h
+cctype
+-
+cstring
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCAsmInfoCOFF.cpp
+llvm/MC/MCAsmInfoCOFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfoCOFF.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/SmallVector.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCAsmInfoDarwin.cpp
+llvm/MC/MCAsmInfoDarwin.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfoDarwin.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCAsmStreamer.cpp
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCStreamer.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfo.h
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInst.h
+llvm/MC/MCInstPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInstPrinter.h
+llvm/MC/MCSectionMachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionMachO.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/SmallString.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/MathExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/MathExtras.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Format.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/FormattedStream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCAssembler.cpp
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCAsmLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmLayout.h
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectWriter.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/OwningPtr.h
+llvm/ADT/Statistic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Statistic.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringExtras.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetRegistry.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCCodeEmitter.cpp
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCContext.cpp
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfo.h
+llvm/MC/MCSectionMachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionMachO.h
+llvm/MC/MCSectionELF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionELF.h
+llvm/MC/MCSectionCOFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionCOFF.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCLabel.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCLabel.h
+llvm/MC/MCDwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCDwarf.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/SmallString.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler.cpp
+llvm/MC/MCDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCDisassembler.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDwarf.cpp
+llvm/MC/MCDwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCDwarf.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCELFStreamer.cpp
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCStreamer.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCELFSymbolFlags.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCELFSymbolFlags.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInst.h
+llvm/MC/MCObjectStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectStreamer.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSection.h
+llvm/MC/MCSectionELF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionELF.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/ELF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ELF.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCExpr.cpp
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/ADT/Statistic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Statistic.h
+llvm/ADT/StringSwitch.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringSwitch.h
+llvm/MC/MCAsmLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmLayout.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCInst.cpp
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInst.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCInstPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInstPrinter.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCInstPrinter.cpp
+llvm/MC/MCInstPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInstPrinter.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringRef.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCLabel.cpp
+llvm/MC/MCLabel.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCLabel.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCLoggingStreamer.cpp
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCStreamer.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/OwningPtr.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCMachOStreamer.cpp
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCStreamer.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInst.h
+llvm/MC/MCObjectStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectStreamer.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSection.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCMachOSymbolFlags.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCMachOSymbolFlags.h
+llvm/MC/MCSectionMachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionMachO.h
+llvm/MC/MCDwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCDwarf.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCNullStreamer.cpp
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCStreamer.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCInst.h
+llvm/MC/MCSectionMachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionMachO.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCObjectStreamer.cpp
+llvm/MC/MCObjectStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectStreamer.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCObjectWriter.cpp
+llvm/MC/MCObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectWriter.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCSection.cpp
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSection.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfo.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCSectionCOFF.cpp
+llvm/MC/MCSectionCOFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionCOFF.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfo.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCSectionELF.cpp
+llvm/MC/MCSectionELF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionELF.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmInfo.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCSectionMachO.cpp
+llvm/MC/MCSectionMachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionMachO.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCStreamer.cpp
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCStreamer.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/SmallString.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+cstdlib
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCSymbol.cpp
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCValue.cpp
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MachObjectWriter.cpp
+llvm/MC/MachObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MachObjectWriter.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringMap.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/Twine.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCAsmLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmLayout.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectWriter.h
+llvm/MC/MCSectionMachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionMachO.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCMachOSymbolFlags.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCMachOSymbolFlags.h
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/MachO.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/MachO.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+../Target/X86/X86FixupKinds.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/../Target/X86/X86FixupKinds.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/TargetAsmBackend.cpp
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/WinCOFFObjectWriter.cpp
+llvm/MC/MCObjectWriter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectWriter.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSection.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCAsmLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmLayout.h
+llvm/MC/MCSectionCOFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionCOFF.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringRef.h
+llvm/Support/COFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/COFF.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/System/TimeValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/System/TimeValue.h
+../Target/X86/X86FixupKinds.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/../Target/X86/X86FixupKinds.h
+cstdio
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/WinCOFFStreamer.cpp
+llvm/MC/MCObjectStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCObjectStreamer.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCContext.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSection.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSymbol.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCExpr.h
+llvm/MC/MCValue.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCValue.h
+llvm/MC/MCAssembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAssembler.h
+llvm/MC/MCAsmLayout.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCAsmLayout.h
+llvm/MC/MCCodeEmitter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCCodeEmitter.h
+llvm/MC/MCSectionCOFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/MC/MCSectionCOFF.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetRegistry.h
+llvm/Target/TargetAsmBackend.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Target/TargetAsmBackend.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/ADT/StringMap.h
+llvm/Support/COFF.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/COFF.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/ErrorHandling.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/llvm/Support/raw_ostream.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

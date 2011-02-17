@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/LLVMScalarOpts.dir/ADCE.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/BasicBlockPlacement.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/CodeGenPrepare.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/ConstantProp.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/CorrelatedValuePropagation.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/DCE.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/DeadStoreElimination.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/GEPSplitter.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/GVN.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/IndVarSimplify.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/JumpThreading.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LICM.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LoopDeletion.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LoopIndexSplit.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LoopRotation.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LoopStrengthReduce.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LoopUnrollPass.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LoopUnswitch.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/LowerAtomic.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/MemCpyOptimizer.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/Reassociate.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/Reg2Mem.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/SCCP.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/Scalar.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/ScalarReplAggregates.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/SimplifyCFGPass.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/SimplifyHalfPowrLibCalls.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/SimplifyLibCalls.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/Sink.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/TailDuplication.cpp.obj"
+  "CMakeFiles/LLVMScalarOpts.dir/TailRecursionElimination.cpp.obj"
+  "../../libLLVMScalarOpts.pdb"
+  "../../libLLVMScalarOpts.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/LLVMScalarOpts.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

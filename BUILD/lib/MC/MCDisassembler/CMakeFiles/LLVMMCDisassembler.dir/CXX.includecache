@@ -1,0 +1,562 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DenseSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+
+../include/llvm/ADT/GraphTraits.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/ilist.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../include/llvm/ADT/ilist_node.h
+
+../include/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/MachineInstr.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineInstr.h
+llvm/ADT/GraphTraits.h
+../include/llvm/CodeGen/llvm/ADT/GraphTraits.h
+
+../include/llvm/CodeGen/MachineInstr.h
+llvm/CodeGen/MachineOperand.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineOperand.h
+llvm/Target/TargetInstrDesc.h
+../include/llvm/CodeGen/llvm/Target/TargetInstrDesc.h
+llvm/Target/TargetOpcodes.h
+../include/llvm/CodeGen/llvm/Target/TargetOpcodes.h
+llvm/ADT/ilist.h
+../include/llvm/CodeGen/llvm/ADT/ilist.h
+llvm/ADT/ilist_node.h
+../include/llvm/CodeGen/llvm/ADT/ilist_node.h
+llvm/ADT/STLExtras.h
+../include/llvm/CodeGen/llvm/ADT/STLExtras.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/CodeGen/llvm/ADT/DenseMapInfo.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+vector
+-
+
+../include/llvm/CodeGen/MachineOperand.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+cassert
+-
+
+../include/llvm/CodeGen/ValueTypes.h
+cassert
+-
+string
+-
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+
+../include/llvm/MC/EDInstInfo.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCAsmInfo.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+cassert
+-
+
+../include/llvm/MC/MCContext.h
+llvm/MC/SectionKind.h
+../include/llvm/MC/llvm/MC/SectionKind.h
+llvm/MC/MCDwarf.h
+../include/llvm/MC/llvm/MC/MCDwarf.h
+llvm/ADT/DenseMap.h
+../include/llvm/MC/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+../include/llvm/MC/llvm/ADT/StringMap.h
+llvm/Support/Allocator.h
+../include/llvm/MC/llvm/Support/Allocator.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+vector
+-
+
+../include/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/MCDisassembler.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCDwarf.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/MC/MCExpr.h
+llvm/Support/Casting.h
+../include/llvm/MC/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCInst.h
+llvm/ADT/SmallVector.h
+../include/llvm/MC/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCInstPrinter.h
+
+../include/llvm/MC/MCParser/AsmLexer.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/MCParser/llvm/ADT/StringRef.h
+llvm/MC/MCParser/MCAsmLexer.h
+../include/llvm/MC/MCParser/llvm/MC/MCParser/MCAsmLexer.h
+llvm/MC/MCAsmInfo.h
+../include/llvm/MC/MCParser/llvm/MC/MCAsmInfo.h
+llvm/System/DataTypes.h
+../include/llvm/MC/MCParser/llvm/System/DataTypes.h
+string
+-
+cassert
+-
+
+../include/llvm/MC/MCParser/MCAsmLexer.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/MCParser/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/MC/MCParser/llvm/System/DataTypes.h
+llvm/Support/SMLoc.h
+../include/llvm/MC/MCParser/llvm/Support/SMLoc.h
+
+../include/llvm/MC/MCParser/MCAsmParser.h
+llvm/System/DataTypes.h
+../include/llvm/MC/MCParser/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCParser/MCAsmParserExtension.h
+llvm/MC/MCParser/MCAsmParser.h
+../include/llvm/MC/MCParser/llvm/MC/MCParser/MCAsmParser.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/MCParser/llvm/ADT/StringRef.h
+llvm/Support/SMLoc.h
+../include/llvm/MC/MCParser/llvm/Support/SMLoc.h
+
+../include/llvm/MC/MCParser/MCParsedAsmOperand.h
+
+../include/llvm/MC/MCStreamer.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/SectionKind.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/DebugLoc.h
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/MemoryBuffer.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+string
+-
+sys/stat.h
+-
+
+../include/llvm/Support/MemoryObject.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/SMLoc.h
+
+../include/llvm/Support/SourceMgr.h
+llvm/Support/SMLoc.h
+../include/llvm/Support/llvm/Support/SMLoc.h
+string
+-
+vector
+-
+cassert
+-
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Mutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Threading.h
+
+../include/llvm/Target/TargetAsmLexer.h
+llvm/MC/MCParser/MCAsmLexer.h
+../include/llvm/Target/llvm/MC/MCParser/MCAsmLexer.h
+
+../include/llvm/Target/TargetAsmParser.h
+llvm/MC/MCParser/MCAsmParserExtension.h
+../include/llvm/Target/llvm/MC/MCParser/MCAsmParserExtension.h
+
+../include/llvm/Target/TargetInstrDesc.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetInstrItineraries.h
+algorithm
+-
+
+../include/llvm/Target/TargetMachine.h
+llvm/Target/TargetInstrItineraries.h
+../include/llvm/Target/llvm/Target/TargetInstrItineraries.h
+cassert
+-
+string
+-
+
+../include/llvm/Target/TargetOpcodes.h
+
+../include/llvm/Target/TargetRegisterInfo.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/Target/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/Target/llvm/CodeGen/ValueTypes.h
+llvm/ADT/DenseSet.h
+../include/llvm/Target/llvm/ADT/DenseSet.h
+cassert
+-
+functional
+-
+
+../include/llvm/Target/TargetRegistry.h
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+string
+-
+cassert
+-
+
+../include/llvm/Target/TargetSelect.h
+llvm/Config/llvm-config.h
+../include/llvm/Target/llvm/Config/llvm-config.h
+llvm/Config/Targets.def
+../include/llvm/Target/llvm/Config/Targets.def
+llvm/Config/Targets.def
+../include/llvm/Target/llvm/Config/Targets.def
+llvm/Config/AsmPrinters.def
+../include/llvm/Target/llvm/Config/AsmPrinters.def
+llvm/Config/AsmParsers.def
+../include/llvm/Target/llvm/Config/AsmParsers.def
+llvm/Config/Disassemblers.def
+../include/llvm/Target/llvm/Config/Disassemblers.def
+llvm/Config/Targets.def
+../include/llvm/Target/llvm/Config/Targets.def
+llvm/Config/Targets.def
+../include/llvm/Target/llvm/Config/Targets.def
+llvm/Config/AsmPrinters.def
+../include/llvm/Target/llvm/Config/AsmPrinters.def
+llvm/Config/AsmParsers.def
+../include/llvm/Target/llvm/Config/AsmParsers.def
+llvm/Config/Disassemblers.def
+../include/llvm/Target/llvm/Config/Disassemblers.def
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDDisassembler.cpp
+EDDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDDisassembler.h
+EDInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInst.h
+llvm/MC/EDInstInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/EDInstInfo.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCAsmInfo.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCContext.h
+llvm/MC/MCDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCDisassembler.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCExpr.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCInst.h
+llvm/MC/MCInstPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCInstPrinter.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCStreamer.h
+llvm/MC/MCParser/AsmLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCParser/AsmLexer.h
+llvm/MC/MCParser/MCAsmParser.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCParser/MCAsmParser.h
+llvm/MC/MCParser/MCParsedAsmOperand.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCParser/MCParsedAsmOperand.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Support/MemoryBuffer.h
+llvm/Support/MemoryObject.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Support/MemoryObject.h
+llvm/Support/SourceMgr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Support/SourceMgr.h
+llvm/Target/TargetAsmLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Target/TargetAsmLexer.h
+llvm/Target/TargetAsmParser.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Target/TargetAsmParser.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Target/TargetRegistry.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Target/TargetMachine.h
+llvm/Target/TargetRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Target/TargetRegisterInfo.h
+llvm/Target/TargetSelect.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Target/TargetSelect.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDDisassembler.h
+EDInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInfo.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/ADT/OwningPtr.h
+llvm/ADT/Triple.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/ADT/Triple.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/Support/raw_ostream.h
+llvm/System/Mutex.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/System/Mutex.h
+map
+-
+set
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInst.cpp
+EDInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInst.h
+EDDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDDisassembler.h
+EDOperand.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDOperand.h
+EDToken.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDToken.h
+llvm/MC/EDInstInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/EDInstInfo.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCInst.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInst.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/ADT/SmallVector.h
+string
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDOperand.cpp
+EDOperand.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDOperand.h
+EDDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDDisassembler.h
+EDInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDInst.h
+llvm/MC/EDInstInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/EDInstInfo.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCInst.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDOperand.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/System/DataTypes.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDToken.cpp
+EDToken.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDToken.h
+EDDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDDisassembler.h
+llvm/MC/MCParser/MCAsmLexer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCParser/MCAsmLexer.h
+llvm/MC/MCParser/MCParsedAsmOperand.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/MC/MCParser/MCParsedAsmOperand.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/ADT/SmallVector.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/EDToken.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/MC/MCDisassembler/llvm/System/DataTypes.h
+string
+-
+vector
+-
+
+include/llvm/Config/AsmParsers.def
+
+include/llvm/Config/AsmPrinters.def
+
+include/llvm/Config/Disassemblers.def
+
+include/llvm/Config/Targets.def
+
+include/llvm/Config/llvm-config.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

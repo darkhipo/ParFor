@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMX86AsmPrinter.a  CMakeFiles/LLVMX86AsmPrinter.dir/X86ATTInstPrinter.cpp.obj CMakeFiles/LLVMX86AsmPrinter.dir/X86IntelInstPrinter.cpp.obj CMakeFiles/LLVMX86AsmPrinter.dir/X86InstComments.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMX86AsmPrinter.a

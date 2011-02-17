@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMAlphaInfo.a  CMakeFiles/LLVMAlphaInfo.dir/AlphaTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMAlphaInfo.a

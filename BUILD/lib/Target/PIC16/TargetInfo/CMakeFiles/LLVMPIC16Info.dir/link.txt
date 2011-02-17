@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMPIC16Info.a  CMakeFiles/LLVMPIC16Info.dir/PIC16TargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMPIC16Info.a

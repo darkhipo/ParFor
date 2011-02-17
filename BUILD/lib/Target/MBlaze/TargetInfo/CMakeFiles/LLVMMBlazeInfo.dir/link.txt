@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMMBlazeInfo.a  CMakeFiles/LLVMMBlazeInfo.dir/MBlazeTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMMBlazeInfo.a

@@ -1,0 +1,150 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm-c/EnhancedDisassembly.h
+llvm/System/DataTypes.h
+../include/llvm-c/llvm/System/DataTypes.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Mutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Threading.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDDisassembler.h
+EDInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDInfo.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/ADT/OwningPtr.h
+llvm/ADT/Triple.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/ADT/Triple.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/Support/raw_ostream.h
+llvm/System/Mutex.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/System/Mutex.h
+map
+-
+set
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDInfo.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDInst.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/ADT/SmallVector.h
+string
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDOperand.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/System/DataTypes.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDToken.h
+llvm/ADT/StringRef.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/llvm/System/DataTypes.h
+string
+-
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/EDMain.cpp
+../../lib/MC/MCDisassembler/EDDisassembler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDDisassembler.h
+../../lib/MC/MCDisassembler/EDInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDInst.h
+../../lib/MC/MCDisassembler/EDOperand.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDOperand.h
+../../lib/MC/MCDisassembler/EDToken.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/../../lib/MC/MCDisassembler/EDToken.h
+llvm-c/EnhancedDisassembly.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/tools/edis/llvm-c/EnhancedDisassembly.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMInterpreter.a  CMakeFiles/LLVMInterpreter.dir/Execution.cpp.obj CMakeFiles/LLVMInterpreter.dir/ExternalFunctions.cpp.obj CMakeFiles/LLVMInterpreter.dir/Interpreter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMInterpreter.a

@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMPIC16AsmPrinter.a  CMakeFiles/LLVMPIC16AsmPrinter.dir/PIC16AsmPrinter.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMPIC16AsmPrinter.a

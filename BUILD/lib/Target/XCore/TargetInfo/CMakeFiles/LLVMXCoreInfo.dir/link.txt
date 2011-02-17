@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\..\libLLVMXCoreInfo.a  CMakeFiles/LLVMXCoreInfo.dir/XCoreTargetInfo.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\..\libLLVMXCoreInfo.a

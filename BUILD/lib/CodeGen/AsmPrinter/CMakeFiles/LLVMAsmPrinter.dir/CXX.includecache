@@ -1,0 +1,1470 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/llvm/ADT/APFloat.h
+llvm/ADT/APInt.h
+../include/llvm/ADT/llvm/ADT/APInt.h
+
+../include/llvm/ADT/APInt.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+cassert
+-
+climits
+-
+cstring
+-
+string
+-
+
+../include/llvm/ADT/DenseMap.h
+llvm/Support/MathExtras.h
+../include/llvm/ADT/llvm/Support/MathExtras.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/ADT/llvm/ADT/DenseMapInfo.h
+iterator
+-
+new
+-
+utility
+-
+cassert
+-
+cstddef
+-
+cstring
+-
+
+../include/llvm/ADT/DenseMapInfo.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+
+../include/llvm/ADT/DenseSet.h
+llvm/ADT/DenseMap.h
+../include/llvm/ADT/llvm/ADT/DenseMap.h
+
+../include/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/ADT/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/ADT/llvm/ADT/PointerIntPair.h
+set
+-
+vector
+-
+
+../include/llvm/ADT/FoldingSet.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/GraphTraits.h
+
+../include/llvm/ADT/OwningPtr.h
+cassert
+-
+cstddef
+-
+
+../include/llvm/ADT/PointerIntPair.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+cassert
+-
+
+../include/llvm/ADT/STLExtras.h
+cstddef
+-
+cstdlib
+-
+functional
+-
+iterator
+-
+utility
+-
+
+../include/llvm/ADT/SmallPtrSet.h
+cassert
+-
+cstring
+-
+iterator
+-
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/Support/PointerLikeTypeTraits.h
+../include/llvm/ADT/llvm/Support/PointerLikeTypeTraits.h
+
+../include/llvm/ADT/SmallSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/ADT/llvm/ADT/SmallPtrSet.h
+set
+-
+
+../include/llvm/ADT/SmallString.h
+llvm/ADT/SmallVector.h
+../include/llvm/ADT/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+
+../include/llvm/ADT/SmallVector.h
+llvm/Support/type_traits.h
+../include/llvm/ADT/llvm/Support/type_traits.h
+algorithm
+-
+cassert
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+memory
+-
+
+../include/llvm/ADT/Statistic.h
+llvm/System/Atomic.h
+../include/llvm/ADT/llvm/System/Atomic.h
+
+../include/llvm/ADT/StringExtras.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+llvm/ADT/APFloat.h
+../include/llvm/ADT/llvm/ADT/APFloat.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+cctype
+-
+cstdio
+-
+string
+-
+vector
+-
+
+../include/llvm/ADT/StringMap.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/Support/Allocator.h
+../include/llvm/ADT/llvm/Support/Allocator.h
+cstring
+-
+string
+-
+
+../include/llvm/ADT/StringRef.h
+cassert
+-
+cstring
+-
+utility
+-
+string
+-
+
+../include/llvm/ADT/Triple.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+string
+-
+
+../include/llvm/ADT/Twine.h
+llvm/ADT/StringRef.h
+../include/llvm/ADT/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/ADT/llvm/System/DataTypes.h
+cassert
+-
+string
+-
+
+../include/llvm/ADT/UniqueVector.h
+cassert
+-
+map
+-
+vector
+-
+
+../include/llvm/ADT/ilist.h
+cassert
+-
+cstddef
+-
+iterator
+-
+
+../include/llvm/ADT/ilist_node.h
+
+../include/llvm/AbstractTypeUser.h
+cassert
+-
+
+../include/llvm/Analysis/ConstantFolding.h
+
+../include/llvm/Analysis/DebugInfo.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/StringRef.h
+../include/llvm/Analysis/llvm/ADT/StringRef.h
+llvm/Support/Dwarf.h
+../include/llvm/Analysis/llvm/Support/Dwarf.h
+
+../include/llvm/Analysis/Dominators.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/Function.h
+../include/llvm/Analysis/llvm/Function.h
+llvm/Instructions.h
+../include/llvm/Analysis/llvm/Instructions.h
+llvm/ADT/DenseMap.h
+../include/llvm/Analysis/llvm/ADT/DenseMap.h
+llvm/ADT/DepthFirstIterator.h
+../include/llvm/Analysis/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Analysis/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/Analysis/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/Assembly/Writer.h
+../include/llvm/Analysis/llvm/Assembly/Writer.h
+llvm/Support/CFG.h
+../include/llvm/Analysis/llvm/Support/CFG.h
+llvm/Support/Compiler.h
+../include/llvm/Analysis/llvm/Support/Compiler.h
+llvm/Support/raw_ostream.h
+../include/llvm/Analysis/llvm/Support/raw_ostream.h
+algorithm
+-
+map
+-
+set
+-
+
+../include/llvm/Analysis/LoopInfo.h
+llvm/Pass.h
+../include/llvm/Analysis/llvm/Pass.h
+llvm/ADT/DepthFirstIterator.h
+../include/llvm/Analysis/llvm/ADT/DepthFirstIterator.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Analysis/llvm/ADT/GraphTraits.h
+llvm/ADT/SmallVector.h
+../include/llvm/Analysis/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+../include/llvm/Analysis/llvm/ADT/STLExtras.h
+llvm/Analysis/Dominators.h
+../include/llvm/Analysis/llvm/Analysis/Dominators.h
+llvm/Support/CFG.h
+../include/llvm/Analysis/llvm/Support/CFG.h
+llvm/Support/raw_ostream.h
+../include/llvm/Analysis/llvm/Support/raw_ostream.h
+algorithm
+-
+
+../include/llvm/Argument.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/Assembly/Writer.h
+string
+-
+
+../include/llvm/Attributes.h
+llvm/Support/MathExtras.h
+../include/llvm/llvm/Support/MathExtras.h
+cassert
+-
+string
+-
+
+../include/llvm/BasicBlock.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/SymbolTableListTraits.h
+../include/llvm/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+
+../include/llvm/CallingConv.h
+
+../include/llvm/CodeGen/AsmPrinter.h
+llvm/CodeGen/MachineFunctionPass.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineFunctionPass.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+
+../include/llvm/CodeGen/GCMetadata.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+llvm/ADT/DenseMap.h
+../include/llvm/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+../include/llvm/CodeGen/llvm/ADT/StringMap.h
+
+../include/llvm/CodeGen/GCMetadataPrinter.h
+llvm/CodeGen/GCMetadata.h
+../include/llvm/CodeGen/llvm/CodeGen/GCMetadata.h
+llvm/CodeGen/GCStrategy.h
+../include/llvm/CodeGen/llvm/CodeGen/GCStrategy.h
+llvm/Support/Registry.h
+../include/llvm/CodeGen/llvm/Support/Registry.h
+
+../include/llvm/CodeGen/GCStrategy.h
+llvm/CodeGen/GCMetadata.h
+../include/llvm/CodeGen/llvm/CodeGen/GCMetadata.h
+llvm/Support/Registry.h
+../include/llvm/CodeGen/llvm/Support/Registry.h
+string
+-
+
+../include/llvm/CodeGen/GCs.h
+
+../include/llvm/CodeGen/ISDOpcodes.h
+
+../include/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/MachineInstr.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineInstr.h
+llvm/ADT/GraphTraits.h
+../include/llvm/CodeGen/llvm/ADT/GraphTraits.h
+
+../include/llvm/CodeGen/MachineConstantPool.h
+cassert
+-
+climits
+-
+vector
+-
+
+../include/llvm/CodeGen/MachineFrameInfo.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+cassert
+-
+vector
+-
+
+../include/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineBasicBlock.h
+llvm/ADT/ilist.h
+../include/llvm/CodeGen/llvm/ADT/ilist.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+llvm/Support/Allocator.h
+../include/llvm/CodeGen/llvm/Support/Allocator.h
+llvm/Support/Recycler.h
+../include/llvm/CodeGen/llvm/Support/Recycler.h
+
+../include/llvm/CodeGen/MachineFunctionPass.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+
+../include/llvm/CodeGen/MachineInstr.h
+llvm/CodeGen/MachineOperand.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineOperand.h
+llvm/Target/TargetInstrDesc.h
+../include/llvm/CodeGen/llvm/Target/TargetInstrDesc.h
+llvm/Target/TargetOpcodes.h
+../include/llvm/CodeGen/llvm/Target/TargetOpcodes.h
+llvm/ADT/ilist.h
+../include/llvm/CodeGen/llvm/ADT/ilist.h
+llvm/ADT/ilist_node.h
+../include/llvm/CodeGen/llvm/ADT/ilist_node.h
+llvm/ADT/STLExtras.h
+../include/llvm/CodeGen/llvm/ADT/STLExtras.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/CodeGen/llvm/ADT/DenseMapInfo.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+vector
+-
+
+../include/llvm/CodeGen/MachineJumpTableInfo.h
+vector
+-
+cassert
+-
+
+../include/llvm/CodeGen/MachineLocation.h
+
+../include/llvm/CodeGen/MachineLoopInfo.h
+llvm/CodeGen/MachineFunctionPass.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineFunctionPass.h
+llvm/Analysis/LoopInfo.h
+../include/llvm/CodeGen/llvm/Analysis/LoopInfo.h
+
+../include/llvm/CodeGen/MachineMemOperand.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+
+../include/llvm/CodeGen/MachineModuleInfo.h
+llvm/Pass.h
+../include/llvm/CodeGen/llvm/Pass.h
+llvm/GlobalValue.h
+../include/llvm/CodeGen/llvm/GlobalValue.h
+llvm/Metadata.h
+../include/llvm/CodeGen/llvm/Metadata.h
+llvm/CodeGen/MachineLocation.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineLocation.h
+llvm/MC/MCContext.h
+../include/llvm/CodeGen/llvm/MC/MCContext.h
+llvm/Support/Dwarf.h
+../include/llvm/CodeGen/llvm/Support/Dwarf.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+llvm/Support/ValueHandle.h
+../include/llvm/CodeGen/llvm/Support/ValueHandle.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/ADT/DenseMap.h
+../include/llvm/CodeGen/llvm/ADT/DenseMap.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/CodeGen/llvm/ADT/PointerIntPair.h
+llvm/ADT/SmallPtrSet.h
+../include/llvm/CodeGen/llvm/ADT/SmallPtrSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+
+../include/llvm/CodeGen/MachineOperand.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+cassert
+-
+
+../include/llvm/CodeGen/RuntimeLibcalls.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/CodeGen/llvm/CodeGen/ValueTypes.h
+
+../include/llvm/CodeGen/SelectionDAGNodes.h
+llvm/Constants.h
+../include/llvm/CodeGen/llvm/Constants.h
+llvm/ADT/FoldingSet.h
+../include/llvm/CodeGen/llvm/ADT/FoldingSet.h
+llvm/ADT/GraphTraits.h
+../include/llvm/CodeGen/llvm/ADT/GraphTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/CodeGen/llvm/ADT/ilist_node.h
+llvm/ADT/SmallVector.h
+../include/llvm/CodeGen/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+../include/llvm/CodeGen/llvm/ADT/STLExtras.h
+llvm/CodeGen/ISDOpcodes.h
+../include/llvm/CodeGen/llvm/CodeGen/ISDOpcodes.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/CodeGen/llvm/CodeGen/ValueTypes.h
+llvm/CodeGen/MachineMemOperand.h
+../include/llvm/CodeGen/llvm/CodeGen/MachineMemOperand.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/DebugLoc.h
+../include/llvm/CodeGen/llvm/Support/DebugLoc.h
+cassert
+-
+
+../include/llvm/CodeGen/ValueTypes.h
+cassert
+-
+string
+-
+llvm/System/DataTypes.h
+../include/llvm/CodeGen/llvm/System/DataTypes.h
+llvm/Support/MathExtras.h
+../include/llvm/CodeGen/llvm/Support/MathExtras.h
+
+../include/llvm/Constant.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Constants.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/APInt.h
+../include/llvm/llvm/ADT/APInt.h
+llvm/ADT/APFloat.h
+../include/llvm/llvm/ADT/APFloat.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+vector
+-
+
+../include/llvm/DerivedTypes.h
+llvm/Type.h
+../include/llvm/llvm/Type.h
+
+../include/llvm/Function.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/BasicBlock.h
+../include/llvm/llvm/BasicBlock.h
+llvm/Argument.h
+../include/llvm/llvm/Argument.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/Support/Compiler.h
+../include/llvm/llvm/Support/Compiler.h
+
+../include/llvm/GlobalAlias.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/GlobalValue.h
+llvm/Constant.h
+../include/llvm/llvm/Constant.h
+
+../include/llvm/GlobalVariable.h
+llvm/GlobalValue.h
+../include/llvm/llvm/GlobalValue.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+
+../include/llvm/InlineAsm.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+vector
+-
+
+../include/llvm/InstrTypes.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/OperandTraits.h
+../include/llvm/llvm/OperandTraits.h
+llvm/Operator.h
+../include/llvm/llvm/Operator.h
+llvm/DerivedTypes.h
+../include/llvm/llvm/DerivedTypes.h
+llvm/ADT/Twine.h
+../include/llvm/llvm/ADT/Twine.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Instruction.def
+
+../include/llvm/Instruction.h
+llvm/User.h
+../include/llvm/llvm/User.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+llvm/Support/DebugLoc.h
+../include/llvm/llvm/Support/DebugLoc.h
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+llvm/Instruction.def
+../include/llvm/llvm/Instruction.def
+
+../include/llvm/Instructions.h
+llvm/InstrTypes.h
+../include/llvm/llvm/InstrTypes.h
+llvm/DerivedTypes.h
+../include/llvm/llvm/DerivedTypes.h
+llvm/Attributes.h
+../include/llvm/llvm/Attributes.h
+llvm/CallingConv.h
+../include/llvm/llvm/CallingConv.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+iterator
+-
+
+../include/llvm/LLVMContext.h
+
+../include/llvm/MC/MCAsmInfo.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+cassert
+-
+
+../include/llvm/MC/MCContext.h
+llvm/MC/SectionKind.h
+../include/llvm/MC/llvm/MC/SectionKind.h
+llvm/MC/MCDwarf.h
+../include/llvm/MC/llvm/MC/MCDwarf.h
+llvm/ADT/DenseMap.h
+../include/llvm/MC/llvm/ADT/DenseMap.h
+llvm/ADT/StringMap.h
+../include/llvm/MC/llvm/ADT/StringMap.h
+llvm/Support/Allocator.h
+../include/llvm/MC/llvm/Support/Allocator.h
+llvm/Support/raw_ostream.h
+../include/llvm/MC/llvm/Support/raw_ostream.h
+vector
+-
+
+../include/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/MCDwarf.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/MC/MCExpr.h
+llvm/Support/Casting.h
+../include/llvm/MC/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCInst.h
+llvm/ADT/SmallVector.h
+../include/llvm/MC/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCParser/MCAsmParser.h
+llvm/System/DataTypes.h
+../include/llvm/MC/MCParser/llvm/System/DataTypes.h
+
+../include/llvm/MC/MCParser/MCAsmParserExtension.h
+llvm/MC/MCParser/MCAsmParser.h
+../include/llvm/MC/MCParser/llvm/MC/MCParser/MCAsmParser.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/MCParser/llvm/ADT/StringRef.h
+llvm/Support/SMLoc.h
+../include/llvm/MC/MCParser/llvm/Support/SMLoc.h
+
+../include/llvm/MC/MCSection.h
+string
+-
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+llvm/MC/SectionKind.h
+../include/llvm/MC/llvm/MC/SectionKind.h
+llvm/Support/Casting.h
+../include/llvm/MC/llvm/Support/Casting.h
+
+../include/llvm/MC/MCStreamer.h
+llvm/System/DataTypes.h
+../include/llvm/MC/llvm/System/DataTypes.h
+llvm/MC/MCDirectives.h
+../include/llvm/MC/llvm/MC/MCDirectives.h
+
+../include/llvm/MC/MCSymbol.h
+llvm/ADT/StringRef.h
+../include/llvm/MC/llvm/ADT/StringRef.h
+
+../include/llvm/MC/SectionKind.h
+
+../include/llvm/Metadata.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+llvm/ADT/FoldingSet.h
+../include/llvm/llvm/ADT/FoldingSet.h
+llvm/ADT/ilist_node.h
+../include/llvm/llvm/ADT/ilist_node.h
+
+../include/llvm/Module.h
+llvm/Function.h
+../include/llvm/llvm/Function.h
+llvm/GlobalVariable.h
+../include/llvm/llvm/GlobalVariable.h
+llvm/GlobalAlias.h
+../include/llvm/llvm/GlobalAlias.h
+llvm/Metadata.h
+../include/llvm/llvm/Metadata.h
+llvm/ADT/OwningPtr.h
+../include/llvm/llvm/ADT/OwningPtr.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+vector
+-
+
+../include/llvm/OperandTraits.h
+llvm/User.h
+../include/llvm/llvm/User.h
+
+../include/llvm/Operator.h
+llvm/Instruction.h
+../include/llvm/llvm/Instruction.h
+llvm/Constants.h
+../include/llvm/llvm/Constants.h
+
+../include/llvm/Pass.h
+string
+-
+llvm/PassSupport.h
+../include/llvm/llvm/PassSupport.h
+llvm/PassAnalysisSupport.h
+../include/llvm/llvm/PassAnalysisSupport.h
+
+../include/llvm/PassAnalysisSupport.h
+llvm/ADT/SmallVector.h
+../include/llvm/llvm/ADT/SmallVector.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+vector
+-
+
+../include/llvm/PassRegistry.h
+llvm/ADT/StringMap.h
+../include/llvm/llvm/ADT/StringMap.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/System/Mutex.h
+../include/llvm/llvm/System/Mutex.h
+map
+-
+set
+-
+vector
+-
+
+../include/llvm/PassSupport.h
+Pass.h
+../include/llvm/Pass.h
+llvm/PassRegistry.h
+../include/llvm/llvm/PassRegistry.h
+
+../include/llvm/Support/AlignOf.h
+
+../include/llvm/Support/Allocator.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+llvm/Support/MathExtras.h
+../include/llvm/Support/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+algorithm
+-
+cassert
+-
+cstdlib
+-
+cstddef
+-
+
+../include/llvm/Support/CFG.h
+llvm/ADT/GraphTraits.h
+../include/llvm/Support/llvm/ADT/GraphTraits.h
+llvm/Function.h
+../include/llvm/Support/llvm/Function.h
+llvm/InstrTypes.h
+../include/llvm/Support/llvm/InstrTypes.h
+
+../include/llvm/Support/Casting.h
+cassert
+-
+
+../include/llvm/Support/CommandLine.h
+llvm/Support/type_traits.h
+../include/llvm/Support/llvm/Support/type_traits.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+llvm/ADT/SmallVector.h
+../include/llvm/Support/llvm/ADT/SmallVector.h
+llvm/ADT/Twine.h
+../include/llvm/Support/llvm/ADT/Twine.h
+cassert
+-
+climits
+-
+cstdarg
+-
+utility
+-
+vector
+-
+
+../include/llvm/Support/Compiler.h
+
+../include/llvm/Support/Debug.h
+
+../include/llvm/Support/DebugLoc.h
+
+../include/llvm/Support/Dwarf.h
+
+../include/llvm/Support/ErrorHandling.h
+llvm/Support/Compiler.h
+../include/llvm/Support/llvm/Support/Compiler.h
+string
+-
+
+../include/llvm/Support/Format.h
+cassert
+-
+cstdio
+-
+
+../include/llvm/Support/FormattedStream.h
+llvm/Support/raw_ostream.h
+../include/llvm/Support/llvm/Support/raw_ostream.h
+
+../include/llvm/Support/MathExtras.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/MemoryBuffer.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+string
+-
+sys/stat.h
+-
+
+../include/llvm/Support/PointerLikeTypeTraits.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/Recycler.h
+llvm/ADT/ilist.h
+../include/llvm/Support/llvm/ADT/ilist.h
+llvm/Support/AlignOf.h
+../include/llvm/Support/llvm/Support/AlignOf.h
+cassert
+-
+
+../include/llvm/Support/Registry.h
+
+../include/llvm/Support/SMLoc.h
+
+../include/llvm/Support/SourceMgr.h
+llvm/Support/SMLoc.h
+../include/llvm/Support/llvm/Support/SMLoc.h
+string
+-
+vector
+-
+cassert
+-
+
+../include/llvm/Support/Timer.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+cassert
+-
+string
+-
+vector
+-
+utility
+-
+
+../include/llvm/Support/ValueHandle.h
+llvm/ADT/DenseMapInfo.h
+../include/llvm/Support/llvm/ADT/DenseMapInfo.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/Support/llvm/ADT/PointerIntPair.h
+llvm/Value.h
+../include/llvm/Support/llvm/Value.h
+
+../include/llvm/Support/raw_ostream.h
+llvm/ADT/StringRef.h
+../include/llvm/Support/llvm/ADT/StringRef.h
+llvm/System/DataTypes.h
+../include/llvm/Support/llvm/System/DataTypes.h
+
+../include/llvm/Support/type_traits.h
+utility
+-
+
+../include/llvm/SymbolTableListTraits.h
+llvm/ADT/ilist.h
+../include/llvm/llvm/ADT/ilist.h
+
+../include/llvm/System/AIXDataTypesFix.h
+
+../include/llvm/System/Atomic.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+
+../include/llvm/System/Mutex.h
+llvm/System/Threading.h
+../include/llvm/System/llvm/System/Threading.h
+cassert
+-
+
+../include/llvm/System/Path.h
+llvm/ADT/StringRef.h
+../include/llvm/System/llvm/ADT/StringRef.h
+llvm/System/TimeValue.h
+../include/llvm/System/llvm/System/TimeValue.h
+set
+-
+string
+-
+vector
+-
+
+../include/llvm/System/Threading.h
+
+../include/llvm/System/TimeValue.h
+llvm/System/DataTypes.h
+../include/llvm/System/llvm/System/DataTypes.h
+string
+-
+
+../include/llvm/Target/Mangler.h
+llvm/ADT/DenseMap.h
+../include/llvm/Target/llvm/ADT/DenseMap.h
+string
+-
+
+../include/llvm/Target/TargetAsmParser.h
+llvm/MC/MCParser/MCAsmParserExtension.h
+../include/llvm/Target/llvm/MC/MCParser/MCAsmParserExtension.h
+
+../include/llvm/Target/TargetCallingConv.h
+
+../include/llvm/Target/TargetData.h
+llvm/Pass.h
+../include/llvm/Target/llvm/Pass.h
+llvm/ADT/SmallVector.h
+../include/llvm/Target/llvm/ADT/SmallVector.h
+
+../include/llvm/Target/TargetFrameInfo.h
+utility
+-
+
+../include/llvm/Target/TargetInstrDesc.h
+llvm/System/DataTypes.h
+../include/llvm/Target/llvm/System/DataTypes.h
+
+../include/llvm/Target/TargetInstrInfo.h
+llvm/Target/TargetInstrDesc.h
+../include/llvm/Target/llvm/Target/TargetInstrDesc.h
+llvm/CodeGen/MachineFunction.h
+../include/llvm/Target/llvm/CodeGen/MachineFunction.h
+
+../include/llvm/Target/TargetInstrItineraries.h
+algorithm
+-
+
+../include/llvm/Target/TargetLowering.h
+llvm/CallingConv.h
+../include/llvm/Target/llvm/CallingConv.h
+llvm/InlineAsm.h
+../include/llvm/Target/llvm/InlineAsm.h
+llvm/Attributes.h
+../include/llvm/Target/llvm/Attributes.h
+llvm/CodeGen/SelectionDAGNodes.h
+../include/llvm/Target/llvm/CodeGen/SelectionDAGNodes.h
+llvm/CodeGen/RuntimeLibcalls.h
+../include/llvm/Target/llvm/CodeGen/RuntimeLibcalls.h
+llvm/ADT/APFloat.h
+../include/llvm/Target/llvm/ADT/APFloat.h
+llvm/ADT/DenseMap.h
+../include/llvm/Target/llvm/ADT/DenseMap.h
+llvm/ADT/SmallSet.h
+../include/llvm/Target/llvm/ADT/SmallSet.h
+llvm/ADT/SmallVector.h
+../include/llvm/Target/llvm/ADT/SmallVector.h
+llvm/ADT/STLExtras.h
+../include/llvm/Target/llvm/ADT/STLExtras.h
+llvm/Support/DebugLoc.h
+../include/llvm/Target/llvm/Support/DebugLoc.h
+llvm/Target/TargetCallingConv.h
+../include/llvm/Target/llvm/Target/TargetCallingConv.h
+llvm/Target/TargetMachine.h
+../include/llvm/Target/llvm/Target/TargetMachine.h
+climits
+-
+map
+-
+vector
+-
+
+../include/llvm/Target/TargetLoweringObjectFile.h
+llvm/ADT/StringRef.h
+../include/llvm/Target/llvm/ADT/StringRef.h
+llvm/MC/SectionKind.h
+../include/llvm/Target/llvm/MC/SectionKind.h
+
+../include/llvm/Target/TargetMachine.h
+llvm/Target/TargetInstrItineraries.h
+../include/llvm/Target/llvm/Target/TargetInstrItineraries.h
+cassert
+-
+string
+-
+
+../include/llvm/Target/TargetOpcodes.h
+
+../include/llvm/Target/TargetOptions.h
+
+../include/llvm/Target/TargetRegisterInfo.h
+llvm/CodeGen/MachineBasicBlock.h
+../include/llvm/Target/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/ValueTypes.h
+../include/llvm/Target/llvm/CodeGen/ValueTypes.h
+llvm/ADT/DenseSet.h
+../include/llvm/Target/llvm/ADT/DenseSet.h
+cassert
+-
+functional
+-
+
+../include/llvm/Target/TargetRegistry.h
+llvm/ADT/Triple.h
+../include/llvm/Target/llvm/ADT/Triple.h
+string
+-
+cassert
+-
+
+../include/llvm/Type.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/System/DataTypes.h
+../include/llvm/llvm/System/DataTypes.h
+llvm/ADT/GraphTraits.h
+../include/llvm/llvm/ADT/GraphTraits.h
+string
+-
+vector
+-
+
+../include/llvm/Use.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+llvm/ADT/PointerIntPair.h
+../include/llvm/llvm/ADT/PointerIntPair.h
+cstddef
+-
+iterator
+-
+
+../include/llvm/User.h
+llvm/Value.h
+../include/llvm/llvm/Value.h
+
+../include/llvm/Value.h
+llvm/AbstractTypeUser.h
+../include/llvm/llvm/AbstractTypeUser.h
+llvm/Use.h
+../include/llvm/llvm/Use.h
+llvm/ADT/StringRef.h
+../include/llvm/llvm/ADT/StringRef.h
+llvm/Support/Casting.h
+../include/llvm/llvm/Support/Casting.h
+string
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/AsmPrinter.cpp
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+DwarfDebug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfDebug.h
+DwarfException.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfException.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Module.h
+llvm/CodeGen/GCMetadataPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/GCMetadataPrinter.h
+llvm/CodeGen/MachineConstantPool.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineConstantPool.h
+llvm/CodeGen/MachineFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineFrameInfo.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineJumpTableInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineJumpTableInfo.h
+llvm/CodeGen/MachineLoopInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineLoopInfo.h
+llvm/CodeGen/MachineModuleInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineModuleInfo.h
+llvm/Analysis/ConstantFolding.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Analysis/ConstantFolding.h
+llvm/Analysis/DebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Analysis/DebugInfo.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCContext.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCExpr.h
+llvm/MC/MCInst.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCInst.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSection.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/Target/Mangler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/Mangler.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetData.h
+llvm/Target/TargetInstrInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetInstrInfo.h
+llvm/Target/TargetLowering.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetLowering.h
+llvm/Target/TargetLoweringObjectFile.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetLoweringObjectFile.h
+llvm/Target/TargetRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetRegisterInfo.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/SmallString.h
+llvm/ADT/Statistic.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/Statistic.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/ErrorHandling.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Format.h
+llvm/Support/Timer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Timer.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/AsmPrinterDwarf.cpp
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+llvm/CodeGen/MachineLocation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineLocation.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSection.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetData.h
+llvm/Target/TargetFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetFrameInfo.h
+llvm/Target/TargetLoweringObjectFile.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetLoweringObjectFile.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetMachine.h
+llvm/Target/TargetRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetRegisterInfo.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/Twine.h
+llvm/Support/Dwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Dwarf.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/AsmPrinterInlineAsm.cpp
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Constants.h
+llvm/InlineAsm.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/InlineAsm.h
+llvm/LLVMContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/LLVMContext.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Module.h
+llvm/CodeGen/MachineBasicBlock.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineBasicBlock.h
+llvm/CodeGen/MachineModuleInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineModuleInfo.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/Target/TargetAsmParser.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetAsmParser.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetMachine.h
+llvm/Target/TargetRegistry.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetRegistry.h
+llvm/ADT/OwningPtr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/OwningPtr.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/SmallString.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/Twine.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/ErrorHandling.h
+llvm/Support/MemoryBuffer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/MemoryBuffer.h
+llvm/Support/SourceMgr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/SourceMgr.h
+llvm/Support/raw_ostream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/raw_ostream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DIE.cpp
+DIE.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DIE.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/Twine.h
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetData.h
+llvm/Support/Allocator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Allocator.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/ErrorHandling.h
+llvm/Support/Format.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Format.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/FormattedStream.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DIE.h
+llvm/ADT/FoldingSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/FoldingSet.h
+llvm/ADT/SmallVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/SmallVector.h
+llvm/Support/Compiler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Compiler.h
+llvm/Support/Dwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Dwarf.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfDebug.cpp
+DwarfDebug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfDebug.h
+DIE.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DIE.h
+llvm/Constants.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Constants.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Module.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineModuleInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineModuleInfo.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSection.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/Target/Mangler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/Mangler.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetData.h
+llvm/Target/TargetFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetFrameInfo.h
+llvm/Target/TargetLoweringObjectFile.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetLoweringObjectFile.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetMachine.h
+llvm/Target/TargetRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetRegisterInfo.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetOptions.h
+llvm/Analysis/DebugInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Analysis/DebugInfo.h
+llvm/ADT/STLExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/STLExtras.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/StringExtras.h
+llvm/Support/CommandLine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/CommandLine.h
+llvm/Support/Debug.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Debug.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/ErrorHandling.h
+llvm/Support/ValueHandle.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/ValueHandle.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/FormattedStream.h
+llvm/Support/Timer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Timer.h
+llvm/System/Path.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/System/Path.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfDebug.h
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+llvm/CodeGen/MachineLocation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineLocation.h
+DIE.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DIE.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/DenseMap.h
+llvm/ADT/FoldingSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/FoldingSet.h
+llvm/ADT/SmallPtrSet.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/SmallPtrSet.h
+llvm/ADT/StringMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/StringMap.h
+llvm/ADT/UniqueVector.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/UniqueVector.h
+llvm/Support/Allocator.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Allocator.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfException.cpp
+DwarfException.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfException.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Module.h
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+llvm/CodeGen/MachineModuleInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineModuleInfo.h
+llvm/CodeGen/MachineFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineFrameInfo.h
+llvm/CodeGen/MachineFunction.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineFunction.h
+llvm/CodeGen/MachineLocation.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/MachineLocation.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCContext.h
+llvm/MC/MCExpr.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCExpr.h
+llvm/MC/MCSection.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSection.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/Target/Mangler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/Mangler.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetData.h
+llvm/Target/TargetFrameInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetFrameInfo.h
+llvm/Target/TargetLoweringObjectFile.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetLoweringObjectFile.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetMachine.h
+llvm/Target/TargetOptions.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetOptions.h
+llvm/Target/TargetRegisterInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetRegisterInfo.h
+llvm/Support/Dwarf.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/Dwarf.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/FormattedStream.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/SmallString.h
+llvm/ADT/StringExtras.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/StringExtras.h
+llvm/ADT/Twine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/Twine.h
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/DwarfException.h
+llvm/ADT/DenseMap.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/DenseMap.h
+vector
+-
+
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/OcamlGCPrinter.cpp
+llvm/CodeGen/GCs.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/GCs.h
+llvm/CodeGen/AsmPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/AsmPrinter.h
+llvm/CodeGen/GCMetadataPrinter.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/CodeGen/GCMetadataPrinter.h
+llvm/Module.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Module.h
+llvm/MC/MCAsmInfo.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCAsmInfo.h
+llvm/MC/MCContext.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCContext.h
+llvm/MC/MCSymbol.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCSymbol.h
+llvm/MC/MCStreamer.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/MC/MCStreamer.h
+llvm/Target/Mangler.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/Mangler.h
+llvm/Target/TargetData.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetData.h
+llvm/Target/TargetLoweringObjectFile.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetLoweringObjectFile.h
+llvm/Target/TargetMachine.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Target/TargetMachine.h
+llvm/ADT/SmallString.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/ADT/SmallString.h
+llvm/Support/ErrorHandling.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/ErrorHandling.h
+llvm/Support/FormattedStream.h
+C:/Documents and Settings/darkhipo/Desktop/clang_source_2/llvm-2.8/lib/CodeGen/AsmPrinter/llvm/Support/FormattedStream.h
+
+include/llvm/System/DataTypes.h
+cmath
+-
+math.h
+-
+sys/types.h
+-
+inttypes.h
+-
+stdint.h
+-
+llvm/System/AIXDataTypesFix.h
+include/llvm/System/llvm/System/AIXDataTypesFix.h
+stdlib.h
+-
+stddef.h
+-
+sys/types.h
+-
+cmath
+-
+math.h
+-
+

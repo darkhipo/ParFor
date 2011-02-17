@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\..\libLLVMMCParser.a  CMakeFiles/LLVMMCParser.dir/AsmLexer.cpp.obj CMakeFiles/LLVMMCParser.dir/AsmParser.cpp.obj CMakeFiles/LLVMMCParser.dir/DarwinAsmParser.cpp.obj CMakeFiles/LLVMMCParser.dir/ELFAsmParser.cpp.obj CMakeFiles/LLVMMCParser.dir/MCAsmLexer.cpp.obj CMakeFiles/LLVMMCParser.dir/MCAsmParser.cpp.obj CMakeFiles/LLVMMCParser.dir/MCAsmParserExtension.cpp.obj CMakeFiles/LLVMMCParser.dir/TargetAsmParser.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\..\libLLVMMCParser.a

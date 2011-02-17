@@ -1,0 +1,2 @@
+C:\strawberry\c\bin\ar.exe cr ..\libLLVMLinker.a  CMakeFiles/LLVMLinker.dir/LinkArchives.cpp.obj CMakeFiles/LLVMLinker.dir/LinkItems.cpp.obj CMakeFiles/LLVMLinker.dir/LinkModules.cpp.obj CMakeFiles/LLVMLinker.dir/Linker.cpp.obj
+C:\strawberry\c\bin\ranlib.exe ..\libLLVMLinker.a
